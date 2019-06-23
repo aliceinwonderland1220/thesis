@@ -8,7 +8,7 @@ fast:
 	latex main
 
 clean:
-	@rm -rf main.aux main.log main.out main.bak main.blg main.bbl main.toc main.lof main.lot
+	@rm -rf main.aux main.dvi main.log main.out main.bak main.blg main.bbl main.toc main.lof main.lot
         
 pdf:
 	@if [ -f main.ps ]; then rm main.ps; fi
