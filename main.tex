@@ -9,7 +9,7 @@
 
 \begin{document}
 
-% For the first pages we do not have numbering 
+% For the first pages we do not have numbering
 \pagestyle{empty}
 
 \thesistitlepage
@@ -33,13 +33,13 @@
 \listoffigures
 \cleardoublepage
 
-\listoftables 
+\listoftables
 \cleardoublepage
 
 %%%
 %%% Acknowledgments
 %%%
-\input{ack.tex}
+\input{acknowledgements}
 \cleardoublepage
 
 %%%
@@ -47,7 +47,7 @@
 %%%
 \thispagestyle{plain}
 \strut \vfill
-\centerline{\LARGE 
+\centerline{\LARGE
 Dedication text
 }
 \vfill \strut
@@ -70,7 +70,7 @@ Dedication text
 \setlength{\textheight}{8.5in}
 \setlength{\footskip}{0in}
 
-% We change the pagestyle 
+% We change the pagestyle
 \fancypagestyle{plain} {%
 \fancyhf{}
 \fancyhead[LE,RO]{\thepage}
@@ -79,17 +79,21 @@ Dedication text
 }
 \pagestyle{plain}
 
-\chapter{Introduction}
-\label{section:intro}
-\input{intro}
+\part{Introduction}
+\label{section:introduction}
+\input{introduction}
 
-\part{Title for the first part}
+\part{The standard model and Dark Matter}
 \label{sec:corpus}
-\input{sample-part}
+\input{theory-part}
 
-\part{Title for the second part}
+\part{The LHC and ATLAS experiment}
 \label{sec:corpus}
-\input{sample-part}
+\input{experiment-part}
+
+\part{Dark Matter search in the Higgs Boson associated $b\bar{b}$ decay}
+\label{sec:corpus}
+\input{analysis-part}
 
 \part{Conclusions}
 \label{sec:conclusions}
@@ -100,15 +104,15 @@ Dedication text
 %%%
 \part{Appendices}
 \appendix
-\input{sample-appendix}
-\input{sample-appendix}
+\input{appendices/appendix-A}
+\input{appendices/appendix-B}
 
 %%%
 %%% Bibliography
 %%%
 \part{Bibliography}
 \addcontentsline{toc}{chapter}{Bibliography}
-\bibliography{refs}
-\bibliographystyle{named} 
+\bibliography{reference}
+\bibliographystyle{named}
 
 \end{document}
