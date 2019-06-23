@@ -1,7 +1,3 @@
-\newcommand{\thesistitle}{Thesis title}
-\newcommand{\thesisauthor}{Author's name}
-\newcommand{\thesisyear}{20XX}
-
 %%%
 %%% Packages
 %%%
@@ -10,9 +6,14 @@
 \usepackage{named}
 \usepackage{fancyhdr}
 \usepackage{afterpage}
+\usepackage{amsmath}
+
+\newcommand{\thesistitle}{Search for Dark Matter in Proton-Proton Collisions at a Center-of-Mass Energy of 13 TeV in the Higgs Boson associated b-anti-b quark channel}
+\newcommand{\thesisauthor}{Jue Chen}
+\newcommand{\thesisyear}{2019}
 
 %
-% We use the hyperref package and customize it for optimal PDF 
+% We use the hyperref package and customize it for optimal PDF
 %
 \usepackage[dvipdfm,pdftitle={\thesistitle},pdfauthor={\thesisauthor},pdfpagemode={UseOutlines},letterpaper,bookmarks,bookmarksopen=true,pdfstartview={FitH},bookmarksnumbered=true,]{hyperref}
 
@@ -24,14 +25,14 @@
 
 % 1in + hoffset + oddsidemargin + textwidth + marginparsep + marginparwidth
 % For PhD at Columbia we have single side theses and 1.5in left margin
-% The settings below leave 1.5 inch margin at the left and 1 inch at the right 
+% The settings below leave 1.5 inch margin at the left and 1 inch at the right
 % for US Letter paper
 \setlength{\hoffset}{0.0in}
 \setlength{\oddsidemargin}{.5in}
 \setlength{\textwidth}{6in}
 \setlength{\evensidemargin}{0mm}
 
-% 1in + voffset + topmargin + headheight + headsep + textheight + footskip 
+% 1in + voffset + topmargin + headheight + headsep + textheight + footskip
 % For PhD thesis we also need an extra inch at the bottom
 % 1inch = 72 pt
 \setlength{\voffset}{0.0in}
@@ -60,54 +61,55 @@
 %%% Title page.
 %%%
 \newcommand{\thesistitlepage}{
-    \normalspace
-    \thispagestyle{empty}
-    \begin{center}
-        \textbf{\LARGE \thesistitle} \\[1cm]
-        \textbf{\LARGE \thesisauthor} \\[8cm]
-        Submitted in partial fulfillment of the \\
-        requirements for the degree \\
-        of Doctor of Philosophy \\
-        in the Graduate School of Arts and Sciences \\[4cm]
-        \textbf{\Large COLUMBIA UNIVERSITY} \\[5mm]
-        \thesisyear
-    \end{center}
-    \clearpage
+\normalspace
+\thispagestyle{empty}
+\begin{center}
+  \textbf{\LARGE \thesistitle} \\[1cm]
+  \textbf{\LARGE \thesisauthor} \\[8cm]
+  Submitted in partial fulfillment of the \\
+  requirements for the degree \\
+  of Doctor of Philosophy \\
+  in the Graduate School of Arts and Sciences \\[4cm]
+  \textbf{\Large COLUMBIA UNIVERSITY} \\[5mm]
+  \thesisyear
+\end{center}
+\clearpage
 }
 
 %%%
 %%% Copyright page.
 %%%
 \newcommand{\thesiscopyrightpage}{
-    \thispagestyle{empty}
-    \strut \vfill
-    \begin{center}
-      \copyright \thesisyear \\
-      \thesisauthor \\
-      All Rights Reserved
-    \end{center}
-    \cleardoublepage
+\thispagestyle{empty}
+\strut \vfill
+\begin{center}
+  \copyright \thesisyear \\
+  \thesisauthor \\
+  All Rights Reserved
+\end{center}
+\cleardoublepage
 }
 
 %%%
 %%% Abstract page.
 %%%
 \newcommand{\thesisabstract}{
-    \thispagestyle{empty}
-    \begin{center}
-    \textbf{\LARGE ABSTRACT} \\[1cm]
-     \textbf{\LARGE \thesistitle} \\[1cm]
-     \textbf{\LARGE \thesisauthor} \\[1cm]
-    \end{center}
-    \input{abstract}
-    \cleardoublepage
+\thispagestyle{empty}
+\begin{center}
+  \textbf{\LARGE ABSTRACT} \\[1cm]
+  \textbf{\LARGE \thesistitle} \\[1cm]
+  \textbf{\LARGE \thesisauthor} \\[1cm]
+\end{center}
+\input{abstract}
+\cleardoublepage
 }
 
 %%%
 %%% Miscellaneous
 %%%
 \newcommand{\draft}{
-    \renewcommand{\normalspace}{\singlespace}
-    \normalspace
-    \chapter*{Draft. Version \today}
-\clearpage }
+\renewcommand{\normalspace}{\singlespace}
+\normalspace
+\chapter*{Draft. Version \today}
+\clearpage
+}
