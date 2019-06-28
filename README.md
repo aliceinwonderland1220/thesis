@@ -4,7 +4,6 @@
 
 ```bash
 make
-make pdf
 make clean
 ```
 
