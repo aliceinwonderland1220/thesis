@@ -3,6 +3,7 @@
 ## Compile
 
 ```bash
+make help
 make
 make clean
 ```
