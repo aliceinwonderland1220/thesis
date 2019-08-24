@@ -1,8 +1,19 @@
+SHELL := /bin/bash
 C1FIGURETEXLIST := sm-particle-table
 C1FIGUREDIR := chapters/c1/figures
 
 ## all: Compile all the modules
 all: figures main
+
+## build: Build latex image for development
+build:
+	@pushd latex_docker && \
+	docker build -t pdflatex . && \
+	@popd
+
+## docker_make: make the latex with docker
+docker_make:
+	docker run --rm -v `pwd`/:/volume  --entrypoint "bash" pdflatex:latest  "-c" "cd /volume;make"
 
 ## figures: Generate figures from code for the thesis
 figures:
@@ -23,4 +34,4 @@ clean:
 help: Makefile
 	@sed -n 's/^##//p' $<
 
-.PHONY: help figures main all clean
+.PHONY: all build docker_make figures main clean help
