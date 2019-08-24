@@ -1,7 +1,26 @@
 # PHD Thesis
 
+## Pre-compile
+### MacOS
+```bash
+brew install docker docker-compose
+make build
+```
+
 ## Compile
 
+### Docker
+Do the following once:  
+```bash
+make build
+```
+
+Then:  
+```bash
+make docker_make
+```
+
+### Normal
 ```bash
 make help
 make
