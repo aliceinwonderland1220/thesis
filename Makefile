@@ -1,4 +1,5 @@
 SHELL := /bin/bash
+PWD := $(shell pwd)
 C1FIGURETEXLIST := sm-particle-table
 C1FIGUREDIR := chapters/c1/figures
 
@@ -13,7 +14,7 @@ build:
 
 ## docker_make: make the latex with docker
 docker_make:
-	docker run --rm -v `pwd`/:/volume  --entrypoint "bash" pdflatex:latest  "-c" "cd /volume;make"
+	docker run --rm -v "$(PWD)/:/volume"  --entrypoint "bash" pdflatex:latest  "-c" "cd /volume;make"
 
 ## figures: Generate figures from code for the thesis
 figures:
