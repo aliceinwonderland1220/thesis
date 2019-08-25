@@ -8,4 +8,5 @@
 *.toc
 *.lof
 *.lot
+*.pdf
 chapters/c1/figures/*.pdf
