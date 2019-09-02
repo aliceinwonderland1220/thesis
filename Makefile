@@ -2,6 +2,8 @@ SHELL := /bin/bash
 PWD := $(shell pwd)
 C1FIGURETEXLIST := sm-particle-table
 C1FIGUREDIR := chapters/c1/figures
+C2FIGURETEXLIST := eft-feyn-diagram
+C2FIGUREDIR := chapters/c2/figures
 
 ## all: Compile all the modules
 all: figures main
@@ -10,7 +12,7 @@ all: figures main
 build:
 	@pushd latex_docker && \
 	docker build -t pdflatex . && \
-	@popd
+	popd
 
 ## docker_make: make the latex with docker
 docker_make:
@@ -19,6 +21,7 @@ docker_make:
 ## figures: Generate figures from code for the thesis
 figures:
 	$(foreach C1FIGURETEX, $(C1FIGURETEXLIST), pdflatex -output-directory ${C1FIGUREDIR} ${C1FIGUREDIR}/${C1FIGURETEX} &&) true
+	$(foreach C2FIGURETEX, $(C2FIGURETEXLIST), pdflatex -output-directory ${C2FIGUREDIR} ${C2FIGUREDIR}/${C2FIGURETEX} &&) true
 
 ## main: Generate main body pdf of thesis
 main:
@@ -31,6 +34,7 @@ main:
 clean:
 	-@rm -f *.{aux,toc,dvi,lof,lot,log,lom,bbl,blg,ps,out,pdfsync} *~
 	rm -f ${C1FIGUREDIR}/*.{aux,log,pdf}
+	rm -f ${C2FIGUREDIR}/*.{aux,log,pdf}
 
 help: Makefile
 	@sed -n 's/^##//p' $<
