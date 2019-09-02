@@ -2,7 +2,7 @@ SHELL := /bin/bash
 PWD := $(shell pwd)
 C1FIGURETEXLIST := sm-particle-table
 C1FIGUREDIR := chapters/c1/figures
-C2FIGURETEXLIST := eft-feyn-diagram z-prime z-prime-2hdm
+C2FIGURETEXLIST := eft-feyn-diagram z-prime z-prime-2hdm two-higgs
 C2FIGUREDIR := chapters/c2/figures
 
 ## all: Compile all the modules

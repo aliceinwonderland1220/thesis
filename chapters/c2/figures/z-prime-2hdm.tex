@@ -14,14 +14,14 @@
           \vertex [below right=of b] (c);
           \vertex [above right=.5cm of d] (f4) {\(\bar{b}\)};
           \vertex [below right=.5cm of d] (f5) {\(b\)};
-          \vertex [above right=.5cm of c] (f2) {\(\bar{\chi}\)};
-          \vertex [below right=.5cm of c] (f3) {\(\chi\)};
+          \vertex [above right=.5cm of c] (f3) {\(\bar{\chi}\)};
+          \vertex [below right=.5cm of c] (f2) {\(\chi\)};
           \diagram*{
       (p1) -- [fermion] (a) -- [fermion] (p2),
                 (a) -- [boson, edge label'=\(Z'\)] (b) ,
                 (b) -- [scalar, edge label'=\(h\)]  (d),
-                (f5) -- [fermion](d)--[anti fermion](f4),
-          (b) -- [ghost, edge label'=\(A\)] (c),
+                (f5) -- [fermion](d)--[fermion](f4),
+          (b) -- [scalar, edge label'=\(A\)] (c),
           (c) -- [anti fermion] (f2),
           (c) -- [fermion] (f3),
       };
