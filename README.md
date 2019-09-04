@@ -43,19 +43,19 @@ https://atlas.cern/discover/detector
 ```
 
 ## Plan
-Status: New -> Drafting -> Draft -> Reviewing -> Reviewed -> Editing -> Complete  
+Status: New -> Drafting -> Drafted -> Reviewing -> Reviewed -> Editing -> Edited  
 
 
-| Chapter               | Status   | Deadline   |
-|-----------------------|----------|------------|
-| Introduction          | Done     | 2019/08/04 |
-| The standard model    | Done     | 2019/08/18 |
-| Dark matter           |2019/09/01| 2019/08/18 |
-| The LHC               | Drafting | 2019/09/08 |
-| The ATLAS experiment  | New      | 2019/09/08 |
-| Analysis introduction | New      | 2019/09/22 |
-| Boosted Xbb tagging   | New      | 2019/09/29 |
-| Signal selection      | New      | 2019/10/13 |
-| Background estimation | New      | 2019/10/27 |
-| Result                | New      | 2019/11/03 |
-| Conclusion            | New      | 2019/11/10 |
+| Chapter               | Status    | Deadline   |
+|-----------------------|-----------|------------|
+| Introduction          | Reviewing | 2019/08/04 |
+| The standard model    | Reviewing | 2019/08/18 |
+| Dark matter           | Reviewing | 2019/08/18 |
+| The LHC               | Drafting  | 2019/09/08 |
+| The ATLAS experiment  | Drafting  | 2019/09/08 |
+| Analysis introduction | New       | 2019/09/22 |
+| Boosted Xbb tagging   | New       | 2019/09/29 |
+| Signal selection      | New       | 2019/10/13 |
+| Background estimation | New       | 2019/10/27 |
+| Result                | New       | 2019/11/03 |
+| Conclusion            | New       | 2019/11/10 |
