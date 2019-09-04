@@ -6,33 +6,24 @@
 \begin{document}
 \begin{tikzpicture}
   \begin{feynman}
-            \vertex (a);
-          \vertex [above left=of a](p1);
-          \vertex [below left=of a](p2);
-          \vertex [above left=of p1](q1){g};
-          \vertex [below left=of p2](q2){g};
-          \vertex [right=of a] (b);
-          \vertex [above right=of b] (d){\(h\)};
-          \vertex [below right=of b] (c);
-          \vertex [above right=.5cm of c] (f3) {\(\bar{\chi}\)};
-          \vertex [below right=.5cm of c] (f2) {\(\chi\)};
-      %    \vertex[label={left: $g_q$}] (s1) at (-.6,0);
-      %    \vertex[label={right: $g_q$}] (s2) at (.6, 0);
-   %     \vertex (a) at (-2, 1) {\(q\) };
-   %     \vertex (b) at (-2,-1) {\(\bar{q}\) };
-   %     \vertex (c) at ( 2,1) {\(q\)};
-   %     \vertex (d) at ( 2,-1) {\(\bar{q}\)};
+    \vertex (a);
+    \vertex [above left=of a](p1);
+    \vertex [below left=of a](p2);
+    \vertex [above left=of p1](q1){g};
+    \vertex [below left=of p2](q2){g};
+    \vertex [right=of a] (b);
+    \vertex [above right=of b] (d){\(h\)};
+    \vertex [below right=of b] (c);
+    \vertex [above right=.5cm of c] (f3) {\(\bar{\chi}\)};
+    \vertex [below right=.5cm of c] (f2) {\(\chi\)};
 
-      \diagram [layered layout, horizontal = a to b] {
-          (q1)  -- [gluon] (p1) -- [,edge label'=\(t\)] (p2) -- [gluon] (q2),
+    \diagram [layered layout, horizontal = a to b] {
+      (q1)  -- [gluon] (p1) -- [,edge label'=\(t\)] (p2) -- [gluon] (q2),
       (p1) -- [plain,  edge label'=\(t\)] (a) -- [plain, edge label'=\(t\)] (p2),
       (a)--[scalar, edge label'=\(A\)](b)--[scalar](d),
       (b)--[scalar, edge label'=\(a\)](c),
       (f2)--[fermion](c)--[fermion](f3),
-
- % e -- [gluon]  f,
- % h -- [fermion] f -- [fermion] i;
-};
+    };
   \end{feynman}
 \end{tikzpicture}
 \end{document}
