@@ -48,9 +48,9 @@ Status: New -> Drafting -> Drafted -> Reviewing -> Reviewed -> Editing -> Edited
 
 | Chapter               | Status    | Deadline   |
 |-----------------------|-----------|------------|
-| Introduction          | Reviewing | 2019/08/04 |
-| The standard model    | Reviewing | 2019/08/18 |
-| Dark matter           | Reviewing | 2019/08/18 |
+| Introduction          | Editing   | 2019/08/04 |
+| The standard model    | Editing   | 2019/08/18 |
+| Dark matter           | Editing   | 2019/08/18 |
 | The LHC               | Drafting  | 2019/09/08 |
 | The ATLAS experiment  | Drafting  | 2019/09/08 |
 | Analysis introduction | New       | 2019/09/22 |
