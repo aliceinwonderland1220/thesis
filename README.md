@@ -48,7 +48,7 @@ Status: New -> Drafting -> Drafted -> Reviewing -> Reviewed -> Editing -> Edited
 
 | Chapter               | Status    | Deadline   |
 |-----------------------|-----------|------------|
-| Introduction          | Editing   | 2019/08/04 |
+| Introduction          | Edited    | 2019/08/04 |
 | The standard model    | Editing   | 2019/08/18 |
 | Dark matter           | Editing   | 2019/08/18 |
 | The LHC               | Drafting  | 2019/09/08 |
