@@ -1,10 +1,10 @@
 \chapter{The ATLAS experiment}
 
 \label{ch:atlas}
-\par ATLAS (A Toroidal LHC ApparatuS) is one of the major experiments located at Point 1 of the Large Hadron Collider (LHC) at CERN. 
+\par ATLAS (A Toroidal LHC ApparatuS) is one of the major experiments located at Point 1 of the Large Hadron Collider (LHC) at CERN \cite{Aad:2008zzm}. 
 It is a general-purpose particle physics experiment, which is designed to exploit the huge range of physics opportunities that the LHC provides. 
 		Located at 92 m below ground, ATLAS has a cylinder shape which has a length of 46 m, a diameter of 25 m and a weight of over 7000 tons.
- The experiment is a collaboration involving roughly 3,000 physicists from over 175 institutions in 38 countries\cite{fact}.
+ The experiment is a collaboration involving roughly 3,000 physicists from over 175 institutions in 38 countries \cite{fact}.
 A right-handed Cartesian coordinate system is used in this thesis: the coordinate origin is at the geometric center of the ATLAS detector, with a z-axis as 
 the direction of beam pipe.
 \par The x-y plane is perpendicular to the z-axis, with x pointing from origin point to the center 
@@ -14,7 +14,7 @@ $\Delta R = \sqrt{\Delta\eta^2 + \Delta\phi^2}$. Transverse momentum $P_T$, tran
 
 \begin{figure}[htbp]
  \begin{center}
-  \includegraphics[width=0.8\textwidth]{chapters/c4/figures/atlas.jpg}
+ \includegraphics[width=0.8\textwidth]{chapters/c4/figures/atlas.jpg}
  \end{center}
  \caption{Cut-away view of the ATLAS detector}
  \label{fig:cutaway}
@@ -27,7 +27,7 @@ and the Computing System, which develops and improves computing software used to
 at 130 computing centers worldwide\cite{atlas}.
 \begin{figure}[htbp]
  \begin{center}
-  \includegraphics[width=0.8\textwidth]{chapters/c4/figures/eve_gen.jpg}
+ \includegraphics[width=0.8\textwidth]{chapters/c4/figures/eve_gen.jpg}
  \end{center}
  \caption{A computer-generated image of
 the ATLAS detector, showing the
@@ -46,15 +46,18 @@ muon system in Section~\ref{sec:muon}, Forward detectors in Section~\ref{sec:for
 \label{sec:inner}
 \begin{figure}[htbp]
  \begin{center}
-  \includegraphics[width=0.8\textwidth]{chapters/c4/figures/inner}
+ \includegraphics[width=0.8\textwidth]{chapters/c4/figures/inner}
  \end{center}
-  \caption{Cut-away view of the ATLAS Inner Detector.}
+ \caption{Cut-away view of the ATLAS Inner Detector.}
  \label{fig:inner}
 \end{figure}
 \par The Inner Detector tracker is important for track reconstruction as well as both primary and secondary vertex measurements for charged tracks in the pseudorapidity range of $ \eta< 2.5$. 
 The Inner Detector tracker is contained within a cylindrical envelope with a length of $\pm$3512 mm, a radius of 1150 mm.
-\par As shown in Fig~\ref{fig:inner}, the Inner Detector tracker comprises three detector types dedicated to tracking, moving inside out we find the Silicon Pixel Detector, the SemiConductor Tracker (SCT), and the Transition Radiation Tracker (TRT). An extra pixel detector layer (IBL)\cite{Capeans:1291633} was inserted before the Run 2 and improves the identification of b-jets\cite{ATL-PHYS-PUB-2015-022}. The Pixel system provides a coverage of $|\eta|<2.5$.
-The SCT system consists of four barrel double layers and 18 end-cap layers (9 on each end)\cite{Aad:2014mta}, and provides a coverage of $|\eta| < 2.5$.
+\par As shown in Fig~\ref{fig:inner}, the Inner Detector tracker comprises three detector types dedicated to tracking, 
+moving inside out we find the Silicon Pixel Detector, the SemiConductor Tracker (SCT), and the Transition Radiation Tracker (TRT). An extra pixel detector layer 
+(IBL)\cite{Capeans:1291633} 
+was inserted before the Run 2 and improves the identification of b-jets \cite{ATL-PHYS-PUB-2015-022}. The Pixel system provides a coverage of $|\eta|<2.5$.
+The SCT system consists of four barrel double layers and 18 end-cap layers (9 on each end) \cite{Aad:2014mta}, and provides a coverage of $|\eta| < 2.5$.
 The TRT consists of 70 barrel layers and 280 end-cap layers (140 on each end), and provides a coverage of $|\eta| < 2.0$\cite{Aad:2014mta}.
 
 
@@ -62,84 +65,162 @@ The TRT consists of 70 barrel layers and 280 end-cap layers (140 on each end), a
 \label{sec:pixel}
 
 
-\begin{figure}
+\begin{figure}[htbp!]
 \begin{subfigure}{.5\textwidth}
  \centering
-  \includegraphics[width=0.8\textwidth]{chapters/c4/figures/pixel}
+ \includegraphics[width=0.8\textwidth]{chapters/c4/figures/pixel}
  \caption{a}
  \label{fig:pixel1}
 \end{subfigure}%
 \begin{subfigure}{.5\textwidth}
  \centering
-  \includegraphics[width=0.8\textwidth]{chapters/c4/figures/IBL}
+ \includegraphics[width=0.8\textwidth]{chapters/c4/figures/IBL}
  \caption{b}
  \label{fig:pixel2}
 \end{subfigure}
-  \caption{A schematic view of the active region of the Pixel detector consisting of barrel and endcap layers (\ref{fig:pixel1}) and IBL detector before the insertion (\ref{fig:pixel2})}
+ \caption{A schematic view of the active region of the Pixel detector consisting of barrel and end-cap layers (\ref{fig:pixel1}) and IBL detector before the insertion (\ref{fig:pixel2})}
 \label{fig:pixel}
 \end{figure}
-\par With the fine granularity of the pixel sensors, the pixel detector is designed to provide the identification and reconstruction of secondary vertices from the long-lived particles and high resolution for primary vertices reconstruction to suppress pile-up due to the increase of luminosity for LHC. A schematic view of the active region of the pixel detector consisting of a barrel and endcap layers can be found in Fig~\ref{fig:pixel1}.
-\par With the fine granularity of the pixel sensors, the pixel detector is designed to provide the identification and reconstruction of secondary vertices from the long-lived particles and high resolution for primary vertices reconstruction to suppress pile-up due to the increase of luminosity for LHC. A schematic view of the active region of the pixel detector consisting of a barrel and endcap layers can be found in Figure 4.4.
-\par The IBL makes it possible for the pixel detector to have a high resolution and A picture of the IBL being inserted into the Pixel detector is shown in 
+\par The Pixel detector is the innermost element of the Inner Detector \cite{Hirono:2641635}. With the fine granularity of the pixel sensors, 
+the pixel detector is designed to provide the identification and reconstruction of secondary vertices from the long-lived particles. It provides high resolution for primary vertices reconstruction to suppress pile-ups due to the increase of luminosity for LHC. A schematic view of the active region of the pixel detector consisting of a barrel and end-cap layers can be found in Fig~\ref{fig:pixel1}
+\par The IBL makes it possible for the pixel detector to have a high resolution and a picture of the IBL being inserted into the Pixel detector is shown in 
 Fig~\ref{fig:pixel2}. The pixel sensor pitch of the IBL has a minimum size in $R-\phi \times z$ of $50 \times 250~\mu m^2$ compared to other pixel detector layers with a size of $50 \times 400~\mu m^2$. 	 The IBL provides an intrinsic spatial resolution for hits of $14~\mu m$ in the $R-\phi$ plane, and
 $72~\mu m$ in the z-direction, compared to an intrinsic spatial resolution for hits of $14\mu m$ in the $R-\phi$ plane, and $115~\mu m$ in the z-direction of the three three pixel barrel layers.
 It helps improve the b-tagging efficiency as compensation for inefficiencies in the pixel B-layer because of the accumulated radiation damage.
 \par The Pixel detector's ability to associate tracks correctly to secondary vertices is essential to tagging algorithms of the b-hadrons decays which are important for this thesis, as well as other non-prompt decays.
 \subsection{Semiconductor Tracker~(SCT)}
-The SCT is designed to provide a good measurement of momentum, impact parameter, and vertexs. It includes 4 cylindrical barrel layers and 18 planar endcap disks, covered by $61 m^2$ of silicon detectors and 6.2 million readout channels. The spatial resolution is about $16~\mu m$ in the $R-\phi$ plane and $580~\mu m$ in the z-direction.
+The SCT \cite{AHMAD200798} is designed to provide a good measurement of momentum, impact parameter, and vertexs. It includes 4 cylindrical barrel layers and 18 planar end-cap disks, covered by $61 m^2$ of silicon detectors and 6.2 million readout channels. The spatial resolution is about $16~\mu m$ in the $R-\phi$ plane and $580~\mu m$ in the z-direction.
 
 \subsection{Transition Radiation Tracker~(TRT)}
 
-Being the outermost part of the Inner Detector, the TRT is composed of 4-mm diameter Kapton straw drift tubes which can operate up to the very high rates. There are 50,000 straws in Barrel with a length of 144 cm and 250,000 straws in both endcaps with a length of 39 cm.
+Being the outermost part of the Inner Detector, the TRT \cite{Abat:2008zza} is composed of 4-mm diameter Kapton straw drift tubes which can operate up to the very high rates. There are 50,000 straws in Barrel with a length of 144 cm and 250,000 straws in both end-caps with a length of 39 cm.
 To achieve a good high-rate performance, a nonflammable gas mixture of Xe(70\%)CO2(27\%)O2(3\%) is filled inside the tubes for the operation. The TRT provides a spatial resolution of $170~\mu m$ in the $R-\phi$ plane. It contributes to electron identification by detecting the transition-radiation photons radiated between the straws. 
 
 \section{Calorimeter}
 \label{sec:calo}
-Sample text sample text sample text. Sample text sample text sample text.
-Sample text sample text sample text. Sample text sample text sample text.
-Sample text sample text sample text. Sample text sample text sample text.
+\begin{figure}[htbp]
+ \begin{center}
+ \includegraphics[width=0.8\textwidth]{chapters/c4/figures/Calo}
+ \end{center}
+ \caption{Cut-away view of ATLAS calorimeter system}
+ \label{fig:Calo}
+\end{figure}
+\par ATLAS calorimeters \cite{CERN-LHCC-96-041} are designed to measure the energy of the outgoing particles. 
+Particles passing the calorimeters will initiate particle showers, either EM shower (electron, photon) or hadronic shower (proton, neutron...) 
+in the layers of passive material which is made of dense materials. Such showers would grow as the outgoing particles continue to interact with the absorber until their energies are lower than the critical energy where the ionization becomes dominant instead of radiation. In the sampling calorimeter where layers of passive absorber alternate with active layers, 
+the final state particles can induce ionization or scintillation in the active layers so the energy of the showering particles will be recorded.
+\par There are two types of calorimeters in ATLAS as showed in Fig 5.5: the EM calorimeter, a lead/liquid-argon sampling calorimeter, covering the pseudorapidity range of $|\eta| < 1.475$ in the barrel region and
+covering the pseudorapidity range of $|\eta| < 1.475$ in the barrel region and $1.375 < |\eta| < 3.2$ in the end-cap region; the hadronic calorimeter, 
+consisting of the tile calorimeter covering $|\eta| < 1.7$ in the barrel region, the liquid-argon hadronic end-cap calorimeter (HEC) covering $1.5 < |\eta| < 3.2$ in the end-cap region; 
+and the liquid-argon forward calorimeter (FCal) covering $3.1 < |\eta| < 4.9$.
+\par To contain all particles showers in the calorimeters and thus avoiding particles penetrating into the muon spectrometer, the materials and 
+thickness of each layers are optimized \cite{Aad:1129811}. The thickness of the EM calorimeter is greater than 22 $X_0$ in the barrel and 24 $X_0$ in 
+the end-cap region, where the radiation length of the material $X_0$ represents the thickness of material that reduces the mean energy of an electron 
+by a factor e. The thickness of the hadronic calorimeter is approximately 9.7$~\lambda$ in barrel and 10$~\lambda$ in end-cap regions, where $\lambda$ is nuclear interaction lengths.
+\par Ideally, if all showers are counted, measured energy would be proportional to the signal strength, the number of electron-hole pair, and thus the error is proportional to $\sqrt{E}$. 
+\begin{equation}
+\label{eq:timeresn}
+\frac{\sigma(E)}{E} = \frac{a}{\sqrt{E}} \oplus \frac{b}{E} \oplus c \ \ \  ,
+\end{equation}
+where a is stochastic term from the intrinsic statistical shower, signal quantum and sampling fluctuation, b is noise term from readout electronics noise, radioactivity, pileup fluctuation, and c is constant term representing any inhomogeneities, imperfections in calorimeter construction, and non-linearity of readout electronics \cite{calorimetry}. From Equation~\ref{eq:timeresn}, we could the energy resolution improves with increasing energy in general.
+
+
+
+
 
 \subsection{Liquid Argon Calorimeter}
-Sample text sample text sample text. Sample text sample text sample text.
-Sample text sample text sample text. Sample text sample text sample text.
-Sample text sample text sample text. Sample text sample text sample text.
+\par The LAr EM Calorimeter uses lead as its passive material, and the active material is liquid argon (LAr). 
+It consists of the barrel EM calorimeter (EMB) and two end-caps (EMEC) on each side, with the inner wheel (IW) covering 1.375 $< |\eta| <$ 2.5 and outer wheel 
+(OW) covering 2.5 $< |\eta| <$ 3.2.
+\begin{figure}[htbp!]
+\begin{subfigure}{.5\textwidth}
+ \centering
+ \includegraphics[width=0.8\textwidth]{chapters/c4/figures/lar-layers}
+ \caption{a}
+ \label{fig:lar1}
+\end{subfigure}%
+\begin{subfigure}{.5\textwidth}
+ \centering
+ \includegraphics[width=0.8\textwidth]{chapters/c4/figures/lar}
+ \caption{b}
+ \label{fig:lar2}
+\end{subfigure}
+ \caption{
+Accordion structure of the barrel. The top figure is a view of a small
+ sector of the barrel calorimeter in a plane transverse to the LHC beams in \ref{fig:lar1}.
+ Sketch of barrel module showing both accordion structure and granularity in $\eta - \phi$ of the cells on each of layer in~\ref{fig:lar2}}
+\label{fig:pixel}
+\end{figure}
+
+
+\par As showed in Fig~\ref{fig:lar1}, LAr calorimeter uses a novel accordion geometry to avoid gaps at boundaries. It comprises accordion-shaped 
+copper-kapton electrodes positioned between lead absorber plates and kept in position by honeycomb spacers while the system is immersed in LAr. 
+The accordion geometry provides complete $\phi$ coverage without azimuthal cracks.
+\par For most of the EM calorimeter, EMB and EMEC-OW, each module has three layers in depth with different granularities, 
+as can be seen in Fig~\ref{fig:lar2}, while each EMEC-IW module has only two layers. Table 1.3 of~\cite{Aad:1129811} 
+shows the granularity of the EM calorimeter for different $\eta$. 
+The fine segmentation of the first layers helps distinguishing photons from $\pi_0$ 
+meson decaying to two photons, as well as providing flight direction of neutral particles. The second layers has a relatively
+coarser resolution but it is quite thick so the largest fraction of the energy is deposited in the second layer and only a small tail of the EM shower 
+leaves in the last layer which measures the remaining energy of the most energetic particles.
+
+\par The principle of operation of HEC and FCal is similar to LAr, but they choose copper as passive material and the design details are different and vary with position.
+
+
 
 \subsection{Tile Calorimeter}
-Sample text sample text sample text. Sample text sample text sample text.
-Sample text sample text sample text. Sample text sample text sample text.
-Sample text sample text sample text. Sample text sample text sample text.
+\par Located outside of the LAr EM calorimeter, the tile calorimeter~\cite{CERN-LHCC-96-042} is a sampling calorimeter using steel 
+as the absorber and scintillator as the active medium. Its barrel covers the region $|\eta| <$ 1.0, and its two extended barrels covers the range 0.8 $< |\eta| <$ 1.7.
+\par The barrel and extended barrels are divided azimuthally into 64 modules with a span $\Delta \phi = 0.1$. 
+It is segmented in depth in three layers, 
+approximately 1.5 $\lambda$, 4.1 $\lambda$ and 1.8 $\lambda$ thick for the barrel and 1.5 $\lambda$, 2.6 $\lambda$, and 3.3 $\lambda$ 
+for the extended barrel. 
+\begin{figure}[htbp!]
+ \begin{center}
+ \includegraphics[width=0.6\textwidth]{chapters/c4/figures/tile}
+
+ \end{center}
+ \caption{Illustration of Tile calorimeter}
+ \label{fig:Tile}
+\end{figure}
+\par As showed in Fig~\ref{fig:Tile}, scintillator tiles are oriented radially, with wavelength-shifting readout fiber connected at the tile edge. 
+Readout fibers are then grouped together and are connected to the readout photomultiplier.
 
 \section{Muon Spectrometer (MS)}
 \label{sec:muon}
-\begin{figure}
+\begin{figure}[htbp!]
 \begin{subfigure}{.5\textwidth}
  \centering
-  \includegraphics[width=0.8\textwidth]{chapters/c4/figures/mu-bar}
- \caption{a}
+ \includegraphics[width=0.8\textwidth]{chapters/c4/figures/mu-bar}
+ \caption{a }
  \label{fig:mu-bar}
 \end{subfigure}%
 \begin{subfigure}{.5\textwidth}
  \centering
-  \includegraphics[width=0.8\textwidth]{chapters/c4/figures/mu-end}
+ \includegraphics[width=0.8\textwidth]{chapters/c4/figures/mu-end}
  \caption{b}
  \label{fig:mu-end}
 \end{subfigure}
-  \caption{Geometric layout of muon sub-detectors in barrel (\ref{fig:mu-bar}) and end-cap (\ref{fig:mu-end}) region}
+ \caption{Geometric layout of muon sub-detectors in barrel (\ref{fig:mu-bar}) and end-cap (\ref{fig:mu-end}) region}
 \label{fig:mu}
 \end{figure}
 
-\par The MS is designed to measure the trajectory left by transversing muons, as well as to provide online muon trigger using separate sets of detection chambers. The MS is immersed in a toroidal magnetic field of about 0.5 T and 1 T in the barrel and endcap regions, respectively. The MS is designed to measure muons standalone in a wide range of 3 GeV up to about 3 TeV. The targeted $p_T$ resolution is 10% for 1 TeV muon tracks, which is a sagitta along the z-axis of about 500 $\mu m$ with a resolution of about 50 $\mu m$.
-\par As illustrated in Fig~\ref{fig:mu}, the MS is composed of the precision tracking detectors, Monitored Drift-tube Chambers (MDT) and Cathode Strip Chambers (CSC), as well as the triggering detectors, Resistive Plate Chambers (RPC) in the barrel and Thin Gap Chambers (TGC).
-\par MDT has a spatial resolution of about 80 $\mu m$ which covers$|\eta|$ < 2.7, except in the innermost endcap layer the region of$|\eta| < 2.0$. CSC with higher rate capability are installed on the forward region of $2.0 < |\eta| < 2.7$ in the innermost endcap layer. It has a resolution of about 60$\mu m$, and since the cathode segmentation is coarser, the resolution is 5 mm in the non-bending direction.	RPC in the barrel region covering $ |\eta| < 1.05$ and the TGC in the endcap region covering $1.05 < |\eta| < 2.4$ provide a very fast response to muon hits.
+\par The MS \cite{CERN-LHCC-97-022} is designed to measure the trajectory left by transversing muons, as well as to provide online muon trigger using separate sets of detection chambers. The MS is immersed in a toroidal magnetic field of about 0.5 T and 1 T in the barrel and end-cap regions, respectively. The MS is designed to measure muons standalone in a wide range of 3 GeV up to about 3 TeV. 
+Being located farthest from interaction point, cells are relatively large due to low occupancy and the radiation level is typically 
+smaller in the muon system. 
+Also, it should be able to perform standalone measurement of high-momentum muon \cite{muon}.
+The targeted $p_T$ resolution is 10\% for 1 TeV muon tracks, which is a sagitta along the z-axis of about 500 $\mu m$ with a resolution of about 50 $\mu m$.
+\par As illustrated in Fig~\ref{fig:mu}, the MS is composed of the precision tracking detectors, Monitored Drift-tube Chambers (MDT) and Cathode Strip Chambers (CSC), as well as the triggering detectors, Resistive Plate Chambers (RPC) in the barrel region and Thin Gap Chambers (TGC) in the end-cap region.
+\par MDT has a spatial resolution of about 80 $\mu m$ which covers $|\eta| < 2.7$, except in the innermost end-cap layer the region of $|\eta| < 2.0$. CSC with higher rate capability are installed on the forward region of $2.0 < |\eta| < 2.7$ in the innermost endcap layer. It has a resolution of about 60$\mu m$, and since the cathode segmentation is coarser, the resolution is 5 mm in the non-bending direction.	RPC in the barrel region covering $|\eta| < 1.05$ and the TGC in the endcap region covering $1.05 < |\eta| < 2.4$ provide a very fast response to muon hits.
 \par Muon reconstruction and identification algorithms rely on information from both the Inner Detector and the MS.
 
 \section{Forward Detectors}
 \label{sec:for}
 \begin{figure}[htbp]
  \begin{center}
-  \includegraphics[width=0.8\textwidth]{chapters/c4/figures/forward}
+ \includegraphics[width=0.8\textwidth]{chapters/c4/figures/forward}
  \end{center}
-  \caption{Cut-away view of the ATLAS Inner Detector.}
+ \caption{Cut-away view of the ATLAS Inner Detector.}
  \label{fig:forward}
 \end{figure}
 \par As illustrated in Fig~\ref{fig:forward}, LUCID (LUminosity measurement using Cerenkov Integrating Detector), ALFA (Absolute Luminosity For ATLAS) and ZDC 
@@ -149,18 +230,29 @@ Sample text sample text sample text. Sample text sample text sample text.
  ALFA which locates at $\pm$ 240 m from interaction point, are designed to monitor the absolute luminosity via elastic scattering at small angles. 
  ZDC which locates at $\pm$ 140 m from interaction point, are designed to monitor the centrality of heavy-ion collisions.
 
-\section{Trigger}
-Sample text sample text sample text. Sample text sample text sample text.
-Sample text sample text sample text. Sample text sample text sample text.
-Sample text sample text sample text. Sample text sample text sample text.
-
-\section{Event generator}
+\section{Trigger and Data Acquisition}
 \label{sec:data}
-Sample text sample text sample text. Sample text sample text sample text.
-Sample text sample text sample text. Sample text sample text sample text.
-Sample text sample text sample text. Sample text sample text sample text.
 
-\section{Detector simulation}
-Sample text sample text sample text. Sample text sample text sample text.
-Sample text sample text sample text. Sample text sample text sample text.
-Sample text sample text sample text. Sample text sample text sample text.
+\begin{figure}[htbp!]
+ \centering
+ \includegraphics[width=0.8\textwidth]{chapters/c4/figures/cross}
+ \caption{b}
+ \label{fig:cross}
+ \caption{Cross section of physics processes produced by hadron colliders~\ref{fig:cross}}
+\label{fig:lumi}
+\end{figure}
+As illustrated in Fig~\ref{fig:lumi}, the cumulative luminosity delivered by LHC during Run 2 is about $156~fb^{-1}$. However, as showed in Fig~\ref{fig:cross}, the rate of events containing interesting physics phenomena is a tiny fraction of total events. So the trigger system is a key component of hadron collider experiments. In order to store all the events with a limited data storage capacity and rates, the trigger system needs to provide fast online selection of a fraction of events without loss of sensitivity to interested physics processes to record for later analysis.
+\begin{figure}[htbp!]
+ \begin{center}
+ \includegraphics[width=0.8\textwidth]{chapters/c4/figures/TDAQ}
+ \end{center}
+ \caption{The ATLAS TDAQ system in Run 2 with the relevant components for triggering. }
+ \label{fig:TDAQ}
+\end{figure}
+
+The ATLAS Trigger and Data Acquisition (TDAQ) system \cite{Ruiz-Martinez:2133909} is illustrated in Fig~\ref{fig:TDAQ}. In Run 2, the trigger system consists of two levels of event selections: the Level 1 trigger (L1) is 
+a hardware-based trigger using reduced-granularity information from subdetectors, the ATLAS calorimeter (L1Calo) and Muon Spectrometer (L1 muon trigger).
+They send trigger information to L1 Central Trigger Processor (CTP) which would then generate a pre-scale and final L1 decision (L1A) signal. 
+The front-end of each sub-detector will receive L1A and allow the data to keep flowing down if accepted. reduce the accepted event rate to 100 kHz. 
+The rate of L1As is about 100 KHz, reducing the total 40 MHz event rate by a factor of 400. This is followed by a software-based High Level Trigger (HLT) that reduces the rate to 1 kHz on average. The accepted event will be reconstructed and sent to long-term storage. As a result, the L1 and HLT triggers together reduce the accepted event rate by a factor of 40000.
+
