@@ -51,11 +51,11 @@ Status: New -> Drafting -> Drafted -> Reviewing -> Reviewed -> Editing -> Edited
 | Introduction          | Edited    | 2019/08/04 |
 | The standard model    | Edited    | 2019/08/18 |
 | Dark matter           | Edited    | 2019/08/18 |
-| The LHC               | Drafted   | 2019/09/08 |
-| The ATLAS experiment  | Drafting  | 2019/09/08 |
-| Analysis introduction | New       | 2019/09/22 |
-| Boosted Xbb tagging   | New       | 2019/09/29 |
-| Signal selection      | New       | 2019/10/13 |
-| Background estimation | New       | 2019/10/27 |
-| Result                | New       | 2019/11/03 |
-| Conclusion            | New       | 2019/11/10 |
+| The LHC               | Drafted   | 2019/09/10 |
+| The ATLAS experiment  | Drafted   | 2019/10/03 |
+| Physcis Objects       | Drafting  | 2019/10/10 |
+| Boosted Xbb tagging   | New       | 2019/10/18 |
+| Signal selection      | New       | 2019/10/28 |
+| Background estimation | New       | 2019/11/08 |
+| Result                | New       | 2019/11/20 |
+| Conclusion            | New       | 2019/11/20 |
