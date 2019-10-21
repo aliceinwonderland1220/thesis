@@ -53,9 +53,9 @@ Status: New -> Drafting -> Drafted -> Reviewing -> Reviewed -> Editing -> Edited
 | Dark matter           | Edited    | 2019/08/18 |
 | The LHC               | Drafted   | 2019/09/10 |
 | The ATLAS experiment  | Drafted   | 2019/10/03 |
-| Physcis Objects       | Drafting  | 2019/10/10 |
-| Boosted Xbb tagging   | New       | 2019/10/18 |
-| Signal selection      | New       | 2019/10/28 |
-| Background estimation | New       | 2019/11/08 |
-| Result                | New       | 2019/11/20 |
-| Conclusion            | New       | 2019/11/20 |
+| Physcis Objects       | Drafting  | 2019/10/20 |
+| Boosted Xbb tagging   | New       | 2019/10/28 |
+| Signal selection      | New       | 2019/11/10 |
+| Background estimation | New       | 2019/11/10 |
+| Result                | New       | 2019/11/30 |
+| Conclusion            | New       | 2019/11/30 |
