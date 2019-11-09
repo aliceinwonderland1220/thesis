@@ -51,7 +51,7 @@ Status: New -> Drafting -> Drafted -> Reviewing -> Reviewed -> Editing -> Edited
 | Introduction          | Edited    | 2019/08/04 |
 | The standard model    | Edited    | 2019/08/18 |
 | Dark matter           | Edited    | 2019/08/18 |
-| The LHC               | Drafted   | 2019/09/10 |
+| The LHC               | Edited    | 2019/09/10 |
 | The ATLAS experiment  | Drafted   | 2019/10/03 |
 | Physcis Objects       | Drafting  | 2019/10/20 |
 | Boosted Xbb tagging   | New       | 2019/10/28 |
