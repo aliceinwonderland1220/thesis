@@ -6,23 +6,131 @@ Boosted Higgs reconstruction is described in depth as several new techniques hav
  The reconstruction of primary vertices is described in Section~\ref{sec:pv}. 
 Different types of jets that are used by this analysis in different kinematic regions are described in Section~\ref{sec:jets}. 
 The reconstruction of electrons and muons are described in Section~\ref{sec:el} in Section~\ref{sec:mu}. 
-Taus, which are also reconstructed as jets, are described in Section~\ref{sec:tau}. 
-The reconstruction of missing transverse energy, or $E_T^{Miss}$, is discussed in Section~\ref{sec:met} 
+%Taus, which are also reconstructed as jets, are described in Section~\ref{sec:tau}. 
+The reconstruction of missing transverse energy, or \met, is discussed in Section~\ref{sec:met} 
 and the missing transverse energy significance definitions are described in Section~\ref{sec:me_sig}. 
 Finally Higgs tagging is described in detail in Section~\ref{sec:higgs}. 
 
 \section{Tracking}
 
-\section{Primary Vertex}
+\section{Inner Detector Tracks and  Primary Vertex}
 \label{sec:pv}
-Sample text sample text sample text. Sample text sample text sample text.
-Sample text sample text sample text. Sample text sample text sample text.
-Sample text sample text sample text. Sample text sample text sample text.
+\par The tracks in the inner detector are based on fitting a trajectory model to a set of measurements using a sequence of algorithms
+~\cite{Cornelissen:1020106}.		 	
+\par The inside-out algorithm, which is the baseline algorithm and is designed for efficient reconstruction of primary particles. 
+It starts with three-point seeds in the silicon detectors and adds hits moving away from the interaction point using a combinatorial Kalman filter 
+and tracks are extended into the TRT.
+\par Then reconstruction of secondary particles produced by the interactions of the primary particles is achieved by Back-tracking. 
+Back-tracking means a track search starts from segments reconstructed in the TRT and extends inwards by adding silicon hits. 
+TRT-standalone tracks refer to tracks from TRT segment without extension into the silicon detectors.					
+\par The transverse and longitudinal impact parameters of a track are referred to as $d_0$ and $z_0$ and their resolutions as $\sigma_{d_0}$ 
+and $\sigma_{z_0}$. 
+\par Each beam generates multiple track vertices, and the vertices are reconstructed from the available Inner Detector tracks.
+\par All vertices with at least two associated tracks are retained as valid primary ver- tex candidates. 
+The output of the vertex reconstruction algorithm is a set of three dimensional vertex positions and their covariance matrices. 
+The primary vertex is selected as the one with the largest $\sum \pt^2$, where the sum is over all associated tracks. 
+The basic track selection criteria are summarized in Table~\ref{table:pv}.
+
+\begin{table}[tbh]
+\centering
+\tiny
+
+\begin{tabular}{|l|c|c}
+
+\hline
+ Aim& Selection \\
+\hline
+Reject soft fake tracks &$\pt> 0.4~GeV$ \\
+\hline
+In ID fiducial volume &$|\eta| < 2.5$ \\
+\hline 
+Enough hits for track reconstruction & More than 9 (11) hits between the Pixel and SCT detectors for $|\eta|\le 1.65$ ($|\eta| ge 1.65$)\\
+\hline 
+ Good hit quality& Less than 1 (2) hits in a Pixel (SCT) detector layer shared by multiple tracks\\
+\hline
+ Good hit quality&0 missing hits in the Pixel detector when a hit is expected\\
+\hline 
+Good hit quality&Less than 1 missing hits in the SCT detector when hits are expected\\
+ \hline
+\end{tabular}
+\caption{Selection criteria for track to reconstruct primary and pile-up vertices.}
+\label{tab:pv}
+
+\end{table}
+
 
 \section{Electrons}
 \label{sec:el}
+\par Electron candidates are clusters of energy associated with ID tracks, 
+where the final track-cluster matching is performed after the tracks have been fitted with a Gaussian-sum filter.
+\par A few variables are checked to identify electron while suppressing background objects 
+such as hadronic jets or converted photons~\cite{ATL-PHYS-PUB-2015-041}. 
+They are the hits in the silicon detectors, including a hit on the IBL, and a likelihood discriminator, 
+which combines the shower shape information provided by the highly segmented calorimeter, hits in the high-threshold TRT, 
+compatibility of the tracking and calorimeter information, track quality information, 
+as well as the impact parameter in the transverse plane ($|d_0|$) and its significance ($\frac{|d_0|}{\sigma_{d_0}}$).
+\par Electron isolation measures the detector activity around an electron candidate, 
+and can be used to further reject backgrounds such as electrons originating from converted photons produced in hadron decays, 
+electrons from heavy flavor hadron decays, and light hadrons misidentified as electrons.
+\par There are several working points of the likelihood variable which depends on how strict the requirements we require on electrons. 
+This analysis uses the LooseLLHBLayer working point. In addition, this analysis applies two categories of electrons on electrons:
+VHLoose and ZHSignal. The definitions of VHLoose and ZHSignal electrons are summarized in Table~\ref{tab:el}.
+\begin{table}[tbh]
+\centering
+\tiny
+
+\begin{tabular}{|l|c|c|c|c|c|c|c}
+
+\hline
+Electron Type & $|\pt|$ & $|\eta|$ & $\frac{|d_0|}{\sigma_{d_0}}$ & $z_0\dot sin\theta$ & Likelihood & Isolation \\
+VHLoose &$>7$&$<2.47$&$<5$&$<0.5$&LooseLLHBLayer&LooseTrackOnly\\
+ZHSignal&$>7$&$<2.47$&$<5$&$<0.5$&LooseLLHBLayer&LooseTrackOnly\\
+\hline
+
+\end{tabular}
+\caption{Definitions for the different categories of electron.}
+\label{tab:el}
+\end{table}
+\par The VHLoose definition is used in the Signal Region where ZHSignal definition is used in some Control Regions, since the VHLoose definition is looser.
+ 
 \section{Muons}
 \label{sec:mu}
+\par Muon reconstruction is performed based on information from the Inner Detector(ID), Muon S and calorimeters. As instructed in~\cite{Aad:2016jkr}, 
+there are five types depending on different reconstruction methods.
+
+\begin{itemize}
+\item Combined muons are reconstructed by combining the hits of the ID track and MS track and the energy loss in the calorimeter;
+\item Segment-tagged muons are formed from a track in the ID if it is associated with at least one track segment in the MDT or CSC chambers. 
+    It capture muons passing only one layer of MS chambers, due to their low $\pt$ or reduced MS acceptance in the region.
+\item Extrapolated muons are reconstructed based only on the MS track and a loose requirement on compatibility with originating from the IP. 
+    They are used to extend the acceptance for muon reconstruction into the region $2.5 <\eta< 2.7$. 
+        The muon is required to traverse at least two layers of MS chambers to provide a track measurement, but three layers are required in the forward region.
+
+\item Calorimeter-tagged muons. In the region of $|\eta< 0.1$, ID tracks with $15 ~GeV < \pt < 100 ~GeV$ are identified as muons if their energy deposits in the calorimeter 
+    match with minimum ionizing particles. They recover muon acceptance in the region where the MS is only partially instrumented.
+
+\end{itemize}
+\par Similar to Electron reconstruction, there are different muon identification working point. This analysis chose ``Loose'', defined as muons reconstructed using any reconstruction methods, 
+and ``Medium'', reconstructed using either the Combined muon or Extrapolated muon methods.
+\par The VHLoose definition is used in the Signal Region where ZHSignal definition is used in some Control Regions, since the VHLoose definition is looser.					
+\par As showed in Table~\ref{tab:mu}, this analysis applied additional criteria to muons in different regions. 
+A tighter selection is required in Control Regions for a high muon purity and a looser selection when muons are not desired and are vetoed in the Signal Region.
+\begin{table}[tbh]
+\centering
+\begin{tabular}{|l|c|c|c|c|c|c|c}
+
+\hline
+Electron Type & $|\pt|$ &$|\eta|$ & $\frac{|d_0|}{\sigma_{d_0}}$&$z_0 sin\theta$ & Likelihood &Isolation \\
+VHLoose &$>7$&$<2.7$&$<3$&$<0.5$&Loose&LooseTrackOnly\\
+WHSignal &$>25$&$<2.5$&$<3$&$<0.5$&Medium&FixedTrackTTTight\\
+ZHSignal &$>25$&$<2.5$&$<3$&$<0.5$&Loose&LooseTrackOnly\\
+\hline
+\end{tabular}
+\caption{Definitions for the different categories of muons.}
+  \label{tab:mu}
+\end{table}
+
+
 \section{Jets}
 \label{sec:jets}
 Sample text sample text sample text. Sample text sample text sample text.
@@ -40,10 +148,15 @@ Sample text sample text sample text. Sample text sample text sample text.
 Sample text sample text sample text. Sample text sample text sample text.
 Sample text sample text sample text. Sample text sample text sample text.
 
-\section{Messing Transverse Energy/Momentum and Missing Transverse Energy Sigificance}
-\label{sec:met}
+\section{Messing Transverse Energy/Momentum (MET) and Missing Transverse Energy Sigificance}
 
-\subsection{Sample subsection}
+\subsection{MET}
+\label{sec:met}
+Sample text sample text sample text. Sample text sample text sample text.
+Sample text sample text sample text. Sample text sample text sample text.
+Sample text sample text sample text. Sample text sample text sample text.
+\subsection{Missing Transverse Energy Sigificance}
+\label{sec:met_sig}
 Sample text sample text sample text. Sample text sample text sample text.
 Sample text sample text sample text. Sample text sample text sample text.
 Sample text sample text sample text. Sample text sample text sample text.
