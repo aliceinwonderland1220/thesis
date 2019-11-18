@@ -127,6 +127,14 @@ ZHSignal &$>25$&$<2.5$&$<3$&$<0.5$&Loose&LooseTrackOnly\\
 \end{table}
 
 
+\section{Taus}
+\label{sec:taus}
+% Tau, what and why
+\par Tau lepton veto algorithm is needed in the analysis since it is not interested in the signal events. Tau particle, unlike its lighter lepton buddy, electron and muon, is the only lepton that can decay into hadrons. The branching ratio of hadronically tau decay is approximately 64.79\%. Therefore, it is important to reject hadronically decayed tau events in the hadronic analysis.
+
+% How to reject tau with Loose Tau ID
+\par Hadronicallly decayed tau can be reconstructed as small-radius jets and identified with a tree-based machine learning algorithm. A typically hadronically decayed tau jet can be characterized with either one or three charged hadrons, which can be applied to the tree-based classifiers to differentiate from QCD jets. With the trade-off of selection efficiencies and fake rate, three classifiers, loose, medium, tight, can be determined. More details can be found in \cite{ATL-PHYS-PUB-2015-045}. In order to reduce the hadronically decayed tau to a maximum extent, the loose working point is chosen to build the tau veto condition, together with the baseline section of $\pt > 25 GeV$ and $|\eta| < 2.5$.
+
 \section{Jets}
 \label{sec:jets}
 \par In pp collisions, almost immediately after being produced, a quark or gluon fragments and hadronises, leading to a collimated spray of energetic hadrons -- 
@@ -180,16 +188,16 @@ Sample text sample text sample text. Sample text sample text sample text.
 Sample text sample text sample text. Sample text sample text sample text.
 
 
-\section{Messing Transverse Energy/Momentum (MET) and Missing Transverse Energy Sigificance}
+\section{Missing Transverse Momentum (MET)}
 
-\subsection{MET}
 \label{sec:met}
-Sample text sample text sample text. Sample text sample text sample text.
-Sample text sample text sample text. Sample text sample text sample text.
-Sample text sample text sample text. Sample text sample text sample text.
-\subsection{Missing Transverse Energy Sigificance}
-\label{sec:met_sig}
-Sample text sample text sample text. Sample text sample text sample text.
-Sample text sample text sample text. Sample text sample text sample text.
-Sample text sample text sample text. Sample text sample text sample text.
+% What is MET
+\par According to the conservation of momentum, the sum of the transverse memento of all particles produced in collisions is zero. Considering the existence of the non-detectable object, the transverse energies from detected objects are not balanced. The unbalanced part of transverse momentum is called ''missing transverse energy''(\met), or MET for short.
 
+% How to calculate MET with/without Tracker fully involved.
+\par As mentioned in the last paragraph, the \met~is derived by all other detectable objects. The \met~calculation is the most difficult object not only because it needs a full calculation of all detectable objects from various detectors, but also from the small fraction of energy deposits from unclustered parts of detectors. As a result, the \met~scale and \met~resolution are affected by many factors, such as missing Muons, mismeasured Jets, beam pile-up, etc. In the ATLAS experiment, the \met~reconstruction uses energy deposits in the calorimeters and muons tracks reconstructed in the muon detectors. Trackers' information is also used to recover the low Pt fraction that missed in the calorimeters \cite{ATLAS-CONF-2013-082}. Therefore, both hard objects (high \pt), like electrons, jets, muons, etc, and soft objects, like track soft terms, are considered in the \met~reconstruction.
+
+% MET significance
+\par The uncertainty of \met~calculation result can be remarkably large due to the complexity of the reconstruction algorithm. Therefore, a significance variable can be introduced to describe the reliability of the derived \met. The \met~significance is defined as
+$$ S=\frac{\met}{\sqrt{\sum_{i}E_{Ti}}}, $$
+where the numerator is the amplitude of derived \met, and the denominator is the scalar sum of the detected objects that used when to reconstruct the \met. A high value of \met~significance suggests the event is more likely to container invisible object rather than resolution smearing.
