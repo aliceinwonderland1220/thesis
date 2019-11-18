@@ -13,10 +13,10 @@ Finally Higgs tagging is described in detail in Section~\ref{sec:higgs}.
 
 \section{Tracking}
 
-\section{Inner Detector Tracks and  Primary Vertex}
+\section{Inner Detector Tracks and Primary Vertex}
 \label{sec:pv}
 \par The tracks in the inner detector are based on fitting a trajectory model to a set of measurements using a sequence of algorithms
-~\cite{Cornelissen:1020106}.		 	
+~\cite{Cornelissen:1020106}.
 \par The inside-out algorithm, which is the baseline algorithm and is designed for efficient reconstruction of primary particles. 
 It starts with three-point seeds in the silicon detectors and adds hits moving away from the interaction point using a combinatorial Kalman filter 
 and tracks are extended into the TRT.
@@ -29,12 +29,11 @@ and $\sigma_{z_0}$.
 \par All vertices with at least two associated tracks are retained as valid primary ver- tex candidates. 
 The output of the vertex reconstruction algorithm is a set of three dimensional vertex positions and their covariance matrices. 
 The primary vertex is selected as the one with the largest $\sum \pt^2$, where the sum is over all associated tracks. 
-The basic track selection criteria are summarized in Table~\ref{table:pv}.
+The basic track selection criteria are summarized in Table~\ref{tab:pv}.
 
 \begin{table}[tbh]
 \centering
 \tiny
-
 \begin{tabular}{|l|c|c}
 
 \hline
@@ -77,10 +76,7 @@ This analysis uses the LooseLLHBLayer working point. In addition, this analysis 
 VHLoose and ZHSignal. The definitions of VHLoose and ZHSignal electrons are summarized in Table~\ref{tab:el}.
 \begin{table}[tbh]
 \centering
-\tiny
-
 \begin{tabular}{|l|c|c|c|c|c|c|c}
-
 \hline
 Electron Type & $|\pt|$ & $|\eta|$ & $\frac{|d_0|}{\sigma_{d_0}}$ & $z_0\dot sin\theta$ & Likelihood & Isolation \\
 VHLoose &$>7$&$<2.47$&$<5$&$<0.5$&LooseLLHBLayer&LooseTrackOnly\\
@@ -101,13 +97,13 @@ there are five types depending on different reconstruction methods.
 \begin{itemize}
 \item Combined muons are reconstructed by combining the hits of the ID track and MS track and the energy loss in the calorimeter;
 \item Segment-tagged muons are formed from a track in the ID if it is associated with at least one track segment in the MDT or CSC chambers. 
-    It capture muons passing only one layer of MS chambers, due to their low $\pt$ or reduced MS acceptance in the region.
+ It capture muons passing only one layer of MS chambers, due to their low $\pt$ or reduced MS acceptance in the region.
 \item Extrapolated muons are reconstructed based only on the MS track and a loose requirement on compatibility with originating from the IP. 
-    They are used to extend the acceptance for muon reconstruction into the region $2.5 <\eta< 2.7$. 
-        The muon is required to traverse at least two layers of MS chambers to provide a track measurement, but three layers are required in the forward region.
+ They are used to extend the acceptance for muon reconstruction into the region $2.5 <\eta< 2.7$. 
+  The muon is required to traverse at least two layers of MS chambers to provide a track measurement, but three layers are required in the forward region.
 
 \item Calorimeter-tagged muons. In the region of $|\eta< 0.1$, ID tracks with $15 ~GeV < \pt < 100 ~GeV$ are identified as muons if their energy deposits in the calorimeter 
-    match with minimum ionizing particles. They recover muon acceptance in the region where the MS is only partially instrumented.
+ match with minimum ionizing particles. They recover muon acceptance in the region where the MS is only partially instrumented.
 
 \end{itemize}
 \par Similar to Electron reconstruction, there are different muon identification working point. This analysis chose ``Loose'', defined as muons reconstructed using any reconstruction methods, 
@@ -127,26 +123,62 @@ ZHSignal &$>25$&$<2.5$&$<3$&$<0.5$&Loose&LooseTrackOnly\\
 \hline
 \end{tabular}
 \caption{Definitions for the different categories of muons.}
-  \label{tab:mu}
+ \label{tab:mu}
 \end{table}
 
 
 \section{Jets}
 \label{sec:jets}
-Sample text sample text sample text. Sample text sample text sample text.
-Sample text sample text sample text. Sample text sample text sample text.
-Sample text sample text sample text. Sample text sample text sample text.
+\par In pp collisions, almost immediately after being produced, a quark or gluon fragments and hadronises, leading to a collimated spray of energetic hadrons -- 
+a jet~\cite{Salam:2009jx}. There exist many different jet clustering algorithms to measure the jet properties. 
+\par Among all jet finding algorithms, the anti-$k_T$ algorithm~\cite{Cacciari:2008gp} is most commonly used. This algorithm flavors clusterings that involve hard particles, 
+and the jets then grow outwards around hard ``seeds’’. R is in the denominator of the clustering distance metric. It determines the radial size of the jet in $\eta-\phi$ plane.
+\par Calorimeter jets are reconstructed by combining topological clusters of energy deposits in the calorimeter~\cite{Aad:2011he}, while the inputs to track jet clustering are Inner Detector tracks. 
+The small R = 0.4 calorimeter jets are used for b-quark reconstruction in the resolved topology. For jets that are from collimated decay products of heavy particles or low \pt gluons, 
+a large cone size are used to contain all of the decay products. Large-R jets are defined in ATLAS collaboration as jets reconstructed with the anti-$k_T$ algorithm with R = 1.0 using calibrated 
+calorimeter clusters.The large R calorimeter jets are used for Higgs boson reconstruction in the boosted topology in this analysis.
+\par The variable radius track jet replaced the small fixed R = 0.2 track jets to be used for b-quark identification inside the large-R jets.
+
+\subsection{Calorimeter jets}
+\label{sec:calo}
+ \par Topological clusters (topo-cluster) are cells are clustered together to reconstruct such particle shower, due to fine granularity in calorimeters. 
+ The topo-cluster reconstruction is based on cell signal significance S/N, defined as the ratio of cell energy at electromagnetic energy scale over average expected noise. 
+ The reconstruction starts from a seed cell with signal significance above the threshold of S/N = 4. Then the neighbouring cells with signal significance over S/N = 2 are included iteratively.
+ Finally, all calorimeter cells neighbouring the formed topo-cluster are added. After the iteration, one outer layer of all surrounding cells are added, 
+ so the resulting topological cluster is at the electromagnetic scale.
+\par For large R jets, a local hadronic calibration (LCW) is then applied at cluster-by-cluster level to correct for non-compensation effect which underestimating the energy of hadronic particles.
+For small R jets, EM scale becomes the default for ATLAS in Run 2.
+\begin{figure}[htbp]
+ \begin{center}
+ \includegraphics[width=1\textwidth]{chapters/c5/figures/jet_calib}
+ \end{center}
+ \caption{Calibration stages for reconstructed jets.}
+ \label{fig:jet-calib}
+\end{figure}
+\par After jets are reconstructed, calibration needs to be applied on the four momentum of reconstructed jet to restore it back to particle-level energy scale.
+A series of calibrations are applied after jet clustering as shown in Fig~\ref{fig:jet-calib}.
+
+\begin{itemize}
+\item \textbf{Origin correction} The kinematic observables of each topo-cluster are recalculated using the vector from the primary hard-scattering vertex to the topo-cluster centroid as its direction. The resolution of $\eta$ can be improved in this step. The jet energy is unaffected.
+\item \textbf{Jet area-based pile-up correction} This step are designed to remove the excess energy from pile-ups. The area-based \pt density subtraction is applied event-by-event~\cite{Cacciari:2007fd}. The \pt density is estimated using the medium of \pt density of all jets in the event calculated by \pt/A, where A is the jet area.
+\item  \textbf{Residual pile-up correction} A residual \pt  dependency on in-time pile-up $N_{PV}$ and out-of-time pile-up $\mu$ is roughly linear. So the linear correction is applied with coefficients derived from MC simulation.  
+\item \textbf{Absolute MC-based calibration} An absolute jet energy and $\eta$ correction is derived from MC simulation. The average energy response is defined as the mean of $E_{reco}/E_{truth}$ binned in $E_{truth}$ and $\eta_{jet}$. Similar correction is done for $\eta$. 
+\item \textbf{Residual in situ calibration} This steps aims at correcting difference between data and MC. For jets up to 950 GeV and with $|\eta|$< 0.8, Z+jest and $\eta$+jet balance is used, while, for high-pT jet  up to 2 TeV, multijet balance is used.
+\end{itemize}
+
+\begin{itemize}
+\item \textbf{Trimming} This requires reclustering all of the jet’s constituents using the $k_T$ algorithm, which flavors clustering low \pt constituents first. This creates a set of subjets with radius parameter $R_{sub}$. Subjets with an energy below some threshold fraction of the energy of the large-R jet are removed from the large R jet. The trimmed large-R jet will be used to reconstruct Higgs candidates in boosted region.
+\item \textbf{Pruning} Pruning is similar to trimming as it removes constituents with relative small $p_T$, while it has an additional wide-angle radiation veto. Large-R jets are first built with C/A or $anti-k_t$  algorithm. Constituents of ungroomed large-R jet are then re-clustered with C/A algorithm based on $R_{cut}$ and $Z_{cut}$. In each pairwise clustering step, secondary constituents with wide-angle $\Delta R_{12} > R_{cut} \times \frac{2M}/\pt$ or soft property are discarded. Definition of being soft is that $f_2 < Z_{cut}$ where $f_2$ is the fraction of softer constituent \pt with respect to the pair.
+
+\end{itemize}
+
+
 \subsection{Track jets}
 \label{sec:track}
 Sample text sample text sample text. Sample text sample text sample text.
 Sample text sample text sample text. Sample text sample text sample text.
 Sample text sample text sample text. Sample text sample text sample text.
 
-\subsection{Calorimeter jets}
-\label{sec:calo}
-Sample text sample text sample text. Sample text sample text sample text.
-Sample text sample text sample text. Sample text sample text sample text.
-Sample text sample text sample text. Sample text sample text sample text.
 
 \section{Messing Transverse Energy/Momentum (MET) and Missing Transverse Energy Sigificance}
 
