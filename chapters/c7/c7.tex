@@ -2,31 +2,229 @@
 
 \label{ch:ana-sig}
 
-Sample text sample text sample text. Sample text sample text sample text.
-Sample text sample text sample text. Sample text sample text sample text.
-Sample text sample text sample text. Sample text sample text sample text.
-Sample text sample text sample text. Sample text sample text sample text.
-Sample text sample text sample text.
+\par Signal selection is a process to select target events with multiple filtering criteria based on the event signature. In this article, in order to obtain a high signal over background efficiencies, the physics object level selection is applied first, then, signal regions are designed. Moreover, control regions are also defined to constrain the background contribution.
 
-\section{Baseline selection}
-Sample text sample text sample text. Sample text sample text sample text.
-Sample text sample text sample text. Sample text sample text sample text.
-Sample text sample text sample text. Sample text sample text sample text.
+\section{Physics objects definition}
 
-\subsection{Sample subsection}
-Sample text sample text sample text. Sample text sample text sample text.
-Sample text sample text sample text. Sample text sample text sample text.
-Sample text sample text sample text. Sample text sample text sample text.
+\par As mentioned previously, leptons, jets and missing transverse momentum are the variables that are helpful to increase signal selection efficiencies.
 
-\section{Signal region}
+\subsection{Leptons}
 
-TODO, MC simulation in signal region, Pie chart + table. No data.
+\begin{itemize}
+    \item \textbf{Electrons}: Table~\ref{tab:c7:physobj:ele}.
+    \item \textbf{Muons}: Table~\ref{tab:c7:physobj:muo}.
+    \item \textbf{$\tau$-Leptons}: Table~\ref{tab:c7:physobj:tau}.
+\end{itemize}
 
-Sample text sample text sample text. Sample text sample text sample text.
-Sample text sample text sample text. Sample text sample text sample text.
-Sample text sample text sample text. Sample text sample text sample text.
+\begin{table}[ht]
+    \caption{Electron selection criteria.}
+    \label{tab:c7:physobj:ele}
+    \centering
+    \begin{tabular}{|c|c|}
+        \hline
+        Feature & Criterion \\
+        \hline
+        \hline
+        Pseudorapidity range & \(|\eta| < 2.47\) \\
+        \hline
+        Transverse momentum & \pt $> 7GeV$ \\
+        \hline
+        Track to vertex association & \(|d_{0}^{\text{BL}}(\sigma)| < 5\)\\ & \(|\Delta z_{0}^{\text{BL}} \sin{\theta}| < 0.5mm\) \\
+        \hline
+        Identification & \texttt{FCLoose} \\
+        \hline
+        Isolation & \texttt{LooseTrackOnly / FCHighPtCaloOnly} \\
+        \hline
+    \end{tabular}
+\end{table}
 
-\subsection{Sample subsection}
-Sample text sample text sample text. Sample text sample text sample text.
-Sample text sample text sample text. Sample text sample text sample text.
-Sample text sample text sample text. Sample text sample text sample text.
+\begin{table}[ht]
+    \caption{Muon selection criteria.}
+    \label{tab:c7:physobj:muo}
+    \centering
+    \begin{tabular}[ht]{|c|c|c|}
+        \hline
+        Feature & Baseline criterion & Signal criterion \\
+        \hline
+        \hline
+        Selection working point & \texttt{Loose} & \texttt{Medium} \\
+        \hline
+        Isolation working point & \texttt{FCLoose} &  \texttt{FCTightTrackOnly} \\
+        \hline
+        Momentum calibration & Sagitta correction & Sagitta correction \\
+        \hline
+        \pt cut & 7GeV & 7GeV \\ 
+        \(|\eta|\) cut & \(< 2.7\) & \(< 2.5\) \\
+        \hline
+        \(d_{0}\) significance cut & 3 & 3 \\
+        \hline
+        \(z_{0}\) cut & 0.5mm & 0.5mm \\
+        \hline
+    \end{tabular}
+\end{table}
+
+\begin{table}[ht]
+    \caption{Tau selection criteria.}
+    \label{tab:c7:physobj:tau}
+    \centering
+    \begin{tabular}{|c|c|}
+        \hline
+        Feature & Criterion \\
+        \hline
+        \hline
+        Pseudorapidity range & \(|\eta| < 2.5\) \\
+        \hline
+        Track selection & 1 or 3 tracks \\
+        \hline
+        Charge & \(|Q| = 1\) \\
+        \hline
+        Tau energy scale & \texttt{MVA TES} \\
+        \hline
+        Transverse momentum & \pt $> 20GeV$ \\
+        \hline
+        Jet rejection & BDT-based (\texttt{Loose}) \\
+        \hline
+        Electron rejection & BDT-based \\
+        \hline
+        Muon rejection & \specialcell{Via overlap removal in \(\Delta R < 0.2\) and \pt $> 2GeV$.\\ Muons must not be Calo-tagged} \\
+        \hline
+    \end{tabular}
+\end{table}
+
+\subsection{Jets}
+
+\begin{itemize}
+    \item \textbf{Small-radius jets}: Table~\ref{tab:c7:physobj:srjets}.
+    \item \textbf{Large-radius jets}: Table~\ref{tab:c7:physobj:lrjets}.
+    \item \textbf{Variable-radius jets}: %Table~\ref{tab:c7:physobj:vrjets}.
+    \item \textbf{b-jets}: Table~\ref{tab:c7:physobj:bjets}.
+\end{itemize}
+
+\begin{table}[ht]
+    \caption{Small-\(R\) jet reconstruction criteria.}
+    \label{tab:c7:physobj:srjets}
+    \centering
+    \begin{tabular}{|c|c|}
+        \hline
+        Feature & Criterion \\
+        \hline
+        \hline
+        Algorithm & Anti-$k_{t}$ \\
+        \hline
+        \(R\)-parameter & 0.4 \\
+        \hline
+        Input constituent & PFlow \\
+        \hline
+        \texttt{CalibArea} tag & 00-04-82 \\
+        \hline
+        Calibration configuration & \specialcell{\texttt{JES\_MC16Recommendation\_}\\\texttt{Consolidated\_EMTopo\_Apr2019\_Rel21.config}} \\
+        \hline
+        Calibration sequence (Data) & \texttt{JetArea\_Residual\_EtaJES\_GSC\_Insitu} \\
+        \hline
+        Calibration sequence (MC) & \texttt{JetArea\_Residual\_EtaJES\_GSC} \\
+        \hline
+        Jet cleaning & \texttt{TightBad} \\
+        \hline
+        \pt & \(> 20GeV\) (central) / \(> 30GeV\) (forward) \\
+        \hline
+        \(|\eta|\) & \(< 2.5\) (central) /  \(2.5 < |\eta| < 4.5 \) (forward) \\
+        \hline
+        JVT & \specialcell{\texttt{Medium} working point,\\applied only to central jets with \pt $< 120GeV$} \\
+        \hline
+    \end{tabular}
+\end{table}
+    
+\begin{table}[ht]
+    \caption{Large-\(R\) jet reconstruction criteria.}
+    \label{tab:c7:physobj:lrjets}
+    \centering
+    \begin{tabular}{|c|c|}
+        \hline
+        Feature & Criterion \\
+        \hline
+        \hline
+        Algorithm & Anti-$k_{t}$ \\
+        \hline
+        R-parameter & 1.0 \\
+        \hline
+        Input constituent & \texttt{LCTopo} \\
+        \hline
+        Grooming algorithm & Trimming \\
+        \hline
+        Subjet \pt fraction for trimming & 0.05 \\
+        \hline
+        \(R_{\text{trim}}\) & 0.2 \\
+        \hline
+        \texttt{CalibArea} tag & 00-04-82 \\
+        \hline
+        Calibration configuration (Data) & \specialcell{\texttt{JES\_MC16recommendation\_FatJet}\\\texttt{\_Trimmed\_JMS\_comb\_3April2019.config}} \\
+        \hline
+        Calibration configuration (MC) & \specialcell{\texttt{JES\_MC16recommendation\_FatJet}\_\\\texttt{Trimmed\_JMS\_comb\_17Oct2018.config}} \\
+        \hline
+        Calibration sequence (Data) & \texttt{EtaJES\_JMS\_Insitu} \\
+        \hline
+        Calibration sequence (MC) & \texttt{EtaJES\_JMS} \\
+        \hline
+        \pt & \(> 200GeV\) \\
+        \hline
+        \(|\eta|\) & \(< 2\) \\
+        \hline
+    \end{tabular}
+\end{table}
+
+\begin{table}[ht]
+    \caption{b-jets selection criteria.}
+    \label{tab:c7:physobj:bjets}
+    \centering
+    \begin{tabular}{|c|c|}
+        \hline
+        Feature & Criterion \\
+        \hline
+        \hline
+        Jet collection & \texttt{AntiKt4EMPFlow / AntiKtVR30Rmax4Rmin02} \\
+        \hline
+        Algorithm & \texttt{DL1} \\
+        \hline
+        Operating point & Eff = 77 \\
+        \hline
+        CDI & \texttt{2017-21-13TeV-MC16-CDI-2019-07-30\_v1} \\
+        \hline
+    \end{tabular}
+\end{table}
+  
+\subsection{Missing transverse momentum}
+
+\begin{table}[ht]
+    \caption{\met reconstruction criteria.}
+    \label{tab:c7:physobj:met}
+    \centering
+    \begin{tabular}{|c|c|}
+        \hline
+        Parameter & Value \\
+        \hline
+        \hline
+        Algorithm & Calo-based \\
+        \hline
+        Soft term & Track-based (TST) \\
+        \hline
+        MET operating point & \texttt{Tight} \\
+        \hline
+    \end{tabular}
+\end{table}
+
+\begin{equation}
+    \label{eq:met-signif}
+    \mathcal{S} =\frac{\left|\overrightarrow{\met}\right|^{2}}{\sigma_{L}^{2}\left(1-\rho_{LT}^{2}\right)}.
+\end{equation}
+
+\section{Signal regions}
+
+\subsection{Common event selection}
+
+\subsection{Resolved region}
+
+\subsection{Merged region}
+
+\section{Control regions}
+
+
