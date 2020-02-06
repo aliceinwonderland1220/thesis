@@ -169,11 +169,10 @@ calorimeter clusters.The large R calorimeter jets are used for Higgs boson recon
 \par For large R jets, a local hadronic calibration (LCW) is then applied at cluster-by-cluster level to correct for non-compensation effect which underestimating the energy of hadronic particles.
 For small R jets, EM scale becomes the default for ATLAS in Run 2.
 \begin{figure}[htbp]
- \begin{center}
- \includegraphics[width=1\textwidth]{chapters/c5/figures/jet_calib}
- \end{center}
- \caption{Calibration stages for reconstructed jets.}
- \label{fig:jet-calib}
+    \centering
+    \includegraphics[width=1\textwidth]{chapters/c5/figures/jet_calib}
+    \caption{Calibration stages for reconstructed jets.}
+    \label{fig:jet-calib}
 \end{figure}
 \par After jets are reconstructed, calibration needs to be applied on the four momentum of reconstructed jet to restore it back to particle-level energy scale.
 A series of calibrations are applied after jet clustering as shown in Fig~\ref{fig:jet-calib}.
@@ -291,14 +290,13 @@ The higher the number, the better the discrimination power against c-jets at the
 The performance of MV2c10 tagger~\cite{Varni:2655785} for discrimination against light-jet and c-jets can be found in Fig~\ref{fig:mv2c10}.
 
 \begin{figure}[htbp]
- \begin{center}
- \includegraphics[width=0.4\textwidth]{chapters/c5/figures/ROC_cb}
- \includegraphics[width=0.4\textwidth]{chapters/c5/figures/ROC_lb}
- \includegraphics[width=0.4\textwidth]{chapters/c5/figures/ROC_cb_Zprime}
- \includegraphics[width=0.4\textwidth]{chapters/c5/figures/ROC_lb_Zprime}
- \end{center}
- \caption{Expected performance of \textit{b}-tagging algorithm (MV2c10) for \textit{b}-jet triggers in 2018 data-taking (blue solid line) is compared to the same \textit{b}-tagging algorithm trained on the Hybrid training sample (red solid line).}
- \label{fig:mv2c10}
+    \centering 
+    \includegraphics[width=0.4\textwidth]{chapters/c5/figures/ROC_cb}
+    \includegraphics[width=0.4\textwidth]{chapters/c5/figures/ROC_lb}
+    \includegraphics[width=0.4\textwidth]{chapters/c5/figures/ROC_cb_Zprime}
+    \includegraphics[width=0.4\textwidth]{chapters/c5/figures/ROC_lb_Zprime}
+    \caption{Expected performance of \textit{b}-tagging algorithm (MV2c10) for \textit{b}-jet triggers in 2018 data-taking (blue solid line) is compared to the same \textit{b}-tagging algorithm trained on the Hybrid training sample (red solid line).}
+    \label{fig:mv2c10}
 \end{figure}
 
 \section{Messing Transverse Energy/Momentum (MET) and Missing Transverse Energy Sigificance}
@@ -333,22 +331,20 @@ are chosen after scanning different $\rho$ and radius as showd in Fig.~\ref{fig:
 ExKt subjet refers to exclusive regions of interest using exclusive-kT declustering of large-R jet. 
 And CoM jets are constructed via exclusive-kT declusting in center of mass frame instead of in the lab frame.
 \begin{figure}[htbp]
- \begin{center}
-  \includegraphics[width=0.6\textwidth]{chapters/c5/figures/VR}
-
- \end{center}
- \caption{A cartoon depicting how using VR track jets instead of R = 0.2 track jets.}
- \label{fig:vr}
+    \centering
+    \includegraphics[width=0.6\textwidth]{chapters/c5/figures/VR}
+    \caption{A cartoon depicting how using VR track jets instead of R = 0.2 track jets.}
+    \label{fig:vr}
 \end{figure}
+
 \begin{figure}[htbp]
- \begin{center}
-  \includegraphics[width=0.4\textwidth]{chapters/c5/figures/r-vr}
-  \includegraphics[width=0.4\textwidth]{chapters/c5/figures/rho-vr}
-
- \end{center}
+    \centering
+    \includegraphics[width=0.4\textwidth]{chapters/c5/figures/r-vr}
+    \includegraphics[width=0.4\textwidth]{chapters/c5/figures/rho-vr}
     \caption{Higgs effiency using two VR track jets with different R parameter (Left) and $\rho$ parameter (Right)} 
- \label{fig:vr-scan}
+    \label{fig:vr-scan}
 \end{figure}
+
 \par The double subjets b-labelling performance for the FR track jet, VR track jet, ExKt and CoM techniques could be found in Fig.~\ref{fig:higgs_pt}.
 The plot shows a dramatic decrease for the R = 0.2 track jet technique as the Higgs jet \pt~becomes larger than 1.2 TeV where this is precisely the region where the 
 R = 0.2 track jets are expected to merge. 
@@ -356,24 +352,20 @@ New techniques, however, could reconstruct Higgs jets with a \pt~of 3 TeV. And r
 QCD jet rejection are shown 
 in Fig.~\ref{fig:higgs_ROC}.
 
-
 \begin{figure}[htbp]
- \begin{center}
-  \includegraphics[width=0.6\textwidth]{chapters/c5/figures/higgs_pt}
-
- \end{center}
- \caption{Higgs efficiency using four different subjet techniques: R = 0.2 track jets, VR track jets, ExKt calorimeter jets, and CoM calorimeter jets.}
- \label{fig:higgs_pt}
+    \centering
+    \includegraphics[width=0.6\textwidth]{chapters/c5/figures/higgs_pt}
+    \caption{Higgs efficiency using four different subjet techniques: R = 0.2 track jets, VR track jets, ExKt calorimeter jets, and CoM calorimeter jets.}
+    \label{fig:higgs_pt}
 \end{figure}
 
 \begin{figure}[htbp]
- \begin{center}
-  \includegraphics[width=1\textwidth]{chapters/c5/figures/higgs_ROC}
-
- \end{center}
- \caption{ROC curves using four different subjet techniques: R = 0.2 track jets, VR track jets, ExKt calorimeter jets, and CoM calorimeter jets.}
- \label{fig:higgs_ROC}
+    \centering
+    \includegraphics[width=1\textwidth]{chapters/c5/figures/higgs_ROC}
+    \caption{ROC curves using four different subjet techniques: R = 0.2 track jets, VR track jets, ExKt calorimeter jets, and CoM calorimeter jets.}
+    \label{fig:higgs_ROC}
 \end{figure}
+
 \par The VR track jet technique was chosen to use as subjets in the mono-Higgs analysis as an existing framework to calibrate track jets was readily available in ATLAS.
 
 
