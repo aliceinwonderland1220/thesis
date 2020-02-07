@@ -302,11 +302,32 @@
 	\label{tab:c7:sigreg:summary}
 \end{table}
 
-
 \section{Control regions}
 \label{sec:ana-sig:ctlreg}
 \par Control regions are a set of phrase spaces that are orthogonal to signal regions. Control regions are designed to estimate the contribution of backgrounds in signal regions.
 
 \subsection{1-lepton channel}
+\par In the signal region the W+jets related background is mostly composed of events in which the $W$-boson decays leptonically. The $t\bar{t}$ background in the signal region originates almost only from semileptonic $t\bar{t}$ decays. Events with leptons can enter the signal region if the leptons fail to be identified or if they are outside the detector acceptance. The largest contribution comes from decays involving $\tau$-leptons, as shown in Figure~\ref{fig:ttbarDecayCat}. Figure~\ref{fig:ttbarDecayCatKinematic1} shows the distribution of different kinematic variables for the dominant decay modes. From these it can be seen that shapes of the event variables agree well within the statistical uncertainties. Therefore the W+jets and $t\bar{t}$ backgrounds can be estimated using a 1-lepton control region, in which the lepton could have any flavor in principle.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.9\textwidth]{chapters/c7/figures/ttbar-decay-modes.png}
+    \caption{Decay categories for $t\bar{t}$ events in the signal region. The classification of the decay processes was performed by examining the truth particle information within the reconstructed signal region events. The three dominant decay modes are the semileptonic decays with either a light lepton, a leptonically or a hadronically decaying $\tau$-lepton.}
+    \label{fig:ttbarDecayCat}
+\end{figure}
+
+\begin{figure}[h]
+    \centering
+	\includegraphics[width=0.45\textwidth]{chapters/c7/figures/ttbar_MetTST_met.pdf}
+	\includegraphics[width=0.45\textwidth]{chapters/c7/figures/ttbar_m_jj.pdf}
+	\includegraphics[width=0.45\textwidth]{chapters/c7/figures/ttbar_N_Jets04.pdf}		
+	\caption{Normalised distributions of \met, the Higgs boson candidate mass and the number of small-radius jets for $t\bar{t}$ events. The distributions are shown separately for the three semileptonic decay modes, which are the dominant decays modes in the signal region. The shapes of the distributions agree well within the statistical uncertainties.}
+	\label{fig:ttbarDecayCatKinematic}
+\end{figure}
+
+\par The 1-muon control region is chosen to constrain W+jets related background. Events in this control region is required to have exactly muon and no other baseline leptons.
 
 \subsection{2-lepton channel}
+\par A 2-lepton control region is used to estimate the Z+jets background. In the signal region the $Z(\to\nu\nu)+jets$ production leads to a significant amount of background events, which have the same decay topology as $Z(\to\ell\ell)+jets$, because the momentum of the $Z$ boson does not depend on its decay products. Hence the normalisation of $Z(\to\nu\nu)+jets$ events can be estimated with the help of a $Z(\to\ell\ell)+jets$ control region.
+
+\par The 2-lepton control region is defined by selecting exactly two muons or two electrons. At least one of the lepton need to saitisfy the signal lepton criteria with enough \pt to pass the trigger. The signal muon is required to have \pt $>25GeV$, while signal electron is \pt $>27GeV$. The other lepton is not required to pass signal lepton selection to increase the acceptance. More over, since the two lepton is supposed to reconstruct Z boson, a mass window requirement is implemented to identify the Z mass peak: $|m_{Z}-m_{ll}|<10GeV$.
