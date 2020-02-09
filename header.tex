@@ -7,6 +7,8 @@
 \usepackage{fancyhdr}
 \usepackage{subcaption}
 
+\usepackage[version-1-compatibility]{siunitx}
+
 \usepackage{afterpage}
 \usepackage[alsoload=hep]{siunitx}
 \usepackage{amsmath}
@@ -136,5 +138,11 @@
 %%%
 \newcommand{\pt}{\ensuremath{p_{\mathrm{T}}}} 
 \newcommand{\met}{\ensuremath{E_{\mathrm{T}}^{\mathrm{miss}}}}
-\newcommand*{\metnomu}{\ensuremath{E_{\text{T, $\mu$ invis.}}^{\text{miss}}}\xspace}
+\newcommand{\MET}{\ensuremath{E_{\mathrm{T}}^{\mathrm{miss}}}}
+\newcommand{\METnomu}{\ensuremath{E_{\mathrm{T, \mu~invis.}}^{\mathrm{miss}}}}
+
+\newcommand{\mtb}[1]{m_{\mathrm{T}}^{b,#1}}
+\newcommand{\mindphi}{\min_{j \in \{1,2,3\}}\Delta\phi(E_{\mathrm{T}}^{\mathrm{miss}},j)}
+\newunit{\ifb}{\per\femto\barn}
+
 
