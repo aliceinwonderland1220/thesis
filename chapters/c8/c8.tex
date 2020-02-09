@@ -34,9 +34,9 @@
 			mu24\_ivarmed\_OR\_HLT\_mu40\_MU\_EFF\_TrigStat & None \\ 
 			mu24\_ivarmed\_OR\_HLT\_mu50\_MU\_EFF\_TrigStat & None \\ 
 			mu26\_ivarmed\_OR\_HLT\_mu50\_MU\_EFF\_TrigStat & None \\ 
-            MUON\_EFF\_RECO\_STAT & Reconstruction uncertainty for \pt $>15GeV$ \\
+            MUON\_EFF\_RECO\_STAT & Reconstruction uncertainty for \pt~$>15GeV$ \\
             MUON\_EFF\_RECO\_SYS & None \\ 
-			MUON\_EFF\_RECO\_STAT\_LOWPT & \speciallcell{Reconstruction and \\ID efficiency uncertainty for \pt $<15GeV$} \\ 
+			MUON\_EFF\_RECO\_STAT\_LOWPT & \speciallcell{Reconstruction and \\ID efficiency uncertainty for \pt~$<15GeV$} \\ 
 			MUON\_EFF\_RECO\_SYS\_LOWPT & None \\ 
 			MUON\_ISO\_STAT & Isolation efficiency uncertainty \\ 
 			MUON\_ISO\_SYS & None \\ 
@@ -48,14 +48,14 @@
             MUONS\_ID & Energy resolution uncertainty from inner detector \\
             MUONS\_MS & Energy resolution uncertainty from muon system \\
             \hline
-            \multicolumn{2}{c}{\textbf{\met related}} \\
+            \multicolumn{2}{c}{\textbf{\met~related}} \\
             \hline
             METTrigStat & Trigger efficiency uncertainty \\
             METTrigSyst & None \\
             MET\_SoftTrk\_ResoPerp & \speciallcell{Track-based soft term related to \\transversal resolution uncertainty} \\ 
 			MET\_SoftTrk\_ResoPara & \speciallcell{Track-based soft term related to \\longitudinal resolution uncertainty} \\
 			MET\_SoftTrk\_Scale & \speciallcell{Track-based soft term related to \\longitudinal scale uncertainty} \\
-			MET\_JetTrk\_Scale  & \speciallcell{Track \met scale uncertainty \\due to tracks in jets} \\
+			MET\_JetTrk\_Scale  & \speciallcell{Track \met~scale uncertainty \\due to tracks in jets} \\
             PRW\_DATASF & \speciallcell{Uncertainty on data scale factor used \\for the computation of pileup reweighting} \\
             \hline
             \hline
@@ -82,7 +82,7 @@
             JET\_EtaIntercalibration\_NonClosure\_posEta & \speciallcell{$\eta$-intercalibration: non-closure uncertainty \\of jet response, positive $\eta$ component} \\
             JET\_Pileup\_OffsetMu & Pileup: Offset, term for number of interactions per crossing $\mu$ \\
             JET\_Pileup\_OffsetNPV & Pileup: Offset, term for number of primary vertices \\
-            JET\_Pileup\_PtTerm & Pileup: Offset, \pt term \\
+            JET\_Pileup\_PtTerm & Pileup: Offset, \pt~term \\
             JET\_Pileup\_RhoTopology & Pileup: Offset, $\rho$ topology uncertainty on jet areas \\
             JET\_Flavor\_Composition & Flavor composition uncertainty \\
             JET\_Flavor\_Response &  Flavor response uncertainty (dominated by gluon response) \\
@@ -91,7 +91,7 @@
             JET\_EffectiveNP\_Modelling & \speciallcell{Modelling components of effective jet energy scale uncertainties, \\split into 4 components} \\
             JET\_EffectiveNP\_Detector & \speciallcell{Detector components of effective jet energy scale uncertainties, \\split into 2 components} \\
             JET\_EffectiveNP\_Mixed & \speciallcell{Effective jet energy scale uncertainties coming from various sources, \\split into 3 components} \\
-            JET\_SingleParticle\_HighPt & Uncertainty related to high \pt jets \\
+            JET\_SingleParticle\_HighPt & Uncertainty related to high \pt~jets \\
             JET\_RelativeNonClosure\_MC16 & Closure of the calibration, relative to MC12a \\
             JET\_BJES\_Response & Jet energy scale uncertainty for $b$-jets \\
             JET\_JER\_DataVsMC\_MC16 & \speciallcell{Nuisance parameter covering when jet energy resolution \\in data smaller than resolution in MC} \\
@@ -127,7 +127,7 @@
             JET\_EffectiveNP\_R10\_Modelling & \speciallcell{Modelling components of effective jet energy scale uncertainties, \\split into 4 components} \\
             JET\_EffectiveNP\_R10\_Detector & \speciallcell{Detector components of effective jet energy scale uncertainties, \\split into 2 components} \\
             JET\_EffectiveNP\_R10\_Mixed & \speciallcell{Effective jet energy scale uncertainties coming from various sources, \\split into 3 components} \\
-            JET\_SingleParticle\_HighPt & Uncertainty related to high \pt jets (for R=0.4) \\
+            JET\_SingleParticle\_HighPt & Uncertainty related to high \pt~jets (for R=0.4) \\
             JET\_CombMass\_Baseline	& \speciallcell{Baseline uncertainty of the jet mass scale \\accounting for data-MC differences} \\
             JET\_CombMass\_Modelline & \speciallcell{Modelling uncertainty of the jet mass scale \\accounting for different MC generators} \\
             JET\_CombMass\_Tracking	& \speciallcell{Uncertainty of the jet mass scale accounting \\for tracking variations; 3 variations in total} \\
@@ -169,11 +169,11 @@
 \begin{enumerate}
     \item \textbf{Inclusive cross-section uncertainties}: Inclusive cross-section uncertainties are implemented in the fit using Gaussian priors that affect the normalisation of a given samples in all regions in a correlated manner (\texttt{OverallSys} in the \textsc{HistFactory} terminology \cite{Cranmer:1456844}). These uncertainties are applied only on the samples whose normalisation is not freely floating in the fit.
     \item \textbf{Shape uncertainties}: Shape uncertainties are uncertainties on the shape of the fitted discriminant ($m(b\bar{b})$). These uncertainties are estimated by comparing the shape of the fitted variables for the nominal MC samples and the alternative samples that probe the uncertainties that mentioned as sources of theoretical uncertainties. A comparison of the $m(b\bar{b})$ distribution between the nominal and the alternative MCs provide additional templates (histograms) that define the $\pm1\sigma$ variations (\texttt{HistoSys} in the \textsc{HistFactory} terminology)
-    \item \textbf{Relative acceptance uncertainties}: The theory uncertainties can also alter the shape of the observables used to separate the different fit regions. These shape differences induce normalisation/acceptance differences between the regions that are used in the fit. For example, differences in the \met shape can induce relative acceptance differences between the adjacent \met bins and differences in the lepton \pt spectrum can induce relative acceptance differences between the 0 and 1-lepton channels. These are included in the fit as Gaussian priors (\texttt{OverallSys}) whose magnitude is estimated by
+    \item \textbf{Relative acceptance uncertainties}: The theory uncertainties can also alter the shape of the observables used to separate the different fit regions. These shape differences induce normalisation/acceptance differences between the regions that are used in the fit. For example, differences in the \met~shape can induce relative acceptance differences between the adjacent \met~bins and differences in the lepton \pt~spectrum can induce relative acceptance differences between the 0 and 1-lepton channels. These are included in the fit as Gaussian priors (\texttt{OverallSys}) whose magnitude is estimated by
     \begin{equation}
     \sigma_{\text{accept}}=\sqrt{\sum_i \left( 1 - \left. \frac{N_A^{\text{alt},i}}{N_B^{\text{alt},i}} \middle/ \frac{N_A^{\text{nom}}}{N_B^{\text{nom}}} \right. \right)^2},
     \end{equation}
-    where $i$ runs over all alternative MC generators considered for a given process and $(A,B)=$(SR,CR1), (CR1,CR2), (\met bin1, \met bin2), (\met bin2, \met bin3), (resolved, merged). Since the uncertainty is relative between region $A$ and region $B$ it is only applied on region $B$ in the fit.
+    where $i$ runs over all alternative MC generators considered for a given process and $(A,B)=$(SR,CR1), (CR1,CR2), (\met~bin1, \met~bin2), (\met~bin2, \met~bin3), (resolved, merged). Since the uncertainty is relative between region $A$ and region $B$ it is only applied on region $B$ in the fit.
     \item \textbf{Flavour composition uncertainties}: An additional uncertainty on the flavour composition is assigned on the $W$ and $Z$+heavy flavour components ($Zhf, Whf$), which consist of $bb,cc,bc,bl$, in order to allow the $cc,bc,bl$ components to vary individually from the total $Zhf, Whf$ normalisation which is freely floating in the fit.
 \end{enumerate}
 
@@ -194,7 +194,7 @@
     \includegraphics[width=0.46\linewidth]{chapters/c8/figures/0L/DataMC_MonoH_Nominal_SR_Resolved_200_350_2b_m_jj_10GeV.pdf}\\
     \includegraphics[width=0.46\linewidth]{chapters/c8/figures/0L/DataMC_MonoH_Nominal_SR_Resolved_350_500_2b_m_jj_10GeV.pdf}
     \includegraphics[width=0.46\linewidth]{chapters/c8/figures/0L/DataMC_MonoH_Nominal_SR_Merged_2_0b_fatjets_m1_20GeV.pdf}
-    \caption{Higgs candidate mass spectra in the different \met regions with 2 $b$-tagged jets in the 0-lepton channel.}
+    \caption{Higgs candidate mass spectra in the different \met~regions with 2 $b$-tagged jets in the 0-lepton channel.}
     \label{fig:data-mc-0l-mjj-2b}
 \end{figure}
 
@@ -203,7 +203,7 @@
     \includegraphics[width=0.46\linewidth]{chapters/c8/figures/0L/DataMC_MonoH_Nominal_SR_Resolved_200_350_3+b_m_jj_10GeV.pdf}\\
     \includegraphics[width=0.46\linewidth]{chapters/c8/figures/0L/DataMC_MonoH_Nominal_SR_Resolved_350_500_3+b_m_jj_10GeV.pdf}
     \includegraphics[width=0.46\linewidth]{chapters/c8/figures/0L/DataMC_MonoH_Nominal_SR_Merged_2_1+b_fatjets_m1_20GeV.pdf}
-    \caption{Higgs candidate mass spectra in the different \met regions with at least 3 $b$-tagged jets in the 0-lepton channel.}
+    \caption{Higgs candidate mass spectra in the different \met~regions with at least 3 $b$-tagged jets in the 0-lepton channel.}
     \label{fig:data-mc-0l-mjj-3+b}
 \end{figure}
 
@@ -212,7 +212,7 @@
     \includegraphics[width=0.46\linewidth]{chapters/c8/figures/1L/DataMC_MonoH_Nominal_CR1_Resolved_200_350_2b_mu_charge.pdf}\\
     \includegraphics[width=0.46\linewidth]{chapters/c8/figures/1L/DataMC_MonoH_Nominal_CR1_Resolved_350_500_2b_mu_charge.pdf}
     \includegraphics[width=0.46\linewidth]{chapters/c8/figures/1L/DataMC_MonoH_Nominal_CR1_Merged_2_0b_mu_charge.pdf}
-    \caption{Muon charge distribution in the different \met regions with 2 $b$-tagged jets in the 1-lepton channel.}
+    \caption{Muon charge distribution in the different \met~regions with 2 $b$-tagged jets in the 1-lepton channel.}
     \label{fig:data-mc-1l-mu-charge-2b}
 \end{figure}
 
@@ -221,7 +221,7 @@
     \includegraphics[width=0.46\linewidth]{chapters/c8/figures/1L/DataMC_MonoH_Nominal_CR1_Resolved_200_350_3+b_mu_charge.pdf}\\
     \includegraphics[width=0.46\linewidth]{chapters/c8/figures/1L/DataMC_MonoH_Nominal_CR1_Resolved_350_500_3+b_mu_charge.pdf}
     \includegraphics[width=0.46\linewidth]{chapters/c8/figures/1L/DataMC_MonoH_Nominal_CR1_Merged_2_1+b_mu_charge.pdf}
-    \caption{Muon charge distribution in the different \met regions with least 3 $b$-tagged jets in the 1-lepton channel.}
+    \caption{Muon charge distribution in the different \met~regions with least 3 $b$-tagged jets in the 1-lepton channel.}
     \label{fig:data-mc-1l-mu-charge-3+b}
 \end{figure}
 
@@ -230,7 +230,7 @@
     \includegraphics[width=0.46\linewidth]{chapters/c8/figures/2L/DataMC_MonoH_Nominal_CR2_ll_Resolved_200_350_2b_N_BJets_04.pdf}\\
     \includegraphics[width=0.46\linewidth]{chapters/c8/figures/2L/DataMC_MonoH_Nominal_CR2_ll_Resolved_350_500_2b_N_BJets_04.pdf}
     \includegraphics[width=0.46\linewidth]{chapters/c8/figures/2L/DataMC_MonoH_Nominal_CR2_ll_Merged_2_0b_N_BTags_not_associated_02.pdf}
-    \caption{Total yields in the 2-lepton control region for different \met regions with 2 $b$-tagged jets.}
+    \caption{Total yields in the 2-lepton control region for different \met~regions with 2 $b$-tagged jets.}
     \label{fig:data-mc-2l-ll-nb-2b}
 \end{figure}
   
@@ -239,6 +239,6 @@
     \includegraphics[width=0.46\linewidth]{chapters/c8/figures/2L/DataMC_MonoH_Nominal_CR2_ll_Resolved_200_350_3+b_N_BJets_04.pdf}\\
     \includegraphics[width=0.46\linewidth]{chapters/c8/figures/2L/DataMC_MonoH_Nominal_CR2_ll_Resolved_350_500_3+b_N_BJets_04.pdf}
     \includegraphics[width=0.46\linewidth]{chapters/c8/figures/2L/DataMC_MonoH_Nominal_CR2_ll_Merged_2_1+b_N_BTags_not_associated_02.pdf}
-    \caption{Total yields in the 2-lepton control region for different \met regions with more than 2 $b$-tagged jets.}
+    \caption{Total yields in the 2-lepton control region for different \met~regions with more than 2 $b$-tagged jets.}
     \label{fig:data-mc-2l-ll-nb-3+b}
 \end{figure}
