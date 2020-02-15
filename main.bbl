@@ -1,0 +1,701 @@
+\begin{thebibliography}{100}
+
+\bibitem{LepInjectorStudy:1983aa}
+{LEP Design Report Vol.1}.
+\newblock 1983.
+
+\bibitem{LepInjectorStudy:1983ab}
+{LEP Design Report: Vol.2. The LEP Main Ring}.
+\newblock 1984.
+
+\bibitem{CERN-LHCC-96-041}
+{\em {ATLAS liquid-argon calorimeter: Technical Design Report}}.
+\newblock Technical Design Report ATLAS. CERN, Geneva, 1996.
+
+\bibitem{CERN-LHCC-96-042}
+{\em {ATLAS tile calorimeter: Technical Design Report}}.
+\newblock Technical Design Report ATLAS. CERN, Geneva, 1996.
+
+\bibitem{CERN-LHCC-97-022}
+{\em {ATLAS muon spectrometer: Technical Design Report}}.
+\newblock Technical Design Report ATLAS. CERN, Geneva, 1997.
+
+\bibitem{AHMAD200798}
+The silicon microstrip sensors of the atlas semiconductor tracker.
+\newblock {\em Nuclear Instruments and Methods in Physics Research Section A:
+  Accelerators, Spectrometers, Detectors and Associated Equipment}, 578(1):98
+  -- 118, 2007.
+
+\bibitem{ATLAS-CONF-2013-082}
+{Performance of Missing Transverse Momentum Reconstruction in ATLAS studied in
+  Proton-Proton Collisions recorded in 2012 at 8 TeV}.
+\newblock Technical Report ATLAS-CONF-2013-082, CERN, Geneva, Aug 2013.
+
+\bibitem{ATL-PHYS-PUB-2014-021}
+{ATLAS Run 1 Pythia8 tunes}.
+\newblock Technical Report ATL-PHYS-PUB-2014-021, CERN, Geneva, Nov 2014.
+
+\bibitem{ATLAS-CONF-2014-032}
+{Electron efficiency measurements with the ATLAS detector using the 2012 LHC
+  proton-proton collision data}.
+\newblock Technical Report ATLAS-CONF-2014-032, CERN, Geneva, Jun 2014.
+
+\bibitem{ATL-PHYS-PUB-2014-013}
+{Flavor Tagging with Track Jets in Boosted Topologies with the ATLAS Detector}.
+\newblock Technical Report ATL-PHYS-PUB-2014-013, CERN, Geneva, Aug 2014.
+
+\bibitem{ATL-PHYS-PUB-2015-041}
+{Electron identification measurements in ATLAS using $\sqrt{s}$ = 13 TeV data
+  with 50 ns bunch spacing}.
+\newblock Technical Report ATL-PHYS-PUB-2015-041, CERN, Geneva, Sep 2015.
+
+\bibitem{ATL-PHYS-PUB-2015-035}
+{Expected Performance of Boosted Higgs ($\rightarrow b\bar{b}$) Boson
+  Identification with the ATLAS Detector at $\sqrt{s} = 13$ TeV}.
+\newblock Technical Report ATL-PHYS-PUB-2015-035, CERN, Geneva, Aug 2015.
+
+\bibitem{ATL-PHYS-PUB-2015-022}
+{Expected performance of the ATLAS $b$-tagging algorithms in Run-2}.
+\newblock Technical Report ATL-PHYS-PUB-2015-022, CERN, Geneva, Jul 2015.
+
+\bibitem{ATL-PHYS-PUB-2015-045}
+{Reconstruction, Energy Calibration, and Identification of Hadronically
+  Decaying Tau Leptons in the ATLAS Experiment for Run-2 of the LHC}.
+\newblock Technical Report ATL-PHYS-PUB-2015-045, CERN, Geneva, Nov 2015.
+
+\bibitem{ATLAS-CONF-2016-039}
+{Boosted Higgs ($\rightarrow b\bar{b}$) Boson Identification with the ATLAS
+  Detector at $\sqrt{s} = 13$ TeV}.
+\newblock Technical Report ATLAS-CONF-2016-039, CERN, Geneva, Aug 2016.
+
+\bibitem{ATL-PHYS-PUB-2017-003}
+{Identification of Jets Containing $b$-Hadrons with Recurrent Neural Networks
+  at the ATLAS Experiment}.
+\newblock Technical Report ATL-PHYS-PUB-2017-003, CERN, Geneva, Mar 2017.
+
+\bibitem{ATL-PHYS-PUB-2017-013}
+{Optimisation and performance studies of the ATLAS $b$-tagging algorithms for
+  the 2017-18 LHC run}.
+\newblock Technical Report ATL-PHYS-PUB-2017-013, CERN, Geneva, Jul 2017.
+
+\bibitem{ATL-PHYS-PUB-2017-010}
+{Variable Radius, Exclusive-k$_{T}$, and Center-of-Mass Subjet Reconstruction
+  for Higgs($\rightarrow b\bar{b}$) Tagging in ATLAS}.
+\newblock Technical Report ATL-PHYS-PUB-2017-010, CERN, Geneva, Jun 2017.
+
+\bibitem{ATLAS-CONF-2018-039}
+{Search for Dark Matter Produced in Association with a Higgs Boson decaying to
+  $b\bar{b}$ at $\sqrt{s}= 13\,$TeV with the ATLAS Detector using
+  79.8$\,$fb$^{-1}$ of proton-proton collision data}.
+\newblock Technical Report ATLAS-CONF-2018-039, CERN, Geneva, Jul 2018.
+
+\bibitem{Aad:2008zzm}
+G.~Aad et~al.
+\newblock {The ATLAS Experiment at the CERN Large Hadron Collider}.
+\newblock {\em JINST}, 3:S08003, 2008.
+
+\bibitem{Aad:2012tfa}
+Georges Aad et~al.
+\newblock {Observation of a new particle in the search for the Standard Model
+  Higgs boson with the ATLAS detector at the LHC}.
+\newblock {\em Phys. Lett.}, B716:1--29, 2012.
+
+\bibitem{Aad:2011he}
+Georges Aad et~al.
+\newblock {Jet energy measurement with the ATLAS detector in proton-proton
+  collisions at $\sqrt{s}=7$ TeV}.
+\newblock {\em Eur. Phys. J.}, C73(3):2304, 2013.
+
+\bibitem{Aad:2014xaa}
+Georges Aad et~al.
+\newblock {Measurement of the $Z/\gamma^*$ boson transverse momentum
+  distribution in $pp$ collisions at $\sqrt{s}$ = 7 TeV with the ATLAS
+  detector}.
+\newblock {\em JHEP}, 09:145, 2014.
+
+\bibitem{Aad:2014mta}
+Georges Aad et~al.
+\newblock {Operation and performance of the ATLAS semiconductor tracker}.
+\newblock {\em JINST}, 9:P08009, 2014.
+
+\bibitem{Aad:2016jkr}
+Georges Aad et~al.
+\newblock {Muon reconstruction performance of the ATLAS detector in
+  proton–proton collision data at $\sqrt{s}$ =13 TeV}.
+\newblock {\em Eur. Phys. J.}, C76(5):292, 2016.
+
+\bibitem{Aad:2015ina}
+Georges Aad et~al.
+\newblock {Performance of pile-up mitigation techniques for jets in $pp$
+  collisions at $\sqrt{s}=8$ TeV using the ATLAS detector}.
+\newblock {\em Eur. Phys. J.}, C76(11):581, 2016.
+
+\bibitem{Aad:2016upy}
+Georges Aad et~al.
+\newblock {Topological cell clustering in the ATLAS calorimeters and its
+  performance in LHC Run 1}.
+\newblock {\em Eur. Phys. J.}, C77:490, 2017.
+
+\bibitem{Aamodt:2008zz}
+K.~Aamodt et~al.
+\newblock {The ALICE experiment at the CERN LHC}.
+\newblock {\em JINST}, 3:S08002, 2008.
+
+\bibitem{Benedikt:2018csr}
+A.~Abada et~al.
+\newblock {FCC-hh: The Hadron Collider}.
+\newblock {\em Eur. Phys. J. ST}, 228(4):755--1107, 2019.
+
+\bibitem{Abat:2008zza}
+E.~Abat et~al.
+\newblock {The ATLAS Transition Radiation Tracker (TRT) proportional drift
+  tube: Design and performance}.
+\newblock {\em JINST}, 3:P02013, 2008.
+
+\bibitem{Abe:2018bpo}
+Tomohiro Abe et~al.
+\newblock {LHC Dark Matter Working Group: Next-generation spin-0 dark matter
+  models}.
+\newblock {\em Phys. Dark Univ.}, page 100351, 2018.
+
+\bibitem{Adam:2015rua}
+R.~Adam et~al.
+\newblock {Planck 2015 results. I. Overview of products and scientific
+  results}.
+\newblock {\em Astron. Astrophys.}, 594:A1, 2016.
+
+\bibitem{Alioli:2010xd}
+Simone Alioli, Paolo Nason, Carlo Oleari, and Emanuele Re.
+\newblock {A general framework for implementing NLO calculations in shower
+  Monte Carlo programs: the POWHEG BOX}.
+\newblock {\em JHEP}, 06:043, 2010.
+
+\bibitem{Alves:2008zz}
+A.~Augusto Alves, Jr. et~al.
+\newblock {The LHCb Detector at the LHC}.
+\newblock {\em JINST}, 3:S08005, 2008.
+
+\bibitem{SimplifiedModels-Alves2012}
+Daniele Alves, Nima Arkani-Hamed, Sanjay Arora, Yang Bai, Matthew Baumgart,
+  Joshua Berger, Matthew Buckley, Bart Butler, Spencer Chang, Hsin-Chia Cheng,
+  Clifford Cheung, R~Sekhar Chivukula, Won~Sang Cho, Randy Cotta, Mariarosaria
+  D'Alfonso, Sonia~El Hedri, Rouven Essig, Jared~A Evans, Liam Fitzpatrick,
+  Patrick Fox, Roberto Franceschini, Ayres Freitas, James~S Gainer, Yuri
+  Gershtein, Richard Gray, Thomas Gregoire, Ben Gripaios, Jack Gunion, Tao Han,
+  Andy Haas, Per Hansson, JoAnne Hewett, Dmitry Hits, Jay Hubisz, Eder
+  Izaguirre, Jared Kaplan, Emanuel Katz, Can Kilic, Hyung-Do Kim, Ryuichiro
+  Kitano, Sue~Ann Koay, Pyungwon Ko, David Krohn, Eric Kuflik, Ian Lewis,
+  Mariangela Lisanti, Tao Liu, Zhen Liu, Ran Lu, Markus Luty, Patrick Meade,
+  David Morrissey, Stephen Mrenna, Mihoko Nojiri, Takemichi Okui, Sanjay Padhi,
+  Michele Papucci, Michael Park, Myeonghun Park, Maxim Perelstein, Michael
+  Peskin, Daniel Phalen, Keith Rehermann, Vikram Rentala, Tuhin Roy, Joshua~T
+  Ruderman, Veronica Sanz, Martin Schmaltz, Stephen Schnetzer, Philip Schuster,
+  Pedro Schwaller, Matthew~D Schwartz, Ariel Schwartzman, Jing Shao, Jessie
+  Shelton, David Shih, Jing Shu, Daniel Silverstein, Elizabeth Simmons, Sunil
+  Somalwar, Michael Spannowsky, Christian Spethmann, Matthew Strassler, Shufang
+  Su, Tim Tait, Brooks Thomas, Scott Thomas, Natalia Toro, Tomer Volansky, Jay
+  Wacker, Wolfgang Waltenberger, Itay Yavin, Felix Yu, Yue Zhao, and
+  Kathryn~Zurek and.
+\newblock Simplified models for {LHC} new physics searches.
+\newblock {\em Journal of Physics G: Nuclear and Particle Physics},
+  39(10):105005, sep 2012.
+
+\bibitem{Alwall:2014hca}
+J.~Alwall, R.~Frederix, S.~Frixione, V.~Hirschi, F.~Maltoni, O.~Mattelaer,
+  H.~S. Shao, T.~Stelzer, P.~Torrielli, and M.~Zaro.
+\newblock {The automated computation of tree-level and next-to-leading order
+  differential cross sections, and their matching to parton shower
+  simulations}.
+\newblock {\em JHEP}, 07:079, 2014.
+
+\bibitem{ApollinariG.:2017ojx}
+G.~Apollinari, I.~Béjar~Alonso, O.~Brüning, P.~Fessia, M.~Lamont, L.~Rossi,
+  and L.~Tavian.
+\newblock {High-Luminosity Large Hadron Collider (HL-LHC)}.
+\newblock {\em CERN Yellow Rep. Monogr.}, 4:1--516, 2017.
+
+\bibitem{Artoisenet:2012st}
+Pierre Artoisenet, Rikkert Frederix, Olivier Mattelaer, and Robbert Rietkerk.
+\newblock {Automatic spin-entangled decays of heavy resonances in Monte Carlo
+  simulations}.
+\newblock {\em JHEP}, 03:015, 2013.
+
+\bibitem{Assmann:691766}
+R~W Assmann.
+\newblock {Preliminary Beam-based specifications for the LHC collimators}.
+\newblock Technical Report LHC-PROJECT-NOTE-277, CERN, Geneva, Jan 2002.
+
+\bibitem{lowest_unprescaled_triggers}
+{ATLAS Collaboration}.
+\newblock TWiki.
+
+\bibitem{ATL-PHYS-PUB-2016-020}
+{ATLAS Collaboration}.
+\newblock {Studies on top-quark Monte Carlo modelling for Top2016}.
+\newblock {ATL-PHYS-PUB-2016-020}, 2016.
+
+\bibitem{Ball:2011mu}
+Richard~D. Ball, Valerio Bertone, Francesco Cerutti, Luigi Del~Debbio, Stefano
+  Forte, Alberto Guffanti, Jose~I. Latorre, Juan Rojo, and Maria Ubiali.
+\newblock {Impact of Heavy Quark Masses on Parton Distributions and LHC
+  Phenomenology}.
+\newblock {\em Nucl. Phys.}, B849:296--363, 2011.
+
+\bibitem{Ball:2012cx}
+Richard~D. Ball et~al.
+\newblock {Parton distributions with LHC data}.
+\newblock {\em Nucl. Phys.}, B867:244--289, 2013.
+
+\bibitem{Ball:2014uwa}
+Richard~D. Ball et~al.
+\newblock {Parton distributions for the LHC Run II}.
+\newblock {\em JHEP}, 04:040, 2015.
+
+\bibitem{calorimetry}
+David Barney.
+\newblock Calorimetry by examples.
+\newblock
+  \url{https://indico.cern.ch/event/526766/attachments/1269795/1881900/CalorimetryByExamples_2016.pdf}.
+
+\bibitem{Berlin:2014cfa}
+Asher Berlin, Tongyan Lin, and Lian-Tao Wang.
+\newblock {Mono-Higgs Detection of Dark Matter at the LHC}.
+\newblock {\em JHEP}, 06:078, 2014.
+
+\bibitem{Bothmann:2019yzt}
+Enrico Bothmann et~al.
+\newblock {Event Generation with Sherpa 2.2}.
+\newblock 2019.
+
+\bibitem{Branco:2011iw}
+G.~C. Branco, P.~M. Ferreira, L.~Lavoura, M.~N. Rebelo, Marc Sher, and Joao~P.
+  Silva.
+\newblock {Theory and phenomenology of two-Higgs-doublet models}.
+\newblock {\em Phys. Rept.}, 516:1--102, 2012.
+
+\bibitem{Bruning:2004ej}
+Oliver~S. Bruning, P.~Collier, P.~Lebrun, S.~Myers, R.~Ostojic, J.~Poole, and
+  P.~Proudlock.
+\newblock {LHC Design Report Vol.1: The LHC Main Ring}.
+\newblock 2004.
+
+\bibitem{Buning:2004wk}
+O.~Buning, P.~Collier, P.~Lebrun, S.~Myers, R.~Ostojic, J.~Poole, and
+  P.~Proudlock.
+\newblock {LHC Design Report. 2. The LHC infrastructure and general services}.
+\newblock 2004.
+
+\bibitem{Butterworth_2016}
+Jon Butterworth, Stefano Carrazza, Amanda Cooper-Sarkar, Albert~De Roeck, Joël
+  Feltesse, Stefano Forte, Jun Gao, Sasha Glazov, Joey Huston, Zahari Kassabov,
+  and et~al.
+\newblock Pdf4lhc recommendations for lhc run ii.
+\newblock {\em Journal of Physics G: Nuclear and Particle Physics},
+  43(2):023001, Jan 2016.
+
+\bibitem{Butterworth:2008iy}
+Jonathan~M. Butterworth, Adam~R. Davison, Mathieu Rubin, and Gavin~P. Salam.
+\newblock {Jet substructure as a new Higgs search channel at the LHC}.
+\newblock {\em Phys. Rev. Lett.}, 100:242001, 2008.
+
+\bibitem{PhysRevLett.10.531}
+Nicola Cabibbo.
+\newblock Unitary symmetry and leptonic decays.
+\newblock {\em Phys. Rev. Lett.}, 10:531--533, Jun 1963.
+
+\bibitem{Cacciari:2007fd}
+Matteo Cacciari and Gavin~P. Salam.
+\newblock {Pileup subtraction using jet areas}.
+\newblock {\em Phys. Lett.}, B659:119--126, 2008.
+
+\bibitem{Cacciari:2008gn}
+Matteo Cacciari, Gavin~P. Salam, and Gregory Soyez.
+\newblock {The Catchment Area of Jets}.
+\newblock {\em JHEP}, 04:005, 2008.
+
+\bibitem{Capeans:1291633}
+M~Capeans, G~Darbo, K~Einsweiller, M~Elsing, T~Flick, M~Garcia-Sciveres,
+  C~Gemme, H~Pernegger, O~Rohne, and R~Vuillermet.
+\newblock {ATLAS Insertable B-Layer Technical Design Report}.
+\newblock Technical Report CERN-LHCC-2010-013. ATLAS-TDR-19, Sep 2010.
+
+\bibitem{Cascioli:2011va}
+Fabio Cascioli, Philipp Maierhofer, and Stefano Pozzorini.
+\newblock {Scattering Amplitudes with Open Loops}.
+\newblock {\em Phys. Rev. Lett.}, 108:111601, 2012.
+
+\bibitem{Catani:2001cc}
+S.~Catani, F.~Krauss, R.~Kuhn, and B.~R. Webber.
+\newblock {QCD Matrix Elements + Parton Showers}.
+\newblock {\em JHEP}, 11:063, 2001.
+
+\bibitem{Chatrchyan:2008aa}
+S.~Chatrchyan et~al.
+\newblock {The CMS Experiment at the CERN LHC}.
+\newblock {\em JINST}, 3:S08004, 2008.
+
+\bibitem{Chatrchyan:2012xdj}
+Serguei Chatrchyan et~al.
+\newblock {Observation of a new boson at a mass of 125 GeV with the CMS
+  experiment at the LHC}.
+\newblock {\em Phys. Lett.}, B716:30--61, 2012.
+
+\bibitem{c8-evt-cleaning}
+ATLAS Collaboration.
+\newblock Atlas data preparation check list for physics analysis.
+\newblock
+  \url{https://twiki.cern.ch/twiki/bin/view/Atlas/DataPreparationCheckListForPhysicsAnalysis}.
+
+\bibitem{atlas}
+ATLAS Collaboration.
+\newblock Atlas detector \& technology, cern official page.
+\newblock \url{https://atlas.cern/discover/detector}.
+
+\bibitem{fact}
+ATLAS Collaboration.
+\newblock Atlas fact sheets.
+\newblock \url{https://atlasexperiment.org/fact-sheets-1-view.html}.
+
+\bibitem{Aad:1129811}
+ATLAS Collaboration.
+\newblock {The ATLAS Experiment at the CERN Large Hadron Collider}.
+\newblock {\em JINST}, 3:S08003. 437 p, 2008.
+\newblock Also published by CERN Geneva in 2010.
+
+\bibitem{Cornelissen:1020106}
+T~Cornelissen, M~Elsing, S~Fleischmann, W~Liebig, E~Moyse, and A~Salzburger.
+\newblock {Concepts, Design and Implementation of the ATLAS New Tracking
+  (NEWT)}.
+\newblock Technical Report ATL-SOFT-PUB-2007-007. ATL-COM-SOFT-2007-002, CERN,
+  Geneva, Mar 2007.
+
+\bibitem{Cranmer:1456844}
+Kyle Cranmer, George Lewis, Lorenzo Moneta, Akira Shibata, and Wouter Verkerke.
+\newblock {HistFactory: A tool for creating statistical models for use with
+  RooFit and RooStats}.
+\newblock Technical Report CERN-OPEN-2012-016, New York U., New York, Jan 2012.
+
+\bibitem{EvtGen}
+{D. J. Lange}.
+\newblock {The EvtGen particle decay simulation package}.
+\newblock {\em Nucl. Instrum. Meth. A}, 462:152, 2001.
+
+\bibitem{Denner:2016kdg}
+Ansgar Denner, Stefan Dittmaier, and Lars Hofer.
+\newblock {Collier: A fortran-based complex one-loop library in extended
+  regularizations}.
+\newblock {\em Comput. Phys. Commun.}, 212:220--238, 2017.
+
+\bibitem{Doble:2017syb}
+Niels Doble, Lau Gatignon, Kurt Hübner, and Edmund Wilson.
+\newblock {The Super Proton Synchrotron (SPS): A Tale of Two Lives}.
+\newblock {\em Adv. Ser. Direct. High Energy Phys.}, 27:135--177, 2017.
+
+\bibitem{Ellis:2009me}
+Stephen~D. Ellis, Christopher~K. Vermilion, and Jonathan~R. Walsh.
+\newblock {Recombination Algorithms and Jet Substructure: Pruning as a Tool for
+  Heavy Particle Searches}.
+\newblock {\em Phys. Rev.}, D81:094023, 2010.
+
+\bibitem{PhysRevLett.13.321}
+F.~Englert and R.~Brout.
+\newblock Broken symmetry and the mass of gauge vector mesons.
+\newblock {\em Phys. Rev. Lett.}, 13:321--323, Aug 1964.
+
+\bibitem{Feng:2010gw}
+Jonathan~L. Feng.
+\newblock {Dark Matter Candidates from Particle Physics and Methods of
+  Detection}.
+\newblock {\em Ann. Rev. Astron. Astrophys.}, 48:495--545, 2010.
+
+\bibitem{Frederix:2012ps}
+Rikkert Frederix and Stefano Frixione.
+\newblock {Merging meets matching in MC@NLO}.
+\newblock {\em JHEP}, 12:061, 2012.
+
+\bibitem{Frederix:2012dh}
+Rikkert Frederix, Emanuele Re, and Paolo Torrielli.
+\newblock {Single-top t-channel hadroproduction in the four-flavour scheme with
+  POWHEG and aMC@NLO}.
+\newblock {\em JHEP}, 09:130, 2012.
+
+\bibitem{Frixione:2007zp}
+Stefano Frixione, Eric Laenen, Patrick Motylinski, and Bryan~R. Webber.
+\newblock {Angular correlations of lepton pairs from vector boson and top quark
+  decays in Monte Carlo simulations}.
+\newblock {\em JHEP}, 04:081, 2007.
+
+\bibitem{Frixione:2008yi}
+Stefano Frixione, Eric Laenen, Patrick Motylinski, Bryan~R. Webber, and
+  Chris~D. White.
+\newblock {Single-top hadroproduction in association with a W boson}.
+\newblock {\em JHEP}, 07:029, 2008.
+
+\bibitem{Frixione:2007vw}
+Stefano Frixione, Paolo Nason, and Carlo Oleari.
+\newblock {Matching NLO QCD computations with Parton Shower simulations: the
+  POWHEG method}.
+\newblock {\em JHEP}, 11:070, 2007.
+
+\bibitem{Frixione:2007nw}
+Stefano Frixione, Paolo Nason, and Giovanni Ridolfi.
+\newblock {A positive-weight next-to-leading-order Monte Carlo for heavy
+  flavour hadroproduction}.
+\newblock {\em JHEP}, 09:126, 2007.
+
+\bibitem{Gilardoni:2011za}
+Simone Gilardoni and Django Manglunki, editors.
+\newblock {\em {Fifty years of the CERN Proton Synchrotron}}.
+\newblock 2011.
+
+\bibitem{Gleisberg:2008ta}
+T.~Gleisberg, Stefan H{\"o}che, F.~Krauss, M.~Schonherr, S.~Schumann,
+  F.~Siegert, and J.~Winter.
+\newblock {Event generation with SHERPA 1.1}.
+\newblock {\em JHEP}, 02:007, 2009.
+
+\bibitem{Gleisberg_2009}
+T~Gleisberg, S~Höche, F~Krauss, M~Schönherr, S~Schumann, F~Siegert, and
+  J~Winter.
+\newblock Event generation with sherpa 1.1.
+\newblock {\em Journal of High Energy Physics}, 2009(02):007–007, Feb 2009.
+
+\bibitem{Gleisberg:2008fv}
+Tanju Gleisberg and Stefan H{\"o}che.
+\newblock {Comix, a new matrix element generator}.
+\newblock {\em JHEP}, 12:039, 2008.
+
+\bibitem{PhysRevLett.30.1343}
+David~J. Gross and Frank Wilczek.
+\newblock Ultraviolet behavior of non-abelian gauge theories.
+\newblock {\em Phys. Rev. Lett.}, 30:1343--1346, Jun 1973.
+
+\bibitem{Hamilton:2012np}
+Keith Hamilton, Paolo Nason, and Giulia Zanderighi.
+\newblock {MINLO: Multi-Scale Improved NLO}.
+\newblock {\em JHEP}, 10:155, 2012.
+
+\bibitem{Hartanto:2015uka}
+Heribertus~B. Hartanto, Barbara J{\"a}ger, Laura Reina, and Doreen Wackeroth.
+\newblock {Higgs boson production in association with top quarks in the POWHEG
+  BOX}.
+\newblock {\em Phys. Rev. D}, 91(9):094003, 2015.
+
+\bibitem{He:1991qd}
+Xiao-Gang He, Girish~C. Joshi, H.~Lew, and R.~R. Volkas.
+\newblock {Simplest Z-prime model}.
+\newblock {\em Phys. Rev.}, D44:2118--2132, 1991.
+
+\bibitem{PhysRevLett.13.508}
+Peter~W. Higgs.
+\newblock Broken symmetries and the masses of gauge bosons.
+\newblock {\em Phys. Rev. Lett.}, 13:508--509, Oct 1964.
+
+\bibitem{Hirono:2641635}
+Toko Hirono, Marlon Barbero, Pierre Barrillon, Siddharth Bhat, Patrick
+  Breugnon, Ivan Caicedo, Zongde Chen, Michael Daas, Yavuz Degerli, Stephanie
+  Godiot, Fabrice Guilloux, Tomasz Hemperek, Fabian Hugging, Hans Kruger,
+  Patrick Pangaud, Piotr Rymaszewski, Philippe Schwemling, Maxence
+  Vandenbroucke, Tianyang Wang, and Norbert Wermes.
+\newblock {Depleted Fully Monolithic Active CMOS Pixel Sensors (DMAPS) in High
+  Resistivity 150~nm Technology for LHC}.
+\newblock {\em Nucl. Instrum. Methods Phys. Res., A},
+  924(arXiv:1803.09260):87--91. 5 p, Mar 2018.
+
+\bibitem{Hoeche:2011fd}
+Stefan H{\"o}che, Frank Krauss, Marek Sch{\"o}nherr, and Frank Siegert.
+\newblock {A critical appraisal of NLO+PS matching methods}.
+\newblock {\em JHEP}, 09:049, 2012.
+
+\bibitem{Hoeche:2012yf}
+Stefan H{\"o}che, Frank Krauss, Marek Sch{\"o}nherr, and Frank Siegert.
+\newblock {QCD matrix elements + parton showers. The NLO case}.
+\newblock {\em JHEP}, 04:027, 2013.
+
+\bibitem{Hoeche:2009rj}
+Stefan H{\"o}che, Frank Krauss, Steffen Schumann, and Frank Siegert.
+\newblock {QCD matrix elements and truncated showers}.
+\newblock {\em JHEP}, 05:053, 2009.
+
+\bibitem{muon}
+Kerstin Hoepfner.
+\newblock Muon detection at the lhc.
+\newblock
+  \url{https://indico.cern.ch/event/115060/attachments/49316/70878/CERN_May2011_Hoepfner_Muonsystems.pdf}.
+
+\bibitem{Kapteyn:1922zz}
+J.~C. Kapteyn.
+\newblock {First Attempt at a Theory of the Arrangement and Motion of the
+  Sidereal System}.
+\newblock {\em Astrophys. J.}, 55:302--328, 1922.
+
+\bibitem{Kobayashi:1973fv}
+Makoto Kobayashi and Toshihide Maskawa.
+\newblock {CP Violation in the Renormalizable Theory of Weak Interaction}.
+\newblock {\em Prog. Theor. Phys.}, 49:652--657, 1973.
+
+\bibitem{Krohn:2009zg}
+David Krohn, Jesse Thaler, and Lian-Tao Wang.
+\newblock {Jets with Variable R}.
+\newblock {\em JHEP}, 06:059, 2009.
+
+\bibitem{Krohn:2009th}
+David Krohn, Jesse Thaler, and Lian-Tao Wang.
+\newblock {Jet Trimming}.
+\newblock {\em JHEP}, 02:084, 2010.
+
+\bibitem{Luisoni:2013kna}
+Gionata Luisoni, Paolo Nason, Carlo Oleari, and Francesco Tramontano.
+\newblock {$HW^{\pm}$/HZ + 0 and 1 jet at NLO with the POWHEG BOX interfaced to
+  GoSam and their merging within MiNLO}.
+\newblock {\em JHEP}, 10:083, 2013.
+
+\bibitem{Undagoitia:2015gya}
+Teresa Marrodán~Undagoitia and Ludwig Rauch.
+\newblock {Dark matter direct-detection experiments}.
+\newblock {\em J. Phys.}, G43(1):013001, 2016.
+
+\bibitem{Martin:1997ns}
+Stephen~P. Martin.
+\newblock {A Supersymmetry primer}.
+\newblock pages 1--98, 1997.
+\newblock [Adv. Ser. Direct. High Energy Phys.18,1(1998)].
+
+\bibitem{PhysRev.122.345}
+Y.~Nambu and G.~Jona-Lasinio.
+\newblock Dynamical model of elementary particles based on an analogy with
+  superconductivity. i.
+\newblock {\em Phys. Rev.}, 122:345--358, Apr 1961.
+
+\bibitem{PhysRev.124.246}
+Y.~Nambu and G.~Jona-Lasinio.
+\newblock Dynamical model of elementary particles based on an analogy with
+  superconductivity. ii.
+\newblock {\em Phys. Rev.}, 124:246--254, Oct 1961.
+
+\bibitem{PhysRevLett.4.380}
+Yoichiro Nambu.
+\newblock Axial vector current conservation in weak interactions.
+\newblock {\em Phys. Rev. Lett.}, 4:380--382, Apr 1960.
+
+\bibitem{Nason:2004rx}
+Paolo Nason.
+\newblock {A new method for combining NLO QCD with shower Monte Carlo
+  algorithms}.
+\newblock {\em JHEP}, 11:040, 2004.
+
+\bibitem{PhysRevLett.48.223}
+Heinz Pagels and Joel~R. Primack.
+\newblock Supersymmetry, cosmology, and new physics at teraelectronvolt
+  energies.
+\newblock {\em Phys. Rev. Lett.}, 48:223--226, Jan 1982.
+
+\bibitem{Peccei:2006as}
+R.~D. Peccei.
+\newblock {The Strong CP problem and axions}.
+\newblock {\em Lect. Notes Phys.}, 741:3--17, 2008.
+\newblock [,3(2006)].
+
+\bibitem{Pich:1998xt}
+Antonio Pich.
+\newblock {Effective field theory: Course}.
+\newblock In {\em {Probing the standard model of particle interactions.
+  Proceedings, Summer School in Theoretical Physics, NATO Advanced Study
+  Institute, 68th session, Les Houches, France, July 28-September 5, 1997. Pt.
+  1, 2}}, pages 949--1049, 1998.
+
+\bibitem{PhysRevLett.30.1346}
+H.~David Politzer.
+\newblock Reliable perturbative results for strong interactions?
+\newblock {\em Phys. Rev. Lett.}, 30:1346--1349, Jun 1973.
+
+\bibitem{Pumplin:2002vw}
+J.~Pumplin et~al.
+\newblock {New Generation of Parton Distributions with Uncertainties From
+  Global QCD Analysis}.
+\newblock {\em JHEP}, 07:012, 2002.
+
+\bibitem{Ruiz-Martinez:2133909}
+Aranzazu Ruiz-Martinez and ATLAS Collaboration.
+\newblock {The Run-2 ATLAS Trigger System}.
+\newblock Technical Report ATL-DAQ-PROC-2016-003, CERN, Geneva, Feb 2016.
+
+\bibitem{Salam:2009jx}
+Gavin~P. Salam.
+\newblock {Towards Jetography}.
+\newblock {\em Eur. Phys. J.}, C67:637--686, 2010.
+
+\bibitem{Schmaltz:2005ky}
+Martin Schmaltz and David Tucker-Smith.
+\newblock {Little Higgs review}.
+\newblock {\em Ann. Rev. Nucl. Part. Sci.}, 55:229--270, 2005.
+
+\bibitem{Schumann:2007mg}
+Steffen Schumann and Frank Krauss.
+\newblock {A Parton shower algorithm based on Catani-Seymour dipole
+  factorisation}.
+\newblock {\em JHEP}, 03:038, 2008.
+
+\bibitem{Servant:2002aq}
+Geraldine Servant and Timothy M.~P. Tait.
+\newblock {Is the lightest Kaluza-Klein particle a viable dark matter
+  candidate?}
+\newblock {\em Nucl. Phys.}, B650:391--419, 2003.
+
+\bibitem{Sjostrand:2007gs}
+Torbjorn Sjostrand, Stephen Mrenna, and Peter~Z. Skands.
+\newblock {A Brief Introduction to PYTHIA 8.1}.
+\newblock {\em Comput. Phys. Commun.}, 178:852--867, 2008.
+
+\bibitem{Sjostrand:2014zea}
+Torbjörn Sjöstrand, Stefan Ask, Jesper~R. Christiansen, Richard Corke,
+  Nishita Desai, Philip Ilten, Stephen Mrenna, Stefan Prestel, Christine~O.
+  Rasmussen, and Peter~Z. Skands.
+\newblock {An Introduction to PYTHIA 8.2}.
+\newblock {\em Comput. Phys. Commun.}, 191:159--177, 2015.
+
+\bibitem{VanDenWollenberg:1981533}
+Wouter Van Den~Wollenberg, Michael Kagan, Emily Thompson, and Lei Zhou.
+\newblock {Measurement of the Track-Jet $b$-Tagging Efficiency of the MV1
+  algorithm in $pp$ Collisions at $\sqrt{s}=8$ TeV using $e\mu$ Dilepton
+  $t\bar{t}$ events}.
+\newblock Technical Report ATL-COM-PHYS-2015-009, CERN, Geneva, Jan 2015.
+
+\bibitem{Varni:2655785}
+Carlo Varni and Stephen~Jacob Sekula.
+\newblock {b-tagging hybrid performances for b-jet triggers}.
+\newblock Technical Report ATL-COM-DAQ-2019-018, CERN, Geneva, Feb 2019.
+
+\bibitem{PhysRevLett.19.1264}
+Steven Weinberg.
+\newblock A model of leptons.
+\newblock {\em Phys. Rev. Lett.}, 19:1264--1266, Nov 1967.
+
+\bibitem{White:1984yj}
+Simon D.~M. White, C.~S. Frenk, and M.~Davis.
+\newblock {Clustering in a Neutrino Dominated Universe}.
+\newblock {\em Astrophys. J.}, 274:L1--L5, 1983.
+\newblock [,80(1984)].
+
+\bibitem{Winter:2003tt}
+Jan-Christopher Winter, Frank Krauss, and Gerhard Soff.
+\newblock {A modified cluster-hadronization model}.
+\newblock {\em Eur. Phys. J. C}, 36:381--395, 2004.
+
+\bibitem{PhysRev.96.191}
+C.~N. Yang and R.~L. Mills.
+\newblock Conservation of isotopic spin and isotopic gauge invariance.
+\newblock {\em Phys. Rev.}, 96:191--195, Oct 1954.
+
+\bibitem{Zeldovich:1982zz}
+{\relax Ya}.~B. Zeldovich, J.~Einasto, and S.~F. Shandarin.
+\newblock {Giant Voids in the Universe}.
+\newblock {\em Nature}, 300:407--413, 1982.
+
+\bibitem{Zwicky:1933gu}
+F.~Zwicky.
+\newblock {Die Rotverschiebung von extragalaktischen Nebeln}.
+\newblock {\em Helv. Phys. Acta}, 6:110--127, 1933.
+\newblock [Gen. Rel. Grav.41,207(2009)].
+
+\end{thebibliography}

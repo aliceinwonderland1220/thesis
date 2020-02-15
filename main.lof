@@ -1,0 +1,61 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Particles of the Standard Model of particle physics\relax }}{6}{figure.caption.4}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces The rotation curve for spiral galaxy NGC 3198. The blue diamonds are the observations and reveal the almost flat-like nature of the curve in the outer regions of the galaxy. The dashed green line is the curve for Newtonian gravity. It shows that the rotational velocity should decrease with distance from the galaxy center. The solid red line through the data points is the curve obtained by assuming a simple Gaussian energy scale variation and a simple Gaussian density distribution for the galaxy.\relax }}{14}{figure.caption.6}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Left: an s-channel Feynman diagram of the interaction between quarks and dark matter candidates via a scalar mediator. Right: the corresponding effective field theory contact interaction.\relax }}{17}{figure.caption.7}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Feynman diagram of the interaction between Standard Model quarks and a $Z^{\prime }$ boson.\relax }}{20}{figure.caption.8}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces The Feynman diagram of the interaction between the Standard Model quarks and $Z^{\prime }$ boson.\relax }}{20}{figure.caption.9}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces The Feynman diagram of $b\bar {b}$ decayed Higgs channel in $Z^{\prime }+2HDM$.\relax }}{21}{figure.caption.10}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces The LHC full injection chain.\relax }}{24}{figure.caption.11}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Cumulative luminosity versus time delivered to ATLAS (green), recorded by ATLAS (yellow) during stable beams for pp collisions at 13 TeV centre-of-mass energy in 2015-2018.\relax }}{25}{figure.caption.12}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Cut-away view of the ATLAS detector\relax }}{29}{figure.caption.14}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces An image of the ATLAS detector, showing the different layers and the interactions of different particle types through the layers.\relax }}{30}{figure.caption.15}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Cut-away view of the ATLAS Inner Detector.\relax }}{31}{figure.caption.16}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces A schematic view of the active region of the Pixel detector consisting of barrel and end-cap layers (\ref {fig:pixel1}) and the IBL detector before the insertion (\ref {fig:pixel2})\relax }}{32}{figure.caption.17}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Cut-away view of ATLAS calorimeter system\relax }}{34}{figure.caption.18}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Accordion structure of the barrel. The left figure is a view of a small sector of the barrel calorimeter in a plane transverse to the LHC beams. The right figure is a diagram of a sketch of barrel module showing both accordion structure and granularity in $\eta - \phi $ of the cells on each of layer\relax }}{36}{figure.caption.19}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Illustration of a Tile calorimeter module.\relax }}{37}{figure.caption.20}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Geometric layout of muon sub-detectors in barrel (\ref {fig:mu-bar}) and end-cap (\ref {fig:mu-end}) region.\relax }}{38}{figure.caption.21}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Cut-away view of the ATLAS Inner Detector.\relax }}{39}{figure.caption.22}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces b\relax }}{40}{figure.caption.23}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Cross sections of physics processes produced by hadron colliders\nobreakspace {}\ref {fig:cross}\relax }}{40}{figure.caption.23}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces The ATLAS TDAQ system in Run 2 with the relevant components for triggering.\relax }}{41}{figure.caption.24}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Calibration stages for reconstructed jets.\relax }}{49}{figure.caption.28}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces The Expected performance of the \textit {b}-tagging algorithm (MV2c10) for \textit {b}-jet triggers in 2018 data-taking (blue solid line) is compared to the same \textit {b}-tagging algorithm trained on the Hybrid training sample (red solid line).\relax }}{55}{figure.caption.30}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces A cartoon depicting using VR track jets instead of R = 0.2 track jets.\relax }}{57}{figure.caption.31}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Higgs effiency using two VR track jets with different R parameter (Left) and $\rho $ parameter (Right)\relax }}{58}{figure.caption.32}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Higgs efficiency using four different subjet techniques: R = 0.2 track jets, VR track jets, ExKt calorimeter jets, and CoM calorimeter jets.\relax }}{58}{figure.caption.33}
+\contentsline {figure}{\numberline {6.6}{\ignorespaces ROC curves using four different subjet techniques: R = 0.2 track jets, VR track jets, ExKt calorimeter jets, and CoM calorimeter jets in two different jet \ensuremath {p_{\mathrm {T}}}ranges\relax }}{59}{figure.caption.34}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {7.1}{\ignorespaces ROC plot: Comparison between Hbb taggers (Left) and Top taggers (Right).\relax }}{65}{figure.caption.36}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Higgs efficiency (left) and Background rejection (right) as a function of large-radius jet \ensuremath {p_{\mathrm {T}}}\relax }}{66}{figure.caption.37}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Measured trigger efficiencies as a function of offline \ensuremath {E_{\mathrm {T, \mu \nobreakspace {}invis.}}^{\mathrm {miss}}}\nobreakspace {}in data and MC for the \ensuremath {E_{\mathrm {T}}^{\mathrm {miss}}}\nobreakspace {}triggers used in 2015-2018. The plots are shown for 0,1 and 2 tags together. The lower panels provide the ratio of data and MC events (the scale factor).\relax }}{70}{figure.caption.38}
+\contentsline {figure}{\numberline {8.2}{\ignorespaces Measured scale factors as a function of offline \ensuremath {E_{\mathrm {T, \mu \nobreakspace {}invis.}}^{\mathrm {miss}}}\nobreakspace {}for the \ensuremath {E_{\mathrm {T}}^{\mathrm {miss}}}\nobreakspace {}triggers used in 2015-2010. The scale factors were derived for 0,1 and 2 tags together. The hatched band shows the 1$\sigma $ fit uncertainty.\relax }}{72}{figure.caption.39}
+\contentsline {figure}{\numberline {8.3}{\ignorespaces Validation plots showing \ensuremath {E_{\mathrm {T}}^{\mathrm {miss}}}\nobreakspace {}trigger efficiencies and scale factors as function of offline \ensuremath {E_{\mathrm {T, \mu \nobreakspace {}invis.}}^{\mathrm {miss}}}\nobreakspace {}after applying scale factor corrections for $\ensuremath {E_{\mathrm {T, \mu \nobreakspace {}invis.}}^{\mathrm {miss}}}>100\tmspace +\thinmuskip {.1667em}\GeV $ to the MC in the full single lepton region. Good agreement is observed between data and MC.\relax }}{73}{figure.caption.40}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {9.1}{\ignorespaces Decay categories for $t\bar {t}$ events in the signal region. The classification of the decay processes was performed by examining the truth particle information within the reconstructed signal region events. The three dominant decay modes are the semileptonic decays with either a light lepton, a leptonically or a hadronically decaying $\tau $-lepton.\relax }}{86}{figure.caption.50}
+\contentsline {figure}{\numberline {9.2}{\ignorespaces Normalised distributions of \ensuremath {E_{\mathrm {T}}^{\mathrm {miss}}}, the Higgs boson candidate mass and the number of small-radius jets for $t\bar {t}$ events. The distributions are shown separately for the three semileptonic decay modes, which are the dominant decays modes in the signal region. The shapes of the distributions agree well within the statistical uncertainties.\relax }}{87}{figure.caption.51}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {10.1}{\ignorespaces Higgs candidate mass spectra in the different \ensuremath {E_{\mathrm {T}}^{\mathrm {miss}}}\nobreakspace {}regions with 2 $b$-tagged jets in the 0-lepton channel.\relax }}{92}{figure.caption.55}
+\contentsline {figure}{\numberline {10.2}{\ignorespaces Higgs candidate mass spectra in the different \ensuremath {E_{\mathrm {T}}^{\mathrm {miss}}}\nobreakspace {}regions with at least 3 $b$-tagged jets in the 0-lepton channel.\relax }}{96}{figure.caption.56}
+\contentsline {figure}{\numberline {10.3}{\ignorespaces Muon charge distribution in the different \ensuremath {E_{\mathrm {T}}^{\mathrm {miss}}}\nobreakspace {}regions with 2 $b$-tagged jets in the 1-lepton channel.\relax }}{97}{figure.caption.57}
+\contentsline {figure}{\numberline {10.4}{\ignorespaces Muon charge distribution in the different \ensuremath {E_{\mathrm {T}}^{\mathrm {miss}}}\nobreakspace {}regions with least 3 $b$-tagged jets in the 1-lepton channel.\relax }}{98}{figure.caption.58}
+\contentsline {figure}{\numberline {10.5}{\ignorespaces Total yields in the 2-lepton control region for different \ensuremath {E_{\mathrm {T}}^{\mathrm {miss}}}\nobreakspace {}regions with 2 $b$-tagged jets.\relax }}{99}{figure.caption.59}
+\contentsline {figure}{\numberline {10.6}{\ignorespaces Total yields in the 2-lepton control region for different \ensuremath {E_{\mathrm {T}}^{\mathrm {miss}}}\nobreakspace {}regions with more than 2 $b$-tagged jets.\relax }}{100}{figure.caption.60}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {B.1}{\ignorespaces ROC plot: Comparison between different working points of CombinedXbbScore\relax }}{109}{figure.caption.61}
+\contentsline {figure}{\numberline {B.2}{\ignorespaces Leading Fatjet mass in Merged region (left) and 2b Merged region defined by 2-b tagged VR (right)\relax }}{110}{figure.caption.63}
+\contentsline {figure}{\numberline {B.3}{\ignorespaces Leading Fatjet mass in 2b Merged region defined by CombinedXbbScore\relax }}{110}{figure.caption.64}
+\contentsline {figure}{\numberline {B.4}{\ignorespaces Large-R jet mass distribution in the 2-btagged singal and control regions.\relax }}{111}{figure.caption.65}
+\contentsline {figure}{\numberline {B.5}{\ignorespaces Fraction of large-R jets with bb labeling (left) and without bb labeling (right) in with W+jets samples.\relax }}{112}{figure.caption.66}
+\contentsline {figure}{\numberline {B.6}{\ignorespaces Fraction of large-R jets with bb labeling (left) and without bb labeling (right) in with Z+jets samples.\relax }}{112}{figure.caption.67}
+\contentsline {figure}{\numberline {B.7}{\ignorespaces Flavor breakdown of backgrounds with truth labeling in singal and control regions.\relax }}{114}{figure.caption.68}
+\contentsline {figure}{\numberline {B.8}{\ignorespaces Ratio of singal significance of 2b merged region defined by CombinedXbbScore compared to the orignal method with or without the Higgs window.\relax }}{115}{figure.caption.72}

@@ -1,0 +1,106 @@
+\BOOKMARK [-1][]{part.1}{I Introduction}{}% 1
+\BOOKMARK [0][]{chapter.1}{1 Introduction}{part.1}% 2
+\BOOKMARK [-1][]{part.2}{II The standard model and Dark Matter}{}% 3
+\BOOKMARK [0][]{chapter.2}{2 The Standard Model}{part.2}% 4
+\BOOKMARK [1][]{section.2.1}{2.1 Introduction}{chapter.2}% 5
+\BOOKMARK [1][]{section.2.2}{2.2 Particles}{chapter.2}% 6
+\BOOKMARK [1][]{section.2.3}{2.3 Interactions}{chapter.2}% 7
+\BOOKMARK [1][]{section.2.4}{2.4 Gauge theory}{chapter.2}% 8
+\BOOKMARK [1][]{section.2.5}{2.5 The formation of the Lagrangian of the Standard Model}{chapter.2}% 9
+\BOOKMARK [1][]{section.2.6}{2.6 Spontaneous Symmetry Breaking and the Higgs mechanism}{chapter.2}% 10
+\BOOKMARK [1][]{section.2.7}{2.7 Challenges}{chapter.2}% 11
+\BOOKMARK [0][]{chapter.3}{3 Dark matter}{part.2}% 12
+\BOOKMARK [1][]{section.3.1}{3.1 Dark matter: From astrophysics to particle physics}{chapter.3}% 13
+\BOOKMARK [1][]{section.3.2}{3.2 Weakly Interacting Massive Particles}{chapter.3}% 14
+\BOOKMARK [1][]{section.3.3}{3.3 Searches for dark matter in collider experiments}{chapter.3}% 15
+\BOOKMARK [2][]{subsection.3.3.1}{3.3.1 Effective field theory}{section.3.3}% 16
+\BOOKMARK [2][]{subsection.3.3.2}{3.3.2 The simplified model}{section.3.3}% 17
+\BOOKMARK [2][]{subsection.3.3.3}{3.3.3 Z and Two-Higgs-doublet models}{section.3.3}% 18
+\BOOKMARK [-1][]{part.3}{III The LHC and ATLAS experiment}{}% 19
+\BOOKMARK [0][]{chapter.4}{4 The LHC}{part.3}% 20
+\BOOKMARK [1][]{section.4.1}{4.1 The LHC performance}{chapter.4}% 21
+\BOOKMARK [2][]{subsection.4.1.1}{4.1.1 Beam energy}{section.4.1}% 22
+\BOOKMARK [2][]{subsection.4.1.2}{4.1.2 Luminosity}{section.4.1}% 23
+\BOOKMARK [1][]{section.4.2}{4.2 The LHC operation}{chapter.4}% 24
+\BOOKMARK [0][]{chapter.5}{5 The ATLAS experiment}{part.3}% 25
+\BOOKMARK [1][]{section.5.1}{5.1 Inner detector}{chapter.5}% 26
+\BOOKMARK [2][]{subsection.5.1.1}{5.1.1 Pixel detector}{section.5.1}% 27
+\BOOKMARK [2][]{subsection.5.1.2}{5.1.2 Semiconductor Tracker \(SCT\)}{section.5.1}% 28
+\BOOKMARK [2][]{subsection.5.1.3}{5.1.3 Transition Radiation Tracker \(TRT\)}{section.5.1}% 29
+\BOOKMARK [1][]{section.5.2}{5.2 Calorimeter}{chapter.5}% 30
+\BOOKMARK [2][]{subsection.5.2.1}{5.2.1 Liquid Argon Calorimeter}{section.5.2}% 31
+\BOOKMARK [2][]{subsection.5.2.2}{5.2.2 Tile Calorimeter}{section.5.2}% 32
+\BOOKMARK [1][]{section.5.3}{5.3 Muon Spectrometer \(MS\)}{chapter.5}% 33
+\BOOKMARK [1][]{section.5.4}{5.4 Forward Detectors}{chapter.5}% 34
+\BOOKMARK [1][]{section.5.5}{5.5 Trigger and Data Acquisition}{chapter.5}% 35
+\BOOKMARK [-1][]{part.4}{IV ATLAS Physics Objects and Event Reconstruction}{}% 36
+\BOOKMARK [0][]{chapter.6}{6 Physics Objects}{part.4}% 37
+\BOOKMARK [1][]{section.6.1}{6.1 Inner Detector Tracks and Primary Vertex}{chapter.6}% 38
+\BOOKMARK [1][]{section.6.2}{6.2 Electrons}{chapter.6}% 39
+\BOOKMARK [1][]{section.6.3}{6.3 Muons}{chapter.6}% 40
+\BOOKMARK [1][]{section.6.4}{6.4 Taus}{chapter.6}% 41
+\BOOKMARK [1][]{section.6.5}{6.5 Jets}{chapter.6}% 42
+\BOOKMARK [2][]{subsection.6.5.1}{6.5.1 Calorimeter jets}{section.6.5}% 43
+\BOOKMARK [2][]{subsection.6.5.2}{6.5.2 Track jets}{section.6.5}% 44
+\BOOKMARK [2][]{subsection.6.5.3}{6.5.3 Ghost Association}{section.6.5}% 45
+\BOOKMARK [2][]{subsection.6.5.4}{6.5.4 Flavor tagging}{section.6.5}% 46
+\BOOKMARK [1][]{section.6.6}{6.6 Missing Transverse Momentum \(ETmiss\) and Missing Transverse Momentum Significance}{chapter.6}% 47
+\BOOKMARK [1][]{section.6.7}{6.7 Higgs tagging}{chapter.6}% 48
+\BOOKMARK [2][]{subsection.6.7.1}{6.7.1 Higgs tagging with advanced subjets}{section.6.7}% 49
+\BOOKMARK [0][]{chapter.7}{7 Double-b tagger}{part.4}% 50
+\BOOKMARK [1][]{section.7.1}{7.1 Introduction}{chapter.7}% 51
+\BOOKMARK [1][]{section.7.2}{7.2 Monte Carlo Simulation Samples}{chapter.7}% 52
+\BOOKMARK [1][]{section.7.3}{7.3 Double-b tagger algorithm}{chapter.7}% 53
+\BOOKMARK [2][]{subsection.7.3.1}{7.3.1 Input features}{section.7.3}% 54
+\BOOKMARK [1][]{section.7.4}{7.4 Neural network architecture}{chapter.7}% 55
+\BOOKMARK [1][]{section.7.5}{7.5 Signal efficiency and Background mistag rate measurement}{chapter.7}% 56
+\BOOKMARK [-1][]{part.5}{V Dark Matter search in the Higgs Boson associated bbarb decay}{}% 57
+\BOOKMARK [0][]{chapter.8}{8 Data and MC samples}{part.5}% 58
+\BOOKMARK [1][]{section.8.1}{8.1 Data samples}{chapter.8}% 59
+\BOOKMARK [1][]{section.8.2}{8.2 Trigger}{chapter.8}% 60
+\BOOKMARK [1][]{section.8.3}{8.3 MC samples}{chapter.8}% 61
+\BOOKMARK [2][]{subsection.8.3.1}{8.3.1 2HDM+a and Z'-2HDM signal}{section.8.3}% 62
+\BOOKMARK [2][]{subsection.8.3.2}{8.3.2 V+jets}{section.8.3}% 63
+\BOOKMARK [2][]{subsection.8.3.3}{8.3.3 tbart}{section.8.3}% 64
+\BOOKMARK [2][]{subsection.8.3.4}{8.3.4 Single top}{section.8.3}% 65
+\BOOKMARK [2][]{subsection.8.3.5}{8.3.5 Diboson}{section.8.3}% 66
+\BOOKMARK [2][]{subsection.8.3.6}{8.3.6 SM Vh\(bbarb\)}{section.8.3}% 67
+\BOOKMARK [2][]{subsection.8.3.7}{8.3.7 tbart+Z/H}{section.8.3}% 68
+\BOOKMARK [0][]{chapter.9}{9 Signal selection}{part.5}% 69
+\BOOKMARK [1][]{section.9.1}{9.1 Physics objects definition}{chapter.9}% 70
+\BOOKMARK [2][]{subsection.9.1.1}{9.1.1 Leptons}{section.9.1}% 71
+\BOOKMARK [2][]{subsection.9.1.2}{9.1.2 Jets}{section.9.1}% 72
+\BOOKMARK [2][]{subsection.9.1.3}{9.1.3 Missing transverse momentum}{section.9.1}% 73
+\BOOKMARK [1][]{section.9.2}{9.2 Signal regions}{chapter.9}% 74
+\BOOKMARK [2][]{subsection.9.2.1}{9.2.1 Common event selection}{section.9.2}% 75
+\BOOKMARK [2][]{subsection.9.2.2}{9.2.2 Resolved region}{section.9.2}% 76
+\BOOKMARK [2][]{subsection.9.2.3}{9.2.3 Merged region}{section.9.2}% 77
+\BOOKMARK [1][]{section.9.3}{9.3 Control regions}{chapter.9}% 78
+\BOOKMARK [2][]{subsection.9.3.1}{9.3.1 1-lepton channel}{section.9.3}% 79
+\BOOKMARK [2][]{subsection.9.3.2}{9.3.2 2-lepton channel}{section.9.3}% 80
+\BOOKMARK [0][]{chapter.10}{10 Systematic uncertainty}{part.5}% 81
+\BOOKMARK [1][]{section.10.1}{10.1 Experimental systematics}{chapter.10}% 82
+\BOOKMARK [1][]{section.10.2}{10.2 Theoretical systematics}{chapter.10}% 83
+\BOOKMARK [1][]{section.10.3}{10.3 Data-MC comparison}{chapter.10}% 84
+\BOOKMARK [0][]{chapter.11}{11 Result}{part.5}% 85
+\BOOKMARK [1][]{section.11.1}{11.1 Sample section}{chapter.11}% 86
+\BOOKMARK [2][]{subsection.11.1.1}{11.1.1 Sample subsection}{section.11.1}% 87
+\BOOKMARK [2][]{subsection.11.1.2}{11.1.2 Sample subsubsection}{section.11.1}% 88
+\BOOKMARK [1][]{section.11.2}{11.2 Sample section}{chapter.11}% 89
+\BOOKMARK [2][]{subsection.11.2.1}{11.2.1 Sample subsection}{section.11.2}% 90
+\BOOKMARK [-1][]{part.6}{VI Conclusions}{}% 91
+\BOOKMARK [0][]{chapter.12}{12 Conclusions}{part.6}% 92
+\BOOKMARK [-1][]{part.7}{VII Appendices}{}% 93
+\BOOKMARK [0][]{appendix.A}{A The ATLAS detector service work}{part.7}% 94
+\BOOKMARK [1][]{section.A.1}{A.1 Sample section}{appendix.A}% 95
+\BOOKMARK [2][]{subsection.A.1.1}{A.1.1 Sample subsection}{section.A.1}% 96
+\BOOKMARK [1][]{section.A.2}{A.2 Sample section}{appendix.A}% 97
+\BOOKMARK [2][]{subsection.A.2.1}{A.2.1 Sample subsection}{section.A.2}% 98
+\BOOKMARK [0][]{appendix.B}{B CombinedXbbScore Tagger implementation}{part.7}% 99
+\BOOKMARK [1][]{section.B.1}{B.1 Introduction}{appendix.B}% 100
+\BOOKMARK [1][]{section.B.2}{B.2 Performance}{appendix.B}% 101
+\BOOKMARK [1][]{section.B.3}{B.3 Signal selection in Merged region using CombinedXbbScore}{appendix.B}% 102
+\BOOKMARK [2][]{subsection.B.3.1}{B.3.1 Backgrounds breakdown of signal region and control regions}{section.B.3}% 103
+\BOOKMARK [2][]{subsection.B.3.2}{B.3.2 Preliminary significance study}{section.B.3}% 104
+\BOOKMARK [-1][]{part.8}{VIII Bibliography}{}% 105
+\BOOKMARK [0][]{section*.73}{Bibliography}{part.8}% 106
