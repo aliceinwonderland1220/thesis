@@ -1,0 +1,3572 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2019.8.24)  15 FEB 2020 14:07
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**main
+(./main.tex
+LaTeX2e <2017/01/01> patch level 3
+Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (./header.tex
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/epsfig.sty
+Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2016/10/09 v1.0u Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: dvips.def on input line 99.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/dvips.def
+File: dvips.def 2016/07/10 v3.1a Driver-dependent file (DPC,SPQR)
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+\epsfxsize=\dimen105
+\epsfysize=\dimen106
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2016/11/05 v2.16a AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks15
+\ex@=\dimen107
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen108
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count88
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count89
+\leftroot@=\count90
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count91
+\DOTSCASE@=\count92
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen109
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count93
+\c@MaxMatrixCols=\count94
+\dotsspace@=\muskip10
+\c@parentequation=\count95
+\dspbrk@lvl=\count96
+\tag@help=\toks16
+\row@=\count97
+\column@=\count98
+\maxfields@=\count99
+\andhelp@=\toks17
+\eqnshift@=\dimen110
+\alignsep@=\dimen111
+\tagshift@=\dimen112
+\tagwidth@=\dimen113
+\totwidth@=\dimen114
+\lineht@=\dimen115
+\@envbody=\toks18
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks19
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+) (./named.sty
+Named Citation Style, version of 30 November 1994
+) (/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2016/09/06 3.8 Extensive control of page headers and footers
+\fancy@headwidth=\skip46
+\f@ncyO@elh=\skip47
+\f@ncyO@erh=\skip48
+\f@ncyO@olh=\skip49
+\f@ncyO@orh=\skip50
+\f@ncyO@elf=\skip51
+\f@ncyO@erf=\skip52
+\f@ncyO@olf=\skip53
+\f@ncyO@orf=\skip54
+)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2016/05/22 v1.1-161 Sub-captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen116
+\captionmargin@=\dimen117
+\captionwidth=\dimen118
+\caption@tempdima=\dimen119
+\caption@indent=\dimen120
+\caption@parindent=\dimen121
+\caption@hangindent=\dimen122
+)
+\c@ContinuedFloat=\count100
+)
+\c@subfigure=\count101
+\c@subtable=\count102
+)
+(./PMGRefs-defs.sty) (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count103
+\float@exts=\toks20
+\float@box=\box28
+\@float@everytoks=\toks21
+\@floatcapt=\box29
+)
+(/usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2016/11/21 v6760 L3 programming layer (loader) 
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3-code.tex
+Package: expl3 2016/11/21 v6760 L3 programming layer (code)
+L3 Module: l3bootstrap 2016/06/13 v6596 L3 Bootstrap code
+L3 Module: l3names 2016/10/13 v6722 L3 Namespace for primitives
+L3 Module: l3basics 2016/09/01 v6696 L3 Basic definitions
+L3 Module: l3expan 2016/08/19 v6684 L3 Argument expansion
+L3 Module: l3tl 2016/08/19 v6692 L3 Token lists
+L3 Module: l3str 2016/08/19 v6692 L3 Strings
+L3 Module: l3seq 2016/08/19 v6685 L3 Sequences and stacks
+L3 Module: l3int 2016/09/07 v6700 L3 Integers
+\c_max_int=\count104
+\l_tmpa_int=\count105
+\l_tmpb_int=\count106
+\g_tmpa_int=\count107
+\g_tmpb_int=\count108
+L3 Module: l3quark 2016/08/19 v6685 L3 Quarks
+L3 Module: l3prg 2016/08/18 v6679 L3 Control structures
+\g__prg_map_int=\count109
+L3 Module: l3clist 2016/08/19 v6685 L3 Comma separated lists
+L3 Module: l3token 2016/09/01 v6695 L3 Experimental token manipulation
+L3 Module: l3prop 2016/08/19 v6685 L3 Property lists
+L3 Module: l3msg 2016/08/19 v6691 L3 Messages
+L3 Module: l3file 2016/08/19 v6685 L3 File and I/O operations
+\l_iow_line_count_int=\count110
+\l__iow_target_count_int=\count111
+\l__iow_current_line_int=\count112
+\l__iow_current_word_int=\count113
+\l__iow_current_indentation_int=\count114
+L3 Module: l3skip 2016/08/19 v6692 L3 Dimensions and skips
+\c_zero_dim=\dimen123
+\c_max_dim=\dimen124
+\l_tmpa_dim=\dimen125
+\l_tmpb_dim=\dimen126
+\g_tmpa_dim=\dimen127
+\g_tmpb_dim=\dimen128
+\c_zero_skip=\skip55
+\c_max_skip=\skip56
+\l_tmpa_skip=\skip57
+\l_tmpb_skip=\skip58
+\g_tmpa_skip=\skip59
+\g_tmpb_skip=\skip60
+\c_zero_muskip=\muskip11
+\c_max_muskip=\muskip12
+\l_tmpa_muskip=\muskip13
+\l_tmpb_muskip=\muskip14
+\g_tmpa_muskip=\muskip15
+\g_tmpb_muskip=\muskip16
+L3 Module: l3keys 2016/09/21 v6711 L3 Key-value interfaces
+\l_keys_choice_int=\count115
+L3 Module: l3fp 2016/11/21 v6761 L3 Floating points
+\c__fp_leading_shift_int=\count116
+\c__fp_middle_shift_int=\count117
+\c__fp_trailing_shift_int=\count118
+\c__fp_big_leading_shift_int=\count119
+\c__fp_big_middle_shift_int=\count120
+\c__fp_big_trailing_shift_int=\count121
+\c__fp_Bigg_leading_shift_int=\count122
+\c__fp_Bigg_middle_shift_int=\count123
+\c__fp_Bigg_trailing_shift_int=\count124
+L3 Module: l3box 2016/08/19 v6685 L3 Experimental boxes
+\c_empty_box=\box30
+\l_tmpa_box=\box31
+\l_tmpb_box=\box32
+\g_tmpa_box=\box33
+\g_tmpb_box=\box34
+L3 Module: l3coffins 2016/08/19 v6685 L3 Coffin code layer
+\l__coffin_internal_box=\box35
+\l__coffin_internal_dim=\dimen129
+\l__coffin_offset_x_dim=\dimen130
+\l__coffin_offset_y_dim=\dimen131
+\l__coffin_x_dim=\dimen132
+\l__coffin_y_dim=\dimen133
+\l__coffin_x_prime_dim=\dimen134
+\l__coffin_y_prime_dim=\dimen135
+\c_empty_coffin=\box36
+\l__coffin_aligned_coffin=\box37
+\l__coffin_aligned_internal_coffin=\box38
+\l_tmpa_coffin=\box39
+\l_tmpb_coffin=\box40
+\l__coffin_display_coffin=\box41
+\l__coffin_display_coord_coffin=\box42
+\l__coffin_display_pole_coffin=\box43
+\l__coffin_display_offset_dim=\dimen136
+\l__coffin_display_x_dim=\dimen137
+\l__coffin_display_y_dim=\dimen138
+L3 Module: l3color 2016/06/13 v6596 L3 Experimental color support
+L3 Module: l3sys 2015/09/25 v6087 L3 Experimental system/runtime functions
+L3 Module: l3candidates 2016/08/19 v6688 L3 Experimental additions to l3kernel
+\l__box_top_dim=\dimen139
+\l__box_bottom_dim=\dimen140
+\l__box_left_dim=\dimen141
+\l__box_right_dim=\dimen142
+\l__box_top_new_dim=\dimen143
+\l__box_bottom_new_dim=\dimen144
+\l__box_left_new_dim=\dimen145
+\l__box_right_new_dim=\dimen146
+\l__box_internal_box=\box44
+\l__coffin_bounding_shift_dim=\dimen147
+\l__coffin_left_corner_dim=\dimen148
+\l__coffin_right_corner_dim=\dimen149
+\l__coffin_bottom_corner_dim=\dimen150
+\l__coffin_top_corner_dim=\dimen151
+\l__coffin_scaled_total_height_dim=\dimen152
+\l__coffin_scaled_width_dim=\dimen153
+L3 Module: l3luatex 2016/08/18 v6679 L3 Experimental LuaTeX-specific functions
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
+File: l3pdfmode.def 2016/08/18 v6679 L3 Experimental driver: PDF mode
+\l__driver_color_stack_int=\count125
+\l__driver_tmp_box=\box45
+))
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2016/11/21 v6760 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count126
+\l__xparse_m_args_int=\count127
+\l__xparse_mandatory_args_int=\count128
+\l__xparse_processor_int=\count129
+\l__xparse_v_nesting_int=\count130
+)
+Package: siunitx 2017/01/01 v2.7a A comprehensive (SI) units package
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
+\col@sep=\dimen154
+\extrarowheight=\dimen155
+\NC@list=\toks22
+\extratabsurround=\skip61
+\backup@length=\skip62
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2016/11/21 v6760 LaTeX2e option processing using LaTeX3 keys
+)
+\l__siunitx_tmp_box=\box46
+\l__siunitx_tmp_dim=\dimen156
+\l__siunitx_tmp_int=\count131
+\l__siunitx_number_mantissa_length_int=\count132
+\l__siunitx_number_uncert_length_int=\count133
+\l__siunitx_round_int=\count134
+\l__siunitx_process_decimal_int=\count135
+\l__siunitx_process_uncertainty_int=\count136
+\l__siunitx_process_fixed_int=\count137
+\l__siunitx_process_integer_min_int=\count138
+\l__siunitx_process_precision_int=\count139
+\l__siunitx_group_min_int=\count140
+\l__siunitx_angle_marker_box=\box47
+\l__siunitx_angle_unit_box=\box48
+\l__siunitx_angle_marker_dim=\dimen157
+\l__siunitx_angle_unit_dim=\dimen158
+\l__siunitx_unit_int=\count141
+\l__siunitx_unit_denominator_int=\count142
+\l__siunitx_unit_numerator_int=\count143
+\l__siunitx_unit_prefix_int=\count144
+\l__siunitx_unit_prefix_base_int=\count145
+\l__siunitx_unit_prefix_gram_int=\count146
+\l__siunitx_number_product_int=\count147
+\c__siunitx_one_fill_skip=\skip63
+\l__siunitx_table_unit_align_skip=\skip64
+\l__siunitx_table_exponent_dim=\dimen159
+\l__siunitx_table_integer_dim=\dimen160
+\l__siunitx_table_mantissa_dim=\dimen161
+\l__siunitx_table_marker_dim=\dimen162
+\l__siunitx_table_result_dim=\dimen163
+\l__siunitx_table_uncert_dim=\dimen164
+\l__siunitx_table_fill_pre_dim=\dimen165
+\l__siunitx_table_fill_post_dim=\dimen166
+\l__siunitx_table_fill_mid_dim=\dimen167
+\l__siunitx_table_pre_box=\box49
+\l__siunitx_table_post_box=\box50
+\l__siunitx_table_mantissa_box=\box51
+\l__siunitx_table_result_box=\box52
+\l__siunitx_table_number_align_skip=\skip65
+\l__siunitx_table_text_align_skip=\skip66
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareBinaryPrefix with sig. 'mmm' on line 7249.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareSIPostPower with sig. 'mm' on line 7252.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareSIPrefix with sig. 'mmm' on line 7255.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareSIPrePower with sig. 'mm' on line 7258.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareSIQualifier with sig. 'mm' on line 7261.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareSIUnit with sig. 'O{}mm' on line 7264.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareSIUnitWithOptions with sig. 'mmm' on line 7267.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \ang with sig. 'o>{\SplitArgument {2}{;}}m' on line 7282.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \num with sig. 'om' on line 7291.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \numlist with sig. 'o>{\SplitList {;}}m' on line 7300.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \numrange with sig. 'omm' on line 7309.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \SIlist with sig. 'o>{\SplitList {;}}mm' on line 7321.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \SIrange with sig. 'ommm' on line 7333.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \SI with sig. 'omom' on line 7345.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \sisetup with sig. 'm' on line 7348.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \tablenum with sig. 'om' on line 7363.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \si with sig. 'om' on line 7375.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \__siunitx_bookmark_num:w with sig. 'om' on line 7422.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \__siunitx_bookmark_numrange:w with sig. 'omm' on line
+. 7424.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \__siunitx_bookmark_SI:w with sig. 'omom' on line 7426.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \__siunitx_bookmark_SIlist:w with sig. 'omm' on line 7428.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \__siunitx_bookmark_SIrange:w with sig. 'ommm' on line
+. 7430.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \__siunitx_bookmark_si:w with sig. 'om' on line 7431.
+.................................................
+\g__file_internal_ior=\read1
+
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/translator/translator.sty
+Package: translator 2010/06/12 ver 1.10
+
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/translator/translator-language-
+mappings.tex))
+(/usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx-version-1.cfg
+File: siunitx-version-1.cfg 2017/01/01 v2.7a siunitx: Version 1 settings
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newpower with sig. 'omm' on line 633.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \renewpower with sig. 'omm' on line 638.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \providepower with sig. 'omm' on line 643.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newprefix with sig. 'ommm' on line 648.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \renewprefix with sig. 'ommm' on line 653.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \provideprefix with sig. 'ommm' on line 658.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newqualifier with sig. 'mm' on line 661.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \requiresiconfigs with sig. 'm' on line 729.
+.................................................
+))
+(/usr/share/texlive/texmf-dist/tex/latex/tools/afterpage.sty
+Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
+\AP@output=\toks23
+\AP@partial=\box53
+\AP@footins=\box54
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2016/06/24 v6.83q Hypertext links for LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package atveryend Info: \AP@enddocument detected (standard20110627).
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen168
+\Hy@linkcounter=\count148
+\Hy@pagecounter=\count149
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2016/06/24 v6.83q Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count150
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+
+Package hyperref Warning: Option `letterpaper' is no longer used.
+
+Package hyperref Info: Option `bookmarks' set `true' on input line 4362.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 4362.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 4362
+.
+Package hyperref Info: Option `colorlinks' set `true' on input line 4362.
+Package hyperref Info: Hyper figures OFF on input line 4486.
+Package hyperref Info: Link nesting OFF on input line 4491.
+Package hyperref Info: Hyper index ON on input line 4494.
+Package hyperref Info: Plain pages OFF on input line 4501.
+Package hyperref Info: Backreferencing OFF on input line 4506.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4735.
+\c@Hy@tempcnt=\count151
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5088.
+\XeTeXLinkMargin=\dimen169
+\Fld@menulength=\count152
+\Field@Width=\dimen170
+\Fld@charsize=\dimen171
+Package hyperref Info: Hyper figures OFF on input line 6342.
+Package hyperref Info: Link nesting OFF on input line 6347.
+Package hyperref Info: Hyper index ON on input line 6350.
+Package hyperref Info: backreferencing OFF on input line 6357.
+Package hyperref Info: Link coloring ON on input line 6360.
+Package hyperref Info: Link coloring with OCG OFF on input line 6367.
+Package hyperref Info: PDF/A mode OFF on input line 6372.
+LaTeX Info: Redefining \ref on input line 6412.
+LaTeX Info: Redefining \pageref on input line 6416.
+\Hy@abspage=\count153
+\c@Item=\count154
+\c@Hfootnote=\count155
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2016/06/24 v6.83q Hyperref driver for pdfTeX
+\Fld@listcount=\count156
+\c@bookmark@seq@number=\count157
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip67
+))
+(./main.aux
+
+LaTeX Warning: Label `sec:lhcs1' multiply defined.
+
+
+LaTeX Warning: Label `fig:pixel' multiply defined.
+
+
+LaTeX Warning: Label `sec:calo' multiply defined.
+
+
+LaTeX Warning: Label `sec:track' multiply defined.
+
+
+LaTeX Warning: Label `fig:mj_after' multiply defined.
+
+)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: End \AtBeginDocument code.
+
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/translator/dicts/translator-bas
+ic-dictionary/translator-basic-dictionary-English.dict
+Dictionary: translator-basic-dictionary, Language: English 
+)
+(/usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx-abbreviations.cfg
+File: siunitx-abbreviations.cfg 2017/01/01 v2.7a siunitx: Abbreviated units
+)
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \of with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \highlight with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \per with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \raiseto with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \tothe with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \kilogram with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \metre with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \meter with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \mole with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \second with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \ampere with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \kelvin with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \candela with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \gram with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \yocto with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \zepto with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \atto with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \femto with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \pico with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \nano with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \micro with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \milli with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \centi with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \deci with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \deca with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \deka with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \hecto with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \kilo with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \mega with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \giga with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \tera with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \peta with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \exa with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \zetta with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \yotta with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \becquerel with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \celsius with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \degreeCelsius with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \coulomb with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \farad with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \gray with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \hertz with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \henry with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \joule with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \katal with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \lumen with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \lux with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newton with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \ohm with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \pascal with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \radian with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \siemens with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \sievert with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \steradian with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \tesla with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \volt with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \watt with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \weber with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \arcmin with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \arcminute with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \arcsecond with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \degree with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \hectare with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \hour with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \litre with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \liter with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \minute with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \percent with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \tonne with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \astronomicalunit with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \atomicmassunit with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \electronvolt with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \dalton with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \clight with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \electronmass with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \planckbar with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \elementarycharge with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \bohr with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \hartree with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \angstrom with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \barn with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \bel with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \decibel with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \knot with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \mmHg with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \nauticalmile with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \neper with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \square with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \squared with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \cubic with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \cubed with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \Square with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \ssquare with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \BAR with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \bbar with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \Day with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \dday with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \Gray with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \ggray with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \atomicmass with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \arcsec with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \are with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \curie with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \gal with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \millibar with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \rad with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \rem with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \roentgen with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \micA with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \micmol with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \micl with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \micL with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \nanog with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \micg with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \picm with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \micm with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \Sec with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \mics with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \cmc with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \dmc with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \cms with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \centimetrecubed with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \centimetresquared with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \cubiccentimetre with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \cubicdecimetre with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \squarecentimetre with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \squaremetre with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \squarekilometre with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \parsec with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \lightyear with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \gmol with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \kgmol with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \lbmol with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \molar with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \Molar with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \torr with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \gon with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \micron with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \mrad with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \gauss with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \eVperc with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \nanobarn with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \picobarn with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \femtobarn with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \attobarn with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \zeptobarn with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \yoctobarn with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \nb with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \pb with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \fb with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \ab with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \zb with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \yb with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \ifb with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \A with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \pA with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \nA with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \uA with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \mA with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \kA with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \Hz with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \mHz with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \kHz with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \MHz with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \GHz with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \THz with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \mol with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \fmol with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \pmol with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \nmol with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \umol with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \mmol with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \kmol with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \V with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \pV with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \nV with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \uV with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \mV with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \kV with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \hl with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \ml with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \ul with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \hL with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \mL with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \uL with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \fg with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \pg with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \ug with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \g with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \kg with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \amu with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \W with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \uW with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \mW with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \kW with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \MW with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \GW with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \J with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \kJ with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \eV with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \meV with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \keV with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \MeV with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \GeV with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \TeV with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \kWh with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \m with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \nm with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \um with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \mm with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \cm with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \dm with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \km with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \K with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \dB with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \F with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \fF with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \pF with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \N with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \mN with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \kN with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \MN with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \Pa with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \kPa with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \MPa with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \GPa with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \mohm with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \kohm with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \Mohm with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \s with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \as with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \fs with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \ps with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \ns with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \us with sig. '' on line 10.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \ms with sig. '' on line 10.
+.................................................
+\AtBeginShipoutBox=\box55
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+LaTeX Info: Redefining \color on input line 86.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
+\Gread@gobject=\count158
+
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count159
+\scratchdimen=\dimen172
+\scratchbox=\box56
+\nofMPsegments=\count160
+\nofMParguments=\count161
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count162
+\MPscratchDim=\dimen173
+\MPnumerator=\count163
+\makeMPintoPDFobject=\count164
+\everyMPtoPDFconversion=\toks25
+))) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Package hyperref Info: Link coloring ON on input line 10.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count165
+)
+LaTeX Info: Redefining \ref on input line 10.
+LaTeX Info: Redefining \pageref on input line 10.
+LaTeX Info: Redefining \nameref on input line 10.
+
+(./main.out) (./main.out)
+\@outlinefile=\write3
+\openout3 = `main.out'.
+
+\c__siunitx_mathsf_int=\count166
+\c__siunitx_mathtt_int=\count167
+ [1
+Non-PDF special ignored!
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 16.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 16.
+ [2
+
+] (./abstract.tex)
+[3
+
+] (./main.toc [1
+
+
+] [2] [3] [4])
+\tf@toc=\write4
+\openout4 = `main.toc'.
+
+ [5] (./main.lof [6
+
+
+]
+
+LaTeX Warning: Reference `fig:pixel1' on page vii undefined on input line 17.
+
+[7] [8])
+\tf@lof=\write5
+\openout5 = `main.lof'.
+
+ [9] (./main.lot [10
+
+
+])
+\tf@lot=\write6
+\openout6 = `main.lot'.
+
+ [11] (./acknowledgements.tex
+Underfull \hbox (badness 10000) in paragraph at lines 1--3
+
+ []
+
+) [12
+
+] [13
+
+]
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 80.
+
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 80.
+
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 82.
+
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 82.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.82 \part{Introduction}
+                         [1
+
+
+] (./introduction.tex
+Chapter 1.
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 27.
+
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 27.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.27 
+      [2
+
+])pdfTeX warning (ext4): destination with the same identifier (name{page.3}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.86 \part
+          {The standard model and Dark Matter} [3]
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 86.
+
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 86.
+
+[4
+
+] (./theory-part.tex (./chapters/c1/c1.tex
+Chapter 2.
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 23.
+
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 23.
+
+[5
+
+]
+<chapters/c1/figures/SM-particle-table.pdf, id=1026, 214.33174pt x 156.56593pt>
+File: chapters/c1/figures/SM-particle-table.pdf Graphic file (type pdf)
+<use chapters/c1/figures/SM-particle-table.pdf>
+Package pdftex.def Info: chapters/c1/figures/SM-particle-table.pdf used on inpu
+t line 27.
+(pdftex.def)             Requested size: 346.89731pt x 253.42278pt.
+ [6 <./chapters/c1/figures/SM-particle-table.pdf>] [7] [8] [9]
+Underfull \hbox (badness 10000) in paragraph at lines 170--171
+
+ []
+
+[10]
+Overfull \hbox (1.75523pt too wide) in paragraph at lines 184--186
+[]\OT1/cmr/m/n/10.95 The kine-matic term $\OML/cmm/m/it/10.95 T \OT1/cmr/m/n/10
+.95 = []\OML/cmm/m/it/10.95 D[]^^^$ \OT1/cmr/m/n/10.95 gives us the mass terms 
+of bosons: $[]([]\OML/cmm/m/it/10.95 ^^Wg[]\OT1/cmr/m/n/10.95 )[]\OML/cmm/m/it/
+10.95 W[]W[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 184--186
+
+ []
+
+[11]) (./chapters/c2/c2.tex [12]
+Chapter 3.
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 14.
+
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 14.
+
+[13
+
+]
+<chapters/c2/figures/ngc3198_sparc.jpg, id=1122, 494.84875pt x 343.2825pt>
+File: chapters/c2/figures/ngc3198_sparc.jpg Graphic file (type jpg)
+
+<use chapters/c2/figures/ngc3198_sparc.jpg>
+Package pdftex.def Info: chapters/c2/figures/ngc3198_sparc.jpg used on input li
+ne 19.
+(pdftex.def)             Requested size: 346.89731pt x 240.64705pt.
+ [14 <./chapters/c2/figures/ngc3198_sparc.jpg>] [15]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+ [16]
+<chapters/c2/figures/eft-feyn-diagram.pdf, id=1150, 257.36652pt x 73.19345pt>
+File: chapters/c2/figures/eft-feyn-diagram.pdf Graphic file (type pdf)
+
+<use chapters/c2/figures/eft-feyn-diagram.pdf>
+Package pdftex.def Info: chapters/c2/figures/eft-feyn-diagram.pdf used on input
+ line 56.
+(pdftex.def)             Requested size: 346.89731pt x 98.66391pt.
+ [17 <./chapters/c2/figures/eft-feyn-diagram.pdf>]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 94.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 94.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\prime' on input line 94.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 94.
+
+[18] <chapters/c2/figures/z-prime.pdf, id=1199, 127.29959pt x 72.50789pt>
+File: chapters/c2/figures/z-prime.pdf Graphic file (type pdf)
+
+<use chapters/c2/figures/z-prime.pdf>
+Package pdftex.def Info: chapters/c2/figures/z-prime.pdf used on input line 112
+.
+(pdftex.def)             Requested size: 216.81pt x 123.49297pt.
+
+<chapters/c2/figures/two-higgs.pdf, id=1200, 170.26411pt x 148.94646pt>
+File: chapters/c2/figures/two-higgs.pdf Graphic file (type pdf)
+
+<use chapters/c2/figures/two-higgs.pdf>
+Package pdftex.def Info: chapters/c2/figures/two-higgs.pdf used on input line 1
+19.
+(pdftex.def)             Requested size: 216.81pt x 189.67807pt.
+
+<chapters/c2/figures/z-prime-2hdm.pdf, id=1201, 139.90768pt x 110.77486pt>
+File: chapters/c2/figures/z-prime-2hdm.pdf Graphic file (type pdf)
+
+<use chapters/c2/figures/z-prime-2hdm.pdf>
+Package pdftex.def Info: chapters/c2/figures/z-prime-2hdm.pdf used on input lin
+e 126.
+(pdftex.def)             Requested size: 216.81pt x 171.66374pt.
+)) [19] [20 <./chapters/c2/figures/z-prime.pdf> <./chapters/c2/figures/two-higg
+s.pdf>] [21 <./chapters/c2/figures/z-prime-2hdm.pdf>]
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 90.
+
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 90.
+
+[22
+
+] (./experiment-part.tex (./chapters/c3/c3.tex
+Chapter 4.
+
+<chapters/c3/figures/cern-accelerator-complex.png, id=1272, 2569.6pt x 1673.251
+25pt>
+File: chapters/c3/figures/cern-accelerator-complex.png Graphic file (type png)
+ <use chapters/c3/figures/cern-accelerator-complex.png>
+Package pdftex.def Info: chapters/c3/figures/cern-accelerator-complex.png used 
+on input line 11.
+(pdftex.def)             Requested size: 346.89731pt x 225.87917pt.
+
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 20.
+
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 20.
+
+[23
+
+] [24 <./chapters/c3/figures/cern-accelerator-complex.png>]
+
+LaTeX Warning: Reference `fig:lumi0' on page 25 undefined on input line 36.
+
+<chapters/c4/figures/intlumivstimeRun2.png, id=1297, 798.985pt x 574.145pt>
+File: chapters/c4/figures/intlumivstimeRun2.png Graphic file (type png)
+
+<use chapters/c4/figures/intlumivstimeRun2.png>
+Package pdftex.def Info: chapters/c4/figures/intlumivstimeRun2.png used on inpu
+t line 39.
+(pdftex.def)             Requested size: 346.89731pt x 249.27798pt.
+ [25 <./chapters/c4/figures/intlumivstimeRun2.png>]) (./chapters/c4/c4.tex [26]
+ [27]
+Chapter 5.
+
+Overfull \hbox (2.88867pt too wide) in paragraph at lines 11--12
+[]\OT1/cmr/m/n/10.95 The pseu-do-ra-pid-ity is de-fined as $\OML/cmm/m/it/10.95
+ ^^Q \OT1/cmr/m/n/10.95 = \OMS/cmsy/m/n/10.95 ^^@\OML/cmm/m/it/10.95 ln []tan\O
+T1/cmr/m/n/10.95 ([])$. The dis-tance $^^A\OML/cmm/m/it/10.95 R$ \OT1/cmr/m/n/1
+0.95 in the pseudorapidity-
+ []
+
+<chapters/c4/figures/atlas.jpg, id=1316, 810.52812pt x 520.94624pt>
+File: chapters/c4/figures/atlas.jpg Graphic file (type jpg)
+
+<use chapters/c4/figures/atlas.jpg>
+Package pdftex.def Info: chapters/c4/figures/atlas.jpg used on input line 15.
+(pdftex.def)             Requested size: 346.89731pt x 222.9612pt.
+
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 21.
+
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 21.
+
+[28
+
+] <chapters/c4/figures/eve_gen.jpg, id=1323, 903.375pt x 732.7375pt>
+File: chapters/c4/figures/eve_gen.jpg Graphic file (type jpg)
+
+<use chapters/c4/figures/eve_gen.jpg>
+Package pdftex.def Info: chapters/c4/figures/eve_gen.jpg used on input line 24.
+
+(pdftex.def)             Requested size: 346.89731pt x 281.37248pt.
+
+<chapters/c4/figures/inner.png, id=1330, 426.59375pt x 426.59375pt>
+File: chapters/c4/figures/inner.png Graphic file (type png)
+
+<use chapters/c4/figures/inner.png>
+Package pdftex.def Info: chapters/c4/figures/inner.png used on input line 38.
+(pdftex.def)             Requested size: 346.89731pt x 346.919pt.
+ [29 <./chapters/c4/figures/atlas.jpg>]
+[30 <./chapters/c4/figures/eve_gen.jpg>] [31 <./chapters/c4/figures/inner.png>]
+<chapters/c4/figures/pixel.png, id=1349, 284.39583pt x 191.71625pt>
+File: chapters/c4/figures/pixel.png Graphic file (type png)
+
+<use chapters/c4/figures/pixel.png>
+Package pdftex.def Info: chapters/c4/figures/pixel.png used on input line 53.
+(pdftex.def)             Requested size: 173.44865pt x 116.92625pt.
+
+<chapters/c4/figures/IBL.jpg, id=1350, 623.4492pt x 415.5525pt>
+File: chapters/c4/figures/IBL.jpg Graphic file (type jpg)
+
+<use chapters/c4/figures/IBL.jpg>
+Package pdftex.def Info: chapters/c4/figures/IBL.jpg used on input line 59.
+(pdftex.def)             Requested size: 173.44865pt x 115.60568pt.
+
+
+LaTeX Warning: Reference `fig:pixel1' on page 32 undefined on input line 63.
+
+
+LaTeX Warning: Reference `fig:pixel1' on page 32 undefined on input line 63.
+
+
+LaTeX Warning: Reference `fig:pixel1' on page 32 undefined on input line 67.
+
+[32 <./chapters/c4/figures/pixel.png> <./chapters/c4/figures/IBL.jpg>]
+<chapters/c4/figures/Calo.png, id=1366, 853.1875pt x 557.08125pt>
+File: chapters/c4/figures/Calo.png Graphic file (type png)
+
+<use chapters/c4/figures/Calo.png>
+Package pdftex.def Info: chapters/c4/figures/Calo.png used on input line 85.
+(pdftex.def)             Requested size: 346.89731pt x 226.5092pt.
+ [33] [34 <./chapters/c4/figures/Calo.png>]
+<chapters/c4/figures/lar-layers.png, id=1385, 674.52pt x 666.49pt>
+File: chapters/c4/figures/lar-layers.png Graphic file (type png)
+
+<use chapters/c4/figures/lar-layers.png>
+Package pdftex.def Info: chapters/c4/figures/lar-layers.png used on input line 
+112.
+(pdftex.def)             Requested size: 173.44865pt x 171.38156pt.
+
+<chapters/c4/figures/lar.png, id=1386, 588.1975pt x 515.9275pt>
+File: chapters/c4/figures/lar.png Graphic file (type png)
+
+<use chapters/c4/figures/lar.png>
+Package pdftex.def Info: chapters/c4/figures/lar.png used on input line 118.
+(pdftex.def)             Requested size: 173.44865pt x 152.13431pt.
+ [35]
+<chapters/c4/figures/tile.png, id=1397, 349.305pt x 547.04375pt>
+File: chapters/c4/figures/tile.png Graphic file (type png)
+
+<use chapters/c4/figures/tile.png>
+Package pdftex.def Info: chapters/c4/figures/tile.png used on input line 142.
+(pdftex.def)             Requested size: 260.17464pt x 407.47714pt.
+
+<chapters/c4/figures/mu-bar.png, id=1399, 548.0475pt x 604.2575pt>
+File: chapters/c4/figures/mu-bar.png Graphic file (type png)
+
+<use chapters/c4/figures/mu-bar.png>
+Package pdftex.def Info: chapters/c4/figures/mu-bar.png used on input line 155.
+
+(pdftex.def)             Requested size: 173.44865pt x 191.23648pt.
+
+<chapters/c4/figures/mu-end.png, id=1400, 692.5875pt x 434.62375pt>
+File: chapters/c4/figures/mu-end.png Graphic file (type png)
+
+<use chapters/c4/figures/mu-end.png>
+Package pdftex.def Info: chapters/c4/figures/mu-end.png used on input line 161.
+
+(pdftex.def)             Requested size: 173.44865pt x 108.84135pt.
+ [36 <./chapters/c4/figures/lar-layers.png> <./chapters/c4/figures/lar.png (PNG
+ copy)>] [37 <./chapters/c4/figures/tile.png (PNG copy)>] [38 <./chapters/c4/fi
+gures/mu-bar.png (PNG copy)> <./chapters/c4/figures/mu-end.png (PNG copy)>]
+<chapters/c4/figures/forward.png, id=1425, 1102.1175pt x 493.845pt>
+File: chapters/c4/figures/forward.png Graphic file (type png)
+
+<use chapters/c4/figures/forward.png>
+Package pdftex.def Info: chapters/c4/figures/forward.png used on input line 182
+.
+(pdftex.def)             Requested size: 346.89731pt x 155.44142pt.
+ [39 <./chapters/c4/figures/forward.png>]
+<chapters/c4/figures/cross.png, id=1432, 582.175pt x 704.6325pt>
+File: chapters/c4/figures/cross.png Graphic file (type png)
+
+<use chapters/c4/figures/cross.png>
+Package pdftex.def Info: chapters/c4/figures/cross.png used on input line 196.
+(pdftex.def)             Requested size: 346.89731pt x 419.86903pt.
+ [40 <./chapters/c4/figures/cross.png>]
+<chapters/c4/figures/TDAQ.png, id=1441, 580.1675pt x 459.7175pt>
+File: chapters/c4/figures/TDAQ.png Graphic file (type png)
+
+<use chapters/c4/figures/TDAQ.png>
+Package pdftex.def Info: chapters/c4/figures/TDAQ.png used on input line 206.
+(pdftex.def)             Requested size: 346.89731pt x 274.87862pt.
+)) [41 <./chapters/c4/figures/TDAQ.png>]
+[42]
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 94.
+
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 94.
+
+[43
+
+] (./performance-part.tex (./chapters/c5/c5.tex
+Chapter 6.
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 21.
+
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 21.
+
+[44
+
+] [45] [46]
+Overfull \hbox (0.84927pt too wide) in paragraph at lines 103--104
+[]\OT1/cmr/m/n/10.95 Similar to Elec-tron re-con-struc-tion, there are dif-fer-
+ent muon iden-ti-fi-ca-tion work-ing points.
+ []
+
+[47] [48]
+<chapters/c5/figures/jet_calib.png, id=1503, 981.6675pt x 316.18124pt>
+File: chapters/c5/figures/jet_calib.png Graphic file (type png)
+
+<use chapters/c5/figures/jet_calib.png>
+Package pdftex.def Info: chapters/c5/figures/jet_calib.png used on input line 1
+61.
+(pdftex.def)             Requested size: 433.62pt x 139.66052pt.
+ [49 <./chapters/c5/figures/jet_calib.png>] [50] [51] [52]
+Missing character: There is no ‚ in font cmr8!
+Missing character: There is no à in font cmr8!
+Missing character: There is no í in font cmr8!
+ [53] [54]
+<chapters/c5/figures/ROC_cb.png, id=1564, 800.9925pt x 577.15625pt>
+File: chapters/c5/figures/ROC_cb.png Graphic file (type png)
+
+<use chapters/c5/figures/ROC_cb.png>
+Package pdftex.def Info: chapters/c5/figures/ROC_cb.png used on input line 276.
+
+(pdftex.def)             Requested size: 173.44534pt x 124.97565pt.
+
+<chapters/c5/figures/ROC_lb.png, id=1565, 800.9925pt x 577.15625pt>
+File: chapters/c5/figures/ROC_lb.png Graphic file (type png)
+
+<use chapters/c5/figures/ROC_lb.png>
+Package pdftex.def Info: chapters/c5/figures/ROC_lb.png used on input line 277.
+
+(pdftex.def)             Requested size: 173.44534pt x 124.97565pt.
+
+<chapters/c5/figures/ROC_cb_Zprime.png, id=1566, 800.9925pt x 577.15625pt>
+File: chapters/c5/figures/ROC_cb_Zprime.png Graphic file (type png)
+
+<use chapters/c5/figures/ROC_cb_Zprime.png>
+Package pdftex.def Info: chapters/c5/figures/ROC_cb_Zprime.png used on input li
+ne 278.
+(pdftex.def)             Requested size: 173.44534pt x 124.97565pt.
+
+<chapters/c5/figures/ROC_lb_Zprime.png, id=1567, 800.9925pt x 577.15625pt>
+File: chapters/c5/figures/ROC_lb_Zprime.png Graphic file (type png)
+
+<use chapters/c5/figures/ROC_lb_Zprime.png>
+Package pdftex.def Info: chapters/c5/figures/ROC_lb_Zprime.png used on input li
+ne 279.
+(pdftex.def)             Requested size: 173.44534pt x 124.97565pt.
+
+Overfull \hbox (5.2246pt too wide) in paragraph at lines 284--284
+[]\OT1/cmr/bx/n/14.4 Missing Trans-verse Mo-men-tum ($\OML/cmm/m/it/14.4 E[]$\O
+T1/cmr/bx/n/14.4 ) and Miss-ing Trans-
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 284.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 284.
+
+[55 <./chapters/c5/figures/ROC_cb.png> <./chapters/c5/figures/ROC_lb.png> <./ch
+apters/c5/figures/ROC_cb_Zprime.png> <./chapters/c5/figures/ROC_lb_Zprime.png>]
+[56] <chapters/c5/figures/VR.png, id=1582, 475.7775pt x 271.0125pt>
+File: chapters/c5/figures/VR.png Graphic file (type png)
+
+<use chapters/c5/figures/VR.png>
+Package pdftex.def Info: chapters/c5/figures/VR.png used on input line 315.
+(pdftex.def)             Requested size: 260.17464pt x 148.20544pt.
+
+<chapters/c5/figures/r-vr.png, id=1583, 453.695pt x 328.22626pt>
+File: chapters/c5/figures/r-vr.png Graphic file (type png)
+
+<use chapters/c5/figures/r-vr.png>
+Package pdftex.def Info: chapters/c5/figures/r-vr.png used on input line 322.
+(pdftex.def)             Requested size: 173.44534pt x 125.47852pt.
+
+<chapters/c5/figures/rho-vr.png, id=1584, 462.72874pt x 328.22626pt>
+File: chapters/c5/figures/rho-vr.png Graphic file (type png)
+
+<use chapters/c5/figures/rho-vr.png>
+Package pdftex.def Info: chapters/c5/figures/rho-vr.png used on input line 323.
+
+(pdftex.def)             Requested size: 173.44534pt x 123.02945pt.
+ [57 <./chapters/c5/figures/VR.png>]
+<chapters/c5/figures/higgs_pt.png, id=1593, 453.695pt x 328.22626pt>
+File: chapters/c5/figures/higgs_pt.png Graphic file (type png)
+
+<use chapters/c5/figures/higgs_pt.png>
+Package pdftex.def Info: chapters/c5/figures/higgs_pt.png used on input line 33
+5.
+(pdftex.def)             Requested size: 260.17464pt x 188.22278pt.
+
+<chapters/c5/figures/higgs_ROC.png, id=1594, 959.585pt x 451.6875pt>
+File: chapters/c5/figures/higgs_ROC.png Graphic file (type png)
+
+<use chapters/c5/figures/higgs_ROC.png>
+Package pdftex.def Info: chapters/c5/figures/higgs_ROC.png used on input line 3
+42.
+(pdftex.def)             Requested size: 433.62pt x 204.11212pt.
+) (./chapters/c10/c10.tex [58 <./chapters/c5/figures/r-vr.png> <./chapters/c5/f
+igures/rho-vr.png> <./chapters/c5/figures/higgs_pt.png>] [59 <./chapters/c5/fig
+ures/higgs_ROC.png>]
+Chapter 7.
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 21.
+
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 21.
+
+[60
+
+]
+
+LaTeX Warning: Citation `Sjostrand:2006za' on page 61 undefined on input line 2
+8.
+
+
+LaTeX Warning: Citation `Skands:2010ak' on page 61 undefined on input line 28.
+
+
+LaTeX Warning: Citation `Gao:2013xoa' on page 61 undefined on input line 29.
+
+
+LaTeX Warning: Citation `Randall:1999ee' on page 61 undefined on input line 31.
+
+
+
+LaTeX Warning: Citation `Lange:2001uf' on page 61 undefined on input line 36.
+
+
+LaTeX Warning: Citation `Aad:2010ah' on page 61 undefined on input line 37.
+
+
+LaTeX Warning: Citation `Agostinelli:2002hh' on page 61 undefined on input line
+ 37.
+
+[61] [62]
+
+LaTeX Warning: Citation `hopfield1982neural' on page 63 undefined on input line
+ 92.
+
+[63]
+
+LaTeX Warning: Citation `DBLP:journals/corr/IoffeS15' on page 64 undefined on i
+nput line 96.
+
+
+LaTeX Warning: Citation `JMLR:v15:srivastava14a' on page 64 undefined on input 
+line 97.
+
+
+LaTeX Warning: Citation `inproceedings' on page 64 undefined on input line 98.
+
+Missing character: There is no ‚ in font cmr8!
+Missing character: There is no à in font cmr8!
+Missing character: There is no í in font cmr8!
+Missing character: There is no ‚ in font cmr8!
+Missing character: There is no à in font cmr8!
+Missing character: There is no í in font cmr8!
+Missing character: There is no ‚ in font cmr8!
+Missing character: There is no à in font cmr8!
+Missing character: There is no í in font cmr8!
+Missing character: There is no ‚ in font cmr8!
+Missing character: There is no à in font cmr8!
+Missing character: There is no í in font cmr8!
+Missing character: There is no ‚ in font cmr8!
+Missing character: There is no à in font cmr8!
+Missing character: There is no í in font cmr8!
+
+LaTeX Warning: Citation `Yao07onearly' on page 64 undefined on input line 114.
+
+[64] <chapters/c10/figures/roc.pdf, id=1649, 794.97pt x 614.295pt>
+File: chapters/c10/figures/roc.pdf Graphic file (type pdf)
+
+<use chapters/c10/figures/roc.pdf>
+Package pdftex.def Info: chapters/c10/figures/roc.pdf used on input line 129.
+(pdftex.def)             Requested size: 433.62pt x 195.39832pt.
+ [65 <./chapters/c10/figures/roc.pdf>]
+<chapters/c10/figures/pt.png, id=1674, 915.42pt x 306.14375pt>
+File: chapters/c10/figures/pt.png Graphic file (type png)
+
+<use chapters/c10/figures/pt.png>
+Package pdftex.def Info: chapters/c10/figures/pt.png used on input line 141.
+(pdftex.def)             Requested size: 433.62pt x 145.01337pt.
+)) [66 <./chapters/c10/figures/pt.png>]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 98.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 98.
+
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 98.
+
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 98.
+
+[67
+
+] (./analysis-part.tex (./chapters/c6/c6.tex
+Chapter 8.
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 9.
+
+Overfull \hbox (21.99109pt too wide) in paragraph at lines 10--11
+[]\OT1/cmtt/m/n/8 data16[]13TeV.periodAllYear[]DetStatus-v89-pro21-01[]DQDefect
+s-00-02-04[]PHYS[]StandardGRL[]All[]Good[]25ns.xml 
+ []
+
+
+Overfull \hbox (54.80154pt too wide) in paragraph at lines 11--12
+[]\OT1/cmtt/m/n/8 data17[]13TeV.periodAllYear[]DetStatus-v99-pro22-01[]Unknown[
+]PHYS[]StandardGRL[]All[]Good[]25ns[]Triggerno17e33prim.xml 
+ []
+
+
+Overfull \hbox (59.0516pt too wide) in paragraph at lines 12--13
+[]\OT1/cmtt/m/n/8 data18[]13TeV.periodAllYear[]DetStatus-v102-pro22-04[]Unknown
+[]PHYS[]StandardGRL[]All[]Good[]25ns[]Triggerno17e33prim.xml 
+ []
+
+
+Overfull \hbox (2.2685pt too wide) in paragraph at lines 14--15
+\OT1/cmr/m/n/10.95 The re-sult-ing dataset cor-re-sponds to an in-te-grated lu-
+mi-nos-ity of 3.2 [], 33.0 [], 44.3 []
+ []
+
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 26.
+
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 26.
+
+[68
+
+]
+<chapters/c6/fig/METTriggerCalibration/efficiecy_HLT_xe70_mht.pdf, id=1695, 569
+.12625pt x 526.96875pt>
+File: chapters/c6/fig/METTriggerCalibration/efficiecy_HLT_xe70_mht.pdf Graphic 
+file (type pdf)
+
+<use chapters/c6/fig/METTriggerCalibration/efficiecy_HLT_xe70_mht.pdf>
+Package pdftex.def Info: chapters/c6/fig/METTriggerCalibration/efficiecy_HLT_xe
+70_mht.pdf used on input line 47.
+(pdftex.def)             Requested size: 195.12767pt x 180.67064pt.
+
+<chapters/c6/fig/METTriggerCalibration/efficiecy_HLT_xe90_mht_L1XE50.pdf, id=16
+96, 569.12625pt x 526.96875pt>
+File: chapters/c6/fig/METTriggerCalibration/efficiecy_HLT_xe90_mht_L1XE50.pdf G
+raphic file (type pdf)
+
+<use chapters/c6/fig/METTriggerCalibration/efficiecy_HLT_xe90_mht_L1XE50.pdf>
+Package pdftex.def Info: chapters/c6/fig/METTriggerCalibration/efficiecy_HLT_xe
+90_mht_L1XE50.pdf used on input line 48.
+(pdftex.def)             Requested size: 195.12767pt x 180.67064pt.
+
+<chapters/c6/fig/METTriggerCalibration/efficiecy_HLT_xe110_mht_L1XE50.pdf, id=1
+697, 569.12625pt x 526.96875pt>
+File: chapters/c6/fig/METTriggerCalibration/efficiecy_HLT_xe110_mht_L1XE50.pdf 
+Graphic file (type pdf)
+
+<use chapters/c6/fig/METTriggerCalibration/efficiecy_HLT_xe110_mht_L1XE50.pdf>
+Package pdftex.def Info: chapters/c6/fig/METTriggerCalibration/efficiecy_HLT_xe
+110_mht_L1XE50.pdf used on input line 49.
+(pdftex.def)             Requested size: 195.12767pt x 180.67064pt.
+
+<chapters/c6/fig/METTriggerCalibration/efficiecy_HLT_xe110_pufit_L1XE55.pdf, id
+=1698, 569.12625pt x 526.96875pt>
+File: chapters/c6/fig/METTriggerCalibration/efficiecy_HLT_xe110_pufit_L1XE55.pd
+f Graphic file (type pdf)
+
+<use chapters/c6/fig/METTriggerCalibration/efficiecy_HLT_xe110_pufit_L1XE55.pdf
+>
+Package pdftex.def Info: chapters/c6/fig/METTriggerCalibration/efficiecy_HLT_xe
+110_pufit_L1XE55.pdf used on input line 50.
+(pdftex.def)             Requested size: 195.12767pt x 180.67064pt.
+
+<chapters/c6/fig/METTriggerCalibration/SF_HLT_xe70_mht.pdf, id=1701, 569.12625p
+t x 386.44376pt>
+File: chapters/c6/fig/METTriggerCalibration/SF_HLT_xe70_mht.pdf Graphic file (t
+ype pdf)
+
+<use chapters/c6/fig/METTriggerCalibration/SF_HLT_xe70_mht.pdf>
+Package pdftex.def Info: chapters/c6/fig/METTriggerCalibration/SF_HLT_xe70_mht.
+pdf used on input line 72.
+(pdftex.def)             Requested size: 195.12767pt x 132.4918pt.
+
+<chapters/c6/fig/METTriggerCalibration/SF_HLT_xe90_mht_L1XE50.pdf, id=1702, 569
+.12625pt x 386.44376pt>
+File: chapters/c6/fig/METTriggerCalibration/SF_HLT_xe90_mht_L1XE50.pdf Graphic 
+file (type pdf)
+
+<use chapters/c6/fig/METTriggerCalibration/SF_HLT_xe90_mht_L1XE50.pdf>
+Package pdftex.def Info: chapters/c6/fig/METTriggerCalibration/SF_HLT_xe90_mht_
+L1XE50.pdf used on input line 73.
+(pdftex.def)             Requested size: 195.12767pt x 132.4918pt.
+
+<chapters/c6/fig/METTriggerCalibration/SF_HLT_xe110_mht_L1XE50.pdf, id=1703, 56
+9.12625pt x 386.44376pt>
+File: chapters/c6/fig/METTriggerCalibration/SF_HLT_xe110_mht_L1XE50.pdf Graphic
+ file (type pdf)
+
+<use chapters/c6/fig/METTriggerCalibration/SF_HLT_xe110_mht_L1XE50.pdf>
+Package pdftex.def Info: chapters/c6/fig/METTriggerCalibration/SF_HLT_xe110_mht
+_L1XE50.pdf used on input line 74.
+(pdftex.def)             Requested size: 195.12767pt x 132.4918pt.
+
+<chapters/c6/fig/METTriggerCalibration/SF_HLT_xe110_pufit_L1XE55.pdf, id=1704, 
+569.12625pt x 386.44376pt>
+File: chapters/c6/fig/METTriggerCalibration/SF_HLT_xe110_pufit_L1XE55.pdf Graph
+ic file (type pdf)
+
+<use chapters/c6/fig/METTriggerCalibration/SF_HLT_xe110_pufit_L1XE55.pdf>
+Package pdftex.def Info: chapters/c6/fig/METTriggerCalibration/SF_HLT_xe110_puf
+it_L1XE55.pdf used on input line 75.
+(pdftex.def)             Requested size: 195.12767pt x 132.4918pt.
+
+<chapters/c6/fig/METTriggerCalibration/validation_HLT_xe70_mht.pdf, id=1705, 56
+9.12625pt x 526.96875pt>
+File: chapters/c6/fig/METTriggerCalibration/validation_HLT_xe70_mht.pdf Graphic
+ file (type pdf)
+
+<use chapters/c6/fig/METTriggerCalibration/validation_HLT_xe70_mht.pdf>
+Package pdftex.def Info: chapters/c6/fig/METTriggerCalibration/validation_HLT_x
+e70_mht.pdf used on input line 82.
+(pdftex.def)             Requested size: 195.12767pt x 180.67064pt.
+
+<chapters/c6/fig/METTriggerCalibration/validation_HLT_xe90_mht_L1XE50.pdf, id=1
+706, 569.12625pt x 526.96875pt>
+File: chapters/c6/fig/METTriggerCalibration/validation_HLT_xe90_mht_L1XE50.pdf 
+Graphic file (type pdf)
+
+<use chapters/c6/fig/METTriggerCalibration/validation_HLT_xe90_mht_L1XE50.pdf>
+Package pdftex.def Info: chapters/c6/fig/METTriggerCalibration/validation_HLT_x
+e90_mht_L1XE50.pdf used on input line 83.
+(pdftex.def)             Requested size: 195.12767pt x 180.67064pt.
+
+<chapters/c6/fig/METTriggerCalibration/validation_HLT_xe110_mht_L1XE50.pdf, id=
+1707, 569.12625pt x 526.96875pt>
+File: chapters/c6/fig/METTriggerCalibration/validation_HLT_xe110_mht_L1XE50.pdf
+ Graphic file (type pdf)
+
+<use chapters/c6/fig/METTriggerCalibration/validation_HLT_xe110_mht_L1XE50.pdf>
+Package pdftex.def Info: chapters/c6/fig/METTriggerCalibration/validation_HLT_x
+e110_mht_L1XE50.pdf used on input line 84.
+(pdftex.def)             Requested size: 195.12767pt x 180.67064pt.
+
+<chapters/c6/fig/METTriggerCalibration/validation_HLT_xe110_pufit_L1XE55.pdf, i
+d=1708, 569.12625pt x 526.96875pt>
+File: chapters/c6/fig/METTriggerCalibration/validation_HLT_xe110_pufit_L1XE55.p
+df Graphic file (type pdf)
+
+<use chapters/c6/fig/METTriggerCalibration/validation_HLT_xe110_pufit_L1XE55.pd
+f>
+Package pdftex.def Info: chapters/c6/fig/METTriggerCalibration/validation_HLT_x
+e110_pufit_L1XE55.pdf used on input line 85.
+(pdftex.def)             Requested size: 195.12767pt x 180.67064pt.
+ [69] [70 <./chapters/c6/fig/METTriggerCalibration/efficiecy_HLT_xe70_mht.pdf, 
+page is rotated 90 degrees> <./chapters/c6/fig/METTriggerCalibration/efficiecy_
+HLT_xe90_mht_L1XE50.pdf, page is rotated 90 degrees> <./chapters/c6/fig/METTrig
+gerCalibration/efficiecy_HLT_xe110_mht_L1XE50.pdf, page is rotated 90 degrees> 
+<./chapters/c6/fig/METTriggerCalibration/efficiecy_HLT_xe110_pufit_L1XE55.pdf, 
+page is rotated 90 degrees>] [71] [72 <./chapters/c6/fig/METTriggerCalibration/
+SF_HLT_xe70_mht.pdf, page is rotated 90 degrees> <./chapters/c6/fig/METTriggerC
+alibration/SF_HLT_xe90_mht_L1XE50.pdf, page is rotated 90 degrees> <./chapters/
+c6/fig/METTriggerCalibration/SF_HLT_xe110_mht_L1XE50.pdf, page is rotated 90 de
+grees> <./chapters/c6/fig/METTriggerCalibration/SF_HLT_xe110_pufit_L1XE55.pdf, 
+page is rotated 90 degrees>] [73 <./chapters/c6/fig/METTriggerCalibration/valid
+ation_HLT_xe70_mht.pdf, page is rotated 90 degrees> <./chapters/c6/fig/METTrigg
+erCalibration/validation_HLT_xe90_mht_L1XE50.pdf, page is rotated 90 degrees> <
+./chapters/c6/fig/METTriggerCalibration/validation_HLT_xe110_mht_L1XE50.pdf, pa
+ge is rotated 90 degrees> <./chapters/c6/fig/METTriggerCalibration/validation_H
+LT_xe110_pufit_L1XE55.pdf, page is rotated 90 degrees>]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 195.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 195.
+
+[74]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 233.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 233.
+
+[75]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 242.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 242.
+
+) (./chapters/c7/c7.tex [76]
+Chapter 9.
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 18.
+
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 18.
+
+[77
+
+] [78]
+Overfull \hbox (5.44748pt too wide) in paragraph at lines 99--100
+[]\OT1/cmr/bx/n/10.95 Large-radius jets\OT1/cmr/m/n/10.95 : The large-radius je
+ts are re-con-tructed with large cone size (R=1.0).
+ []
+
+[79] [80] [81] [82] [83]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[84]
+<chapters/c7/figures/ttbar-decay-modes.png, id=2430, 406.51875pt x 337.26pt>
+File: chapters/c7/figures/ttbar-decay-modes.png Graphic file (type png)
+
+<use chapters/c7/figures/ttbar-decay-modes.png>
+Package pdftex.def Info: chapters/c7/figures/ttbar-decay-modes.png used on inpu
+t line 314.
+(pdftex.def)             Requested size: 390.25534pt x 323.78136pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+<chapters/c7/figures/ttbar_MetTST_met.pdf, id=2431, 569.12625pt x 384.43625pt>
+File: chapters/c7/figures/ttbar_MetTST_met.pdf Graphic file (type pdf)
+
+<use chapters/c7/figures/ttbar_MetTST_met.pdf>
+Package pdftex.def Info: chapters/c7/figures/ttbar_MetTST_met.pdf used on input
+ line 321.
+(pdftex.def)             Requested size: 195.12767pt x 131.80353pt.
+
+<chapters/c7/figures/ttbar_m_jj.pdf, id=2432, 569.12625pt x 384.43625pt>
+File: chapters/c7/figures/ttbar_m_jj.pdf Graphic file (type pdf)
+
+<use chapters/c7/figures/ttbar_m_jj.pdf>
+Package pdftex.def Info: chapters/c7/figures/ttbar_m_jj.pdf used on input line 
+322.
+(pdftex.def)             Requested size: 195.12767pt x 131.80353pt.
+
+<chapters/c7/figures/ttbar_N_Jets04.pdf, id=2433, 569.12625pt x 384.43625pt>
+File: chapters/c7/figures/ttbar_N_Jets04.pdf Graphic file (type pdf)
+
+<use chapters/c7/figures/ttbar_N_Jets04.pdf>
+Package pdftex.def Info: chapters/c7/figures/ttbar_N_Jets04.pdf used on input l
+ine 323.
+(pdftex.def)             Requested size: 195.12767pt x 131.80353pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[85]) (./chapters/c8/c8.tex [86 <./chapters/c7/figures/ttbar-decay-modes.png (P
+NG copy)>] [87 <./chapters/c7/figures/ttbar_MetTST_met.pdf, page is rotated 90 
+degrees> <./chapters/c7/figures/ttbar_m_jj.pdf, page is rotated 90 degrees> <./
+chapters/c7/figures/ttbar_N_Jets04.pdf, page is rotated 90 degrees>]
+Chapter 10.
+
+LaTeX Warning: Float too large for page by 35.40428pt on input line 66.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Overfull \hbox (9.96542pt too wide) in paragraph at lines 71--107
+ [] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Overfull \hbox (5.46172pt too wide) in paragraph at lines 115--145
+ [] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 154.
+
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 154.
+
+[88
+
+] [89] [90]
+<chapters/c8/figures/0L/DataMC_MonoH_Nominal_SR_Resolved_150_200_2b_m_jj_10GeV.
+pdf, id=2608, 569.12625pt x 385.44pt>
+File: chapters/c8/figures/0L/DataMC_MonoH_Nominal_SR_Resolved_150_200_2b_m_jj_1
+0GeV.pdf Graphic file (type pdf)
+
+<use chapters/c8/figures/0L/DataMC_MonoH_Nominal_SR_Resolved_150_200_2b_m_jj_10
+GeV.pdf>
+Package pdftex.def Info: chapters/c8/figures/0L/DataMC_MonoH_Nominal_SR_Resolve
+d_150_200_2b_m_jj_10GeV.pdf used on input line 193.
+(pdftex.def)             Requested size: 199.4681pt x 135.08833pt.
+
+<chapters/c8/figures/0L/DataMC_MonoH_Nominal_SR_Resolved_200_350_2b_m_jj_10GeV.
+pdf, id=2609, 569.12625pt x 385.44pt>
+File: chapters/c8/figures/0L/DataMC_MonoH_Nominal_SR_Resolved_200_350_2b_m_jj_1
+0GeV.pdf Graphic file (type pdf)
+
+<use chapters/c8/figures/0L/DataMC_MonoH_Nominal_SR_Resolved_200_350_2b_m_jj_10
+GeV.pdf>
+Package pdftex.def Info: chapters/c8/figures/0L/DataMC_MonoH_Nominal_SR_Resolve
+d_200_350_2b_m_jj_10GeV.pdf used on input line 194.
+(pdftex.def)             Requested size: 199.4681pt x 135.08833pt.
+
+<chapters/c8/figures/0L/DataMC_MonoH_Nominal_SR_Resolved_350_500_2b_m_jj_10GeV.
+pdf, id=2610, 569.12625pt x 385.44pt>
+File: chapters/c8/figures/0L/DataMC_MonoH_Nominal_SR_Resolved_350_500_2b_m_jj_1
+0GeV.pdf Graphic file (type pdf)
+
+<use chapters/c8/figures/0L/DataMC_MonoH_Nominal_SR_Resolved_350_500_2b_m_jj_10
+GeV.pdf>
+Package pdftex.def Info: chapters/c8/figures/0L/DataMC_MonoH_Nominal_SR_Resolve
+d_350_500_2b_m_jj_10GeV.pdf used on input line 195.
+(pdftex.def)             Requested size: 199.4681pt x 135.08833pt.
+
+<chapters/c8/figures/0L/DataMC_MonoH_Nominal_SR_Merged_2_0b_fatjets_m1_20GeV.pd
+f, id=2611, 569.12625pt x 385.44pt>
+File: chapters/c8/figures/0L/DataMC_MonoH_Nominal_SR_Merged_2_0b_fatjets_m1_20G
+eV.pdf Graphic file (type pdf)
+
+<use chapters/c8/figures/0L/DataMC_MonoH_Nominal_SR_Merged_2_0b_fatjets_m1_20Ge
+V.pdf>
+Package pdftex.def Info: chapters/c8/figures/0L/DataMC_MonoH_Nominal_SR_Merged_
+2_0b_fatjets_m1_20GeV.pdf used on input line 196.
+(pdftex.def)             Requested size: 199.4681pt x 135.08833pt.
+
+<chapters/c8/figures/0L/DataMC_MonoH_Nominal_SR_Resolved_150_200_3+b_m_jj_10GeV
+.pdf, id=2612, 569.12625pt x 385.44pt>
+File: chapters/c8/figures/0L/DataMC_MonoH_Nominal_SR_Resolved_150_200_3+b_m_jj_
+10GeV.pdf Graphic file (type pdf)
+
+<use chapters/c8/figures/0L/DataMC_MonoH_Nominal_SR_Resolved_150_200_3+b_m_jj_1
+0GeV.pdf>
+Package pdftex.def Info: chapters/c8/figures/0L/DataMC_MonoH_Nominal_SR_Resolve
+d_150_200_3+b_m_jj_10GeV.pdf used on input line 202.
+(pdftex.def)             Requested size: 199.4681pt x 135.08833pt.
+
+<chapters/c8/figures/0L/DataMC_MonoH_Nominal_SR_Resolved_200_350_3+b_m_jj_10GeV
+.pdf, id=2613, 569.12625pt x 385.44pt>
+File: chapters/c8/figures/0L/DataMC_MonoH_Nominal_SR_Resolved_200_350_3+b_m_jj_
+10GeV.pdf Graphic file (type pdf)
+
+<use chapters/c8/figures/0L/DataMC_MonoH_Nominal_SR_Resolved_200_350_3+b_m_jj_1
+0GeV.pdf>
+Package pdftex.def Info: chapters/c8/figures/0L/DataMC_MonoH_Nominal_SR_Resolve
+d_200_350_3+b_m_jj_10GeV.pdf used on input line 203.
+(pdftex.def)             Requested size: 199.4681pt x 135.08833pt.
+
+<chapters/c8/figures/0L/DataMC_MonoH_Nominal_SR_Resolved_350_500_3+b_m_jj_10GeV
+.pdf, id=2614, 569.12625pt x 385.44pt>
+File: chapters/c8/figures/0L/DataMC_MonoH_Nominal_SR_Resolved_350_500_3+b_m_jj_
+10GeV.pdf Graphic file (type pdf)
+
+<use chapters/c8/figures/0L/DataMC_MonoH_Nominal_SR_Resolved_350_500_3+b_m_jj_1
+0GeV.pdf>
+Package pdftex.def Info: chapters/c8/figures/0L/DataMC_MonoH_Nominal_SR_Resolve
+d_350_500_3+b_m_jj_10GeV.pdf used on input line 204.
+(pdftex.def)             Requested size: 199.4681pt x 135.08833pt.
+
+<chapters/c8/figures/0L/DataMC_MonoH_Nominal_SR_Merged_2_1+b_fatjets_m1_20GeV.p
+df, id=2615, 569.12625pt x 385.44pt>
+File: chapters/c8/figures/0L/DataMC_MonoH_Nominal_SR_Merged_2_1+b_fatjets_m1_20
+GeV.pdf Graphic file (type pdf)
+
+<use chapters/c8/figures/0L/DataMC_MonoH_Nominal_SR_Merged_2_1+b_fatjets_m1_20G
+eV.pdf>
+Package pdftex.def Info: chapters/c8/figures/0L/DataMC_MonoH_Nominal_SR_Merged_
+2_1+b_fatjets_m1_20GeV.pdf used on input line 205.
+(pdftex.def)             Requested size: 199.4681pt x 135.08833pt.
+
+<chapters/c8/figures/1L/DataMC_MonoH_Nominal_CR1_Resolved_150_200_2b_mu_charge.
+pdf, id=2616, 569.12625pt x 385.44pt>
+File: chapters/c8/figures/1L/DataMC_MonoH_Nominal_CR1_Resolved_150_200_2b_mu_ch
+arge.pdf Graphic file (type pdf)
+
+<use chapters/c8/figures/1L/DataMC_MonoH_Nominal_CR1_Resolved_150_200_2b_mu_cha
+rge.pdf>
+Package pdftex.def Info: chapters/c8/figures/1L/DataMC_MonoH_Nominal_CR1_Resolv
+ed_150_200_2b_mu_charge.pdf used on input line 211.
+(pdftex.def)             Requested size: 199.4681pt x 135.08833pt.
+
+<chapters/c8/figures/1L/DataMC_MonoH_Nominal_CR1_Resolved_200_350_2b_mu_charge.
+pdf, id=2617, 569.12625pt x 385.44pt>
+File: chapters/c8/figures/1L/DataMC_MonoH_Nominal_CR1_Resolved_200_350_2b_mu_ch
+arge.pdf Graphic file (type pdf)
+
+<use chapters/c8/figures/1L/DataMC_MonoH_Nominal_CR1_Resolved_200_350_2b_mu_cha
+rge.pdf>
+Package pdftex.def Info: chapters/c8/figures/1L/DataMC_MonoH_Nominal_CR1_Resolv
+ed_200_350_2b_mu_charge.pdf used on input line 212.
+(pdftex.def)             Requested size: 199.4681pt x 135.08833pt.
+
+<chapters/c8/figures/1L/DataMC_MonoH_Nominal_CR1_Resolved_350_500_2b_mu_charge.
+pdf, id=2618, 569.12625pt x 385.44pt>
+File: chapters/c8/figures/1L/DataMC_MonoH_Nominal_CR1_Resolved_350_500_2b_mu_ch
+arge.pdf Graphic file (type pdf)
+
+<use chapters/c8/figures/1L/DataMC_MonoH_Nominal_CR1_Resolved_350_500_2b_mu_cha
+rge.pdf>
+Package pdftex.def Info: chapters/c8/figures/1L/DataMC_MonoH_Nominal_CR1_Resolv
+ed_350_500_2b_mu_charge.pdf used on input line 213.
+(pdftex.def)             Requested size: 199.4681pt x 135.08833pt.
+
+<chapters/c8/figures/1L/DataMC_MonoH_Nominal_CR1_Merged_2_0b_mu_charge.pdf, id=
+2619, 569.12625pt x 385.44pt>
+File: chapters/c8/figures/1L/DataMC_MonoH_Nominal_CR1_Merged_2_0b_mu_charge.pdf
+ Graphic file (type pdf)
+
+<use chapters/c8/figures/1L/DataMC_MonoH_Nominal_CR1_Merged_2_0b_mu_charge.pdf>
+Package pdftex.def Info: chapters/c8/figures/1L/DataMC_MonoH_Nominal_CR1_Merged
+_2_0b_mu_charge.pdf used on input line 214.
+(pdftex.def)             Requested size: 199.4681pt x 135.08833pt.
+
+<chapters/c8/figures/1L/DataMC_MonoH_Nominal_CR1_Resolved_150_200_3+b_mu_charge
+.pdf, id=2620, 569.12625pt x 385.44pt>
+File: chapters/c8/figures/1L/DataMC_MonoH_Nominal_CR1_Resolved_150_200_3+b_mu_c
+harge.pdf Graphic file (type pdf)
+
+<use chapters/c8/figures/1L/DataMC_MonoH_Nominal_CR1_Resolved_150_200_3+b_mu_ch
+arge.pdf>
+Package pdftex.def Info: chapters/c8/figures/1L/DataMC_MonoH_Nominal_CR1_Resolv
+ed_150_200_3+b_mu_charge.pdf used on input line 220.
+(pdftex.def)             Requested size: 199.4681pt x 135.08833pt.
+
+<chapters/c8/figures/1L/DataMC_MonoH_Nominal_CR1_Resolved_200_350_3+b_mu_charge
+.pdf, id=2621, 569.12625pt x 385.44pt>
+File: chapters/c8/figures/1L/DataMC_MonoH_Nominal_CR1_Resolved_200_350_3+b_mu_c
+harge.pdf Graphic file (type pdf)
+
+<use chapters/c8/figures/1L/DataMC_MonoH_Nominal_CR1_Resolved_200_350_3+b_mu_ch
+arge.pdf>
+Package pdftex.def Info: chapters/c8/figures/1L/DataMC_MonoH_Nominal_CR1_Resolv
+ed_200_350_3+b_mu_charge.pdf used on input line 221.
+(pdftex.def)             Requested size: 199.4681pt x 135.08833pt.
+
+<chapters/c8/figures/1L/DataMC_MonoH_Nominal_CR1_Resolved_350_500_3+b_mu_charge
+.pdf, id=2622, 569.12625pt x 385.44pt>
+File: chapters/c8/figures/1L/DataMC_MonoH_Nominal_CR1_Resolved_350_500_3+b_mu_c
+harge.pdf Graphic file (type pdf)
+
+<use chapters/c8/figures/1L/DataMC_MonoH_Nominal_CR1_Resolved_350_500_3+b_mu_ch
+arge.pdf>
+Package pdftex.def Info: chapters/c8/figures/1L/DataMC_MonoH_Nominal_CR1_Resolv
+ed_350_500_3+b_mu_charge.pdf used on input line 222.
+(pdftex.def)             Requested size: 199.4681pt x 135.08833pt.
+
+<chapters/c8/figures/1L/DataMC_MonoH_Nominal_CR1_Merged_2_1+b_mu_charge.pdf, id
+=2623, 569.12625pt x 385.44pt>
+File: chapters/c8/figures/1L/DataMC_MonoH_Nominal_CR1_Merged_2_1+b_mu_charge.pd
+f Graphic file (type pdf)
+
+<use chapters/c8/figures/1L/DataMC_MonoH_Nominal_CR1_Merged_2_1+b_mu_charge.pdf
+>
+Package pdftex.def Info: chapters/c8/figures/1L/DataMC_MonoH_Nominal_CR1_Merged
+_2_1+b_mu_charge.pdf used on input line 223.
+(pdftex.def)             Requested size: 199.4681pt x 135.08833pt.
+
+<chapters/c8/figures/2L/DataMC_MonoH_Nominal_CR2_ll_Resolved_150_200_2b_N_BJets
+_04.pdf, id=2624, 569.12625pt x 385.44pt>
+File: chapters/c8/figures/2L/DataMC_MonoH_Nominal_CR2_ll_Resolved_150_200_2b_N_
+BJets_04.pdf Graphic file (type pdf)
+
+<use chapters/c8/figures/2L/DataMC_MonoH_Nominal_CR2_ll_Resolved_150_200_2b_N_B
+Jets_04.pdf>
+Package pdftex.def Info: chapters/c8/figures/2L/DataMC_MonoH_Nominal_CR2_ll_Res
+olved_150_200_2b_N_BJets_04.pdf used on input line 229.
+(pdftex.def)             Requested size: 199.4681pt x 135.08833pt.
+
+<chapters/c8/figures/2L/DataMC_MonoH_Nominal_CR2_ll_Resolved_200_350_2b_N_BJets
+_04.pdf, id=2625, 569.12625pt x 385.44pt>
+File: chapters/c8/figures/2L/DataMC_MonoH_Nominal_CR2_ll_Resolved_200_350_2b_N_
+BJets_04.pdf Graphic file (type pdf)
+
+<use chapters/c8/figures/2L/DataMC_MonoH_Nominal_CR2_ll_Resolved_200_350_2b_N_B
+Jets_04.pdf>
+Package pdftex.def Info: chapters/c8/figures/2L/DataMC_MonoH_Nominal_CR2_ll_Res
+olved_200_350_2b_N_BJets_04.pdf used on input line 230.
+(pdftex.def)             Requested size: 199.4681pt x 135.08833pt.
+
+<chapters/c8/figures/2L/DataMC_MonoH_Nominal_CR2_ll_Resolved_350_500_2b_N_BJets
+_04.pdf, id=2626, 569.12625pt x 385.44pt>
+File: chapters/c8/figures/2L/DataMC_MonoH_Nominal_CR2_ll_Resolved_350_500_2b_N_
+BJets_04.pdf Graphic file (type pdf)
+
+<use chapters/c8/figures/2L/DataMC_MonoH_Nominal_CR2_ll_Resolved_350_500_2b_N_B
+Jets_04.pdf>
+Package pdftex.def Info: chapters/c8/figures/2L/DataMC_MonoH_Nominal_CR2_ll_Res
+olved_350_500_2b_N_BJets_04.pdf used on input line 231.
+(pdftex.def)             Requested size: 199.4681pt x 135.08833pt.
+
+<chapters/c8/figures/2L/DataMC_MonoH_Nominal_CR2_ll_Merged_2_0b_N_BTags_not_ass
+ociated_02.pdf, id=2627, 569.12625pt x 385.44pt>
+File: chapters/c8/figures/2L/DataMC_MonoH_Nominal_CR2_ll_Merged_2_0b_N_BTags_no
+t_associated_02.pdf Graphic file (type pdf)
+
+<use chapters/c8/figures/2L/DataMC_MonoH_Nominal_CR2_ll_Merged_2_0b_N_BTags_not
+_associated_02.pdf>
+Package pdftex.def Info: chapters/c8/figures/2L/DataMC_MonoH_Nominal_CR2_ll_Mer
+ged_2_0b_N_BTags_not_associated_02.pdf used on input line 232.
+(pdftex.def)             Requested size: 199.4681pt x 135.08833pt.
+
+<chapters/c8/figures/2L/DataMC_MonoH_Nominal_CR2_ll_Resolved_150_200_3+b_N_BJet
+s_04.pdf, id=2628, 569.12625pt x 385.44pt>
+File: chapters/c8/figures/2L/DataMC_MonoH_Nominal_CR2_ll_Resolved_150_200_3+b_N
+_BJets_04.pdf Graphic file (type pdf)
+
+<use chapters/c8/figures/2L/DataMC_MonoH_Nominal_CR2_ll_Resolved_150_200_3+b_N_
+BJets_04.pdf>
+Package pdftex.def Info: chapters/c8/figures/2L/DataMC_MonoH_Nominal_CR2_ll_Res
+olved_150_200_3+b_N_BJets_04.pdf used on input line 238.
+(pdftex.def)             Requested size: 199.4681pt x 135.08833pt.
+
+<chapters/c8/figures/2L/DataMC_MonoH_Nominal_CR2_ll_Resolved_200_350_3+b_N_BJet
+s_04.pdf, id=2629, 569.12625pt x 385.44pt>
+File: chapters/c8/figures/2L/DataMC_MonoH_Nominal_CR2_ll_Resolved_200_350_3+b_N
+_BJets_04.pdf Graphic file (type pdf)
+
+<use chapters/c8/figures/2L/DataMC_MonoH_Nominal_CR2_ll_Resolved_200_350_3+b_N_
+BJets_04.pdf>
+Package pdftex.def Info: chapters/c8/figures/2L/DataMC_MonoH_Nominal_CR2_ll_Res
+olved_200_350_3+b_N_BJets_04.pdf used on input line 239.
+(pdftex.def)             Requested size: 199.4681pt x 135.08833pt.
+
+<chapters/c8/figures/2L/DataMC_MonoH_Nominal_CR2_ll_Resolved_350_500_3+b_N_BJet
+s_04.pdf, id=2630, 569.12625pt x 385.44pt>
+File: chapters/c8/figures/2L/DataMC_MonoH_Nominal_CR2_ll_Resolved_350_500_3+b_N
+_BJets_04.pdf Graphic file (type pdf)
+
+<use chapters/c8/figures/2L/DataMC_MonoH_Nominal_CR2_ll_Resolved_350_500_3+b_N_
+BJets_04.pdf>
+Package pdftex.def Info: chapters/c8/figures/2L/DataMC_MonoH_Nominal_CR2_ll_Res
+olved_350_500_3+b_N_BJets_04.pdf used on input line 240.
+(pdftex.def)             Requested size: 199.4681pt x 135.08833pt.
+
+<chapters/c8/figures/2L/DataMC_MonoH_Nominal_CR2_ll_Merged_2_1+b_N_BTags_not_as
+sociated_02.pdf, id=2631, 569.12625pt x 385.44pt>
+File: chapters/c8/figures/2L/DataMC_MonoH_Nominal_CR2_ll_Merged_2_1+b_N_BTags_n
+ot_associated_02.pdf Graphic file (type pdf)
+
+<use chapters/c8/figures/2L/DataMC_MonoH_Nominal_CR2_ll_Merged_2_1+b_N_BTags_no
+t_associated_02.pdf>
+Package pdftex.def Info: chapters/c8/figures/2L/DataMC_MonoH_Nominal_CR2_ll_Mer
+ged_2_1+b_N_BTags_not_associated_02.pdf used on input line 241.
+(pdftex.def)             Requested size: 199.4681pt x 135.08833pt.
+) (./chapters/c9/c9.tex [91] [92 <./chapters/c8/figures/0L/DataMC_MonoH_Nominal
+_SR_Resolved_150_200_2b_m_jj_10GeV.pdf, page is rotated 90 degrees> <./chapters
+/c8/figures/0L/DataMC_MonoH_Nominal_SR_Resolved_200_350_2b_m_jj_10GeV.pdf, page
+ is rotated 90 degrees> <./chapters/c8/figures/0L/DataMC_MonoH_Nominal_SR_Resol
+ved_350_500_2b_m_jj_10GeV.pdf, page is rotated 90 degrees> <./chapters/c8/figur
+es/0L/DataMC_MonoH_Nominal_SR_Merged_2_0b_fatjets_m1_20GeV.pdf, page is rotated
+ 90 degrees>] [93] [94] [95] [96 <./chapters/c8/figures/0L/DataMC_MonoH_Nominal
+_SR_Resolved_150_200_3+b_m_jj_10GeV.pdf, page is rotated 90 degrees> <./chapter
+s/c8/figures/0L/DataMC_MonoH_Nominal_SR_Resolved_200_350_3+b_m_jj_10GeV.pdf, pa
+ge is rotated 90 degrees> <./chapters/c8/figures/0L/DataMC_MonoH_Nominal_SR_Res
+olved_350_500_3+b_m_jj_10GeV.pdf, page is rotated 90 degrees> <./chapters/c8/fi
+gures/0L/DataMC_MonoH_Nominal_SR_Merged_2_1+b_fatjets_m1_20GeV.pdf, page is rot
+ated 90 degrees>] [97 <./chapters/c8/figures/1L/DataMC_MonoH_Nominal_CR1_Resolv
+ed_150_200_2b_mu_charge.pdf, page is rotated 90 degrees> <./chapters/c8/figures
+/1L/DataMC_MonoH_Nominal_CR1_Resolved_200_350_2b_mu_charge.pdf, page is rotated
+ 90 degrees> <./chapters/c8/figures/1L/DataMC_MonoH_Nominal_CR1_Resolved_350_50
+0_2b_mu_charge.pdf, page is rotated 90 degrees> <./chapters/c8/figures/1L/DataM
+C_MonoH_Nominal_CR1_Merged_2_0b_mu_charge.pdf, page is rotated 90 degrees>] [98
+ <./chapters/c8/figures/1L/DataMC_MonoH_Nominal_CR1_Resolved_150_200_3+b_mu_cha
+rge.pdf, page is rotated 90 degrees> <./chapters/c8/figures/1L/DataMC_MonoH_Nom
+inal_CR1_Resolved_200_350_3+b_mu_charge.pdf, page is rotated 90 degrees> <./cha
+pters/c8/figures/1L/DataMC_MonoH_Nominal_CR1_Resolved_350_500_3+b_mu_charge.pdf
+, page is rotated 90 degrees> <./chapters/c8/figures/1L/DataMC_MonoH_Nominal_CR
+1_Merged_2_1+b_mu_charge.pdf, page is rotated 90 degrees>]
+[99 <./chapters/c8/figures/2L/DataMC_MonoH_Nominal_CR2_ll_Resolved_150_200_2b_N
+_BJets_04.pdf, page is rotated 90 degrees> <./chapters/c8/figures/2L/DataMC_Mon
+oH_Nominal_CR2_ll_Resolved_200_350_2b_N_BJets_04.pdf, page is rotated 90 degree
+s> <./chapters/c8/figures/2L/DataMC_MonoH_Nominal_CR2_ll_Resolved_350_500_2b_N_
+BJets_04.pdf, page is rotated 90 degrees> <./chapters/c8/figures/2L/DataMC_Mono
+H_Nominal_CR2_ll_Merged_2_0b_N_BTags_not_associated_02.pdf, page is rotated 90 
+degrees>] [100 <./chapters/c8/figures/2L/DataMC_MonoH_Nominal_CR2_ll_Resolved_1
+50_200_3+b_N_BJets_04.pdf, page is rotated 90 degrees> <./chapters/c8/figures/2
+L/DataMC_MonoH_Nominal_CR2_ll_Resolved_200_350_3+b_N_BJets_04.pdf, page is rota
+ted 90 degrees> <./chapters/c8/figures/2L/DataMC_MonoH_Nominal_CR2_ll_Resolved_
+350_500_3+b_N_BJets_04.pdf, page is rotated 90 degrees> <./chapters/c8/figures/
+2L/DataMC_MonoH_Nominal_CR2_ll_Merged_2_1+b_N_BTags_not_associated_02.pdf, page
+ is rotated 90 degrees>]
+Chapter 11.
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 28.
+
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 28.
+
+[101
+
+])) [102]
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 102.
+
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 102.
+
+[103
+
+] (./conclusions.tex
+Chapter 12.
+)
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 109.
+
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 109.
+
+[104
+
+]
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 109.
+
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 109.
+
+[105
+
+] (./appendices/appendix-A.tex
+Appendix A.
+) (./appendices/appendix-B.tex
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 1.
+
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 1.
+
+[106
+
+] [107]
+Appendix B.
+<appendices/fig/roc_multijet.pdf, id=3743, 336.83026pt x 257.10428pt>
+File: appendices/fig/roc_multijet.pdf Graphic file (type pdf)
+
+<use appendices/fig/roc_multijet.pdf>
+Package pdftex.def Info: appendices/fig/roc_multijet.pdf used on input line 17.
+
+(pdftex.def)             Requested size: 173.44534pt x 132.3886pt.
+
+<appendices/fig/roc_top.pdf, id=3744, 336.83026pt x 257.10428pt>
+File: appendices/fig/roc_top.pdf Graphic file (type pdf)
+
+<use appendices/fig/roc_top.pdf>
+Package pdftex.def Info: appendices/fig/roc_top.pdf used on input line 18.
+(pdftex.def)             Requested size: 173.44534pt x 132.3886pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 56.
+
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 56.
+
+[108
+
+]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+
+
+LaTeX Warning: Reference `fig.mj_after' on page 109 undefined on input line 56.
+
+
+[109 <./appendices/fig/roc_multijet.pdf> <./appendices/fig/roc_top.pdf
+
+pdfTeX warning: pdflatex (file ./appendices/fig/roc_top.pdf): PDF inclusion: mu
+ltiple pdfs with page group included in a single page
+>]
+<appendices/fig/MC_MonoH_Nominal_SR_Merged_fatjets_m1_20GeV_LogY.pdf, id=3871, 
+569.12625pt x 408.52625pt>
+File: appendices/fig/MC_MonoH_Nominal_SR_Merged_fatjets_m1_20GeV_LogY.pdf Graph
+ic file (type pdf)
+
+<use appendices/fig/MC_MonoH_Nominal_SR_Merged_fatjets_m1_20GeV_LogY.pdf>
+Package pdftex.def Info: appendices/fig/MC_MonoH_Nominal_SR_Merged_fatjets_m1_2
+0GeV_LogY.pdf used on input line 61.
+(pdftex.def)             Requested size: 173.44534pt x 124.5037pt.
+
+<appendices/fig/MC_MonoH_Nominal_SR_Merged_2b_fatjets_m1_20GeV_LogY_vr.pdf, id=
+3872, 569.12625pt x 408.52625pt>
+File: appendices/fig/MC_MonoH_Nominal_SR_Merged_2b_fatjets_m1_20GeV_LogY_vr.pdf
+ Graphic file (type pdf)
+
+<use appendices/fig/MC_MonoH_Nominal_SR_Merged_2b_fatjets_m1_20GeV_LogY_vr.pdf>
+Package pdftex.def Info: appendices/fig/MC_MonoH_Nominal_SR_Merged_2b_fatjets_m
+1_20GeV_LogY_vr.pdf used on input line 62.
+(pdftex.def)             Requested size: 173.44534pt x 124.5037pt.
+
+<appendices/fig/MC_MonoH_Nominal_SR_Merged_2b_fatjets_m1_20GeV_LogY_xbb.pdf, id
+=3873, 569.12625pt x 408.52625pt>
+File: appendices/fig/MC_MonoH_Nominal_SR_Merged_2b_fatjets_m1_20GeV_LogY_xbb.pd
+f Graphic file (type pdf)
+
+<use appendices/fig/MC_MonoH_Nominal_SR_Merged_2b_fatjets_m1_20GeV_LogY_xbb.pdf
+>
+Package pdftex.def Info: appendices/fig/MC_MonoH_Nominal_SR_Merged_2b_fatjets_m
+1_20GeV_LogY_xbb.pdf used on input line 69.
+(pdftex.def)             Requested size: 173.44534pt x 124.5037pt.
+
+<appendices/fig/MC_MonoH_Nominal_SR_Merged_2b_fatjets_m1_20GeV_LogY_xbb_f0.pdf,
+ id=3874, 569.12625pt x 408.52625pt>
+File: appendices/fig/MC_MonoH_Nominal_SR_Merged_2b_fatjets_m1_20GeV_LogY_xbb_f0
+.pdf Graphic file (type pdf)
+
+<use appendices/fig/MC_MonoH_Nominal_SR_Merged_2b_fatjets_m1_20GeV_LogY_xbb_f0.
+pdf>
+Package pdftex.def Info: appendices/fig/MC_MonoH_Nominal_SR_Merged_2b_fatjets_m
+1_20GeV_LogY_xbb_f0.pdf used on input line 70.
+(pdftex.def)             Requested size: 173.44534pt x 124.5037pt.
+ [110 <./appendices/fig/MC_MonoH_Nominal_SR_Merged_fatjets_m1_20GeV_LogY.pdf, p
+age is rotated 90 degrees> <./appendices/fig/MC_MonoH_Nominal_SR_Merged_2b_fatj
+ets_m1_20GeV_LogY_vr.pdf, page is rotated 90 degrees> <./appendices/fig/MC_Mono
+H_Nominal_SR_Merged_2b_fatjets_m1_20GeV_LogY_xbb.pdf, page is rotated 90 degree
+s> <./appendices/fig/MC_MonoH_Nominal_SR_Merged_2b_fatjets_m1_20GeV_LogY_xbb_f0
+.pdf, page is rotated 90 degrees>]
+<appendices/fig/Region_BMin500_incFat1_Fat1_incJet1_Y2015_DSR_T2_L0_distmBB_J0_
+Prefit.pdf, id=4053, 569.12625pt x 546.04pt>
+File: appendices/fig/Region_BMin500_incFat1_Fat1_incJet1_Y2015_DSR_T2_L0_distmB
+B_J0_Prefit.pdf Graphic file (type pdf)
+
+<use appendices/fig/Region_BMin500_incFat1_Fat1_incJet1_Y2015_DSR_T2_L0_distmBB
+_J0_Prefit.pdf>
+Package pdftex.def Info: appendices/fig/Region_BMin500_incFat1_Fat1_incJet1_Y20
+15_DSR_T2_L0_distmBB_J0_Prefit.pdf used on input line 84.
+(pdftex.def)             Requested size: 173.44534pt x 166.41281pt.
+
+<appendices/fig/Region_BMin500_incFat1_Fat1_incJet1_Y2015_DCR1_T2_L1_distCharge
+_J0_Prefit.pdf, id=4054, 569.12625pt x 546.04pt>
+File: appendices/fig/Region_BMin500_incFat1_Fat1_incJet1_Y2015_DCR1_T2_L1_distC
+harge_J0_Prefit.pdf Graphic file (type pdf)
+
+<use appendices/fig/Region_BMin500_incFat1_Fat1_incJet1_Y2015_DCR1_T2_L1_distCh
+arge_J0_Prefit.pdf>
+Package pdftex.def Info: appendices/fig/Region_BMin500_incFat1_Fat1_incJet1_Y20
+15_DCR1_T2_L1_distCharge_J0_Prefit.pdf used on input line 85.
+(pdftex.def)             Requested size: 173.44534pt x 166.41281pt.
+
+<appendices/fig/Region_BMin500_incFat1_Fat1_incJet1_Y2015_DCR2_T2_L2_distmBB_J0
+_Prefit.pdf, id=4055, 569.12625pt x 546.04pt>
+File: appendices/fig/Region_BMin500_incFat1_Fat1_incJet1_Y2015_DCR2_T2_L2_distm
+BB_J0_Prefit.pdf Graphic file (type pdf)
+
+<use appendices/fig/Region_BMin500_incFat1_Fat1_incJet1_Y2015_DCR2_T2_L2_distmB
+B_J0_Prefit.pdf>
+Package pdftex.def Info: appendices/fig/Region_BMin500_incFat1_Fat1_incJet1_Y20
+15_DCR2_T2_L2_distmBB_J0_Prefit.pdf used on input line 86.
+(pdftex.def)             Requested size: 173.44534pt x 166.41281pt.
+
+<appendices/fig/eff_W.pdf, id=4058, 569.12625pt x 408.52625pt>
+File: appendices/fig/eff_W.pdf Graphic file (type pdf)
+
+<use appendices/fig/eff_W.pdf>
+Package pdftex.def Info: appendices/fig/eff_W.pdf used on input line 96.
+(pdftex.def)             Requested size: 195.12767pt x 140.06276pt.
+
+<appendices/fig/eff_Wnon.pdf, id=4059, 569.12625pt x 408.52625pt>
+File: appendices/fig/eff_Wnon.pdf Graphic file (type pdf)
+
+<use appendices/fig/eff_Wnon.pdf>
+Package pdftex.def Info: appendices/fig/eff_Wnon.pdf used on input line 97.
+(pdftex.def)             Requested size: 195.12767pt x 140.06276pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<appendices/fig/eff_Z.pdf, id=4060, 569.12625pt x 408.52625pt>
+File: appendices/fig/eff_Z.pdf Graphic file (type pdf)
+
+<use appendices/fig/eff_Z.pdf>
+Package pdftex.def Info: appendices/fig/eff_Z.pdf used on input line 103.
+(pdftex.def)             Requested size: 195.12767pt x 140.06276pt.
+
+<appendices/fig/eff_Znon.pdf, id=4061, 569.12625pt x 408.52625pt>
+File: appendices/fig/eff_Znon.pdf Graphic file (type pdf)
+
+<use appendices/fig/eff_Znon.pdf>
+Package pdftex.def Info: appendices/fig/eff_Znon.pdf used on input line 104.
+(pdftex.def)             Requested size: 195.12767pt x 140.06276pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<appendices/fig/pie0.pdf, id=4065, 569.12625pt x 546.04pt>
+File: appendices/fig/pie0.pdf Graphic file (type pdf)
+
+<use appendices/fig/pie0.pdf>
+Package pdftex.def Info: appendices/fig/pie0.pdf used on input line 112.
+(pdftex.def)             Requested size: 130.08731pt x 124.81169pt.
+
+<appendices/fig/pie1.pdf, id=4066, 569.12625pt x 546.04pt>
+File: appendices/fig/pie1.pdf Graphic file (type pdf)
+
+<use appendices/fig/pie1.pdf>
+Package pdftex.def Info: appendices/fig/pie1.pdf used on input line 113.
+(pdftex.def)             Requested size: 130.08731pt x 124.81169pt.
+
+<appendices/fig/pie2.pdf, id=4067, 569.12625pt x 546.04pt>
+File: appendices/fig/pie2.pdf Graphic file (type pdf)
+
+<use appendices/fig/pie2.pdf>
+Package pdftex.def Info: appendices/fig/pie2.pdf used on input line 114.
+(pdftex.def)             Requested size: 130.08731pt x 124.81169pt.
+ [111 <./appendices/fig/Region_BMin500_incFat1_Fat1_incJet1_Y2015_DSR_T2_L0_dis
+tmBB_J0_Prefit.pdf, page is rotated 90 degrees> <./appendices/fig/Region_BMin50
+0_incFat1_Fat1_incJet1_Y2015_DCR1_T2_L1_distCharge_J0_Prefit.pdf, page is rotat
+ed 90 degrees> <./appendices/fig/Region_BMin500_incFat1_Fat1_incJet1_Y2015_DCR2
+_T2_L2_distmBB_J0_Prefit.pdf, page is rotated 90 degrees>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no à in font cmr10!
+Missing character: There is no í in font cmr10!
+[112 <./appendices/fig/eff_W.pdf, page is rotated 90 degrees> <./appendices/fig
+/eff_Wnon.pdf, page is rotated 90 degrees> <./appendices/fig/eff_Z.pdf, page is
+ rotated 90 degrees> <./appendices/fig/eff_Znon.pdf, page is rotated 90 degrees
+>] [113]
+
+LaTeX Warning: Reference `fig:ss_ratio' on page 114 undefined on input line 237
+.
+
+Missing character: There is no Ô in font cmr10!
+Missing character: There is no º in font cmr10!
+Missing character: There is no å in font cmr10!
+
+<appendices/fig/2b-tags_XbbScoreoverVR_HiggsWindow.pdf, id=4386, 569.12625pt x 
+386.44376pt>
+File: appendices/fig/2b-tags_XbbScoreoverVR_HiggsWindow.pdf Graphic file (type 
+pdf)
+ <use appendices/fig/2b-tags_XbbScoreoverVR_HiggsWindow.pdf>
+Package pdftex.def Info: appendices/fig/2b-tags_XbbScoreoverVR_HiggsWindow.pdf 
+used on input line 241.
+(pdftex.def)             Requested size: 195.12767pt x 132.4918pt.
+
+<appendices/fig/2b-tags_XbbScoreoverVR.pdf, id=4387, 569.12625pt x 386.44376pt>
+File: appendices/fig/2b-tags_XbbScoreoverVR.pdf Graphic file (type pdf)
+<use appendices/fig/2b-tags_XbbScoreoverVR.pdf>
+Package pdftex.def Info: appendices/fig/2b-tags_XbbScoreoverVR.pdf used on inpu
+t line 242.
+(pdftex.def)             Requested size: 195.12767pt x 132.4918pt.
+ [114 <./appendices/fig/pie0.pdf> <./appendices/fig/pie1.pdf> <./appendices/fig
+/pie2.pdf>]) [115 <./appendices/fig/2b-tags_XbbScoreoverVR_HiggsWindow.pdf, pag
+e is rotated 90 degrees> <./appendices/fig/2b-tags_XbbScoreoverVR.pdf, page is 
+rotated 90 degrees>]
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 117.
+
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 117.
+
+[116
+
+]
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 118.
+
+(./main.bbl
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 46.
+
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 46.
+
+[117
+
+]
+Underfull \hbox (badness 1533) in paragraph at lines 82--85
+[]\OT1/cmr/m/n/10.95 Variable Ra-dius, Exclusive-k$[]$, and Center-of-Mass Sub-
+jet Re-con-struc-tion for
+ []
+
+[118]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+ [119]
+Missing character: There is no √ in font cmr10!
+Missing character: There is no © in font cmr10!
+Missing character: There is no √ in font cmr10!
+Missing character: There is no º in font cmr10!
+ [120] [121]
+Missing character: There is no √ in font cmr10!
+Missing character: There is no ´ in font cmr10!
+ [122]
+Underfull \hbox (badness 10000) in paragraph at lines 344--348
+[]\OT1/cmr/m/n/10.95 ATLAS Col-lab-o-ra-tion.  At-las data prepa-ra-tion check 
+list for
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 344--348
+\OT1/cmr/m/n/10.95 physics anal-y-sis.  [][]$\OT1/cmtt/m/n/10.95 https : / / tw
+iki . cern . ch / twiki / bin / view / Atlas /
+ []
+
+
+Underfull \hbox (badness 2012) in paragraph at lines 355--358
+[]\OT1/cmr/m/n/10.95 ATLAS Col-lab-o-ra-tion.  At-las fact sheets.  [][]$\OT1/c
+mtt/m/n/10.95 https : / / atlasexperiment . org /
+ []
+
+Missing character: There is no √ in font cmr10!
+Missing character: There is no º in font cmr10!
+[123]
+Missing character: There is no √ in font cmr10!
+Missing character: There is no ∂ in font cmr10!
+Missing character: There is no √ in font cmr10!
+Missing character: There is no ∂ in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+ [124] [125]
+Missing character: There is no √ in font cmr10!
+Missing character: There is no ° in font cmr10!
+ [126]
+Missing character: There is no √ in font cmr10!
+Missing character: There is no ∂ in font cmr10!
+Missing character: There is no √ in font cmr10!
+Missing character: There is no ∂ in font cmr10!
+ [127])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 123.
+ [128]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 123.
+ (./main.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 123.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 123.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: F3D0145222FE2ED4008200032D508236;7635.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 123.
+ ) 
+Here is how much of TeX's memory you used:
+ 19251 strings out of 493013
+ 391508 string characters out of 6135682
+ 427559 words of memory out of 5000000
+ 22001 multiletter control sequences out of 15000+600000
+ 24647 words of font info for 91 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 44i,17n,48p,10366b,1298s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+msy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
+Output written on main.pdf (144 pages, 7164568 bytes).
+PDF statistics:
+ 4774 PDF objects out of 5155 (max. 8388607)
+ 3054 compressed objects within 31 object streams
+ 474 named destinations out of 1000 (max. 500000)
+ 1321 words of extra memory for PDF output out of 10000 (max. 10000000)
+
