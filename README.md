@@ -46,16 +46,17 @@ https://atlas.cern/discover/detector
 Status: New -> Drafting -> Drafted -> Reviewing -> Reviewed -> Editing -> Edited  
 
 
-| Chapter               | Status    | Deadline   |
-|-----------------------|-----------|------------|
-| Introduction          | Edited    | 2019/08/04 |
-| The standard model    | Edited    | 2019/08/18 |
-| Dark matter           | Edited    | 2019/08/18 |
-| The LHC               | Edited    | 2019/09/10 |
-| The ATLAS experiment  | Drafted   | 2019/10/03 |
-| Physcis Objects       | Drafting  | 2019/10/20 |
-| Boosted Xbb tagging   | New       | 2019/10/28 |
-| Signal selection      | New       | 2019/11/10 |
-| Background estimation | New       | 2019/11/10 |
-| Result                | New       | 2019/11/30 |
-| Conclusion            | New       | 2019/11/30 |
+| Chapter                | Status    | Deadline   |
+|------------------------|-----------|------------|
+| Introduction           | Edited    | 2019/08/04 |
+| The standard model     | Edited    | 2019/08/18 |
+| Dark matter            | Edited    | 2019/08/18 |
+| The LHC                | Edited    | 2019/09/10 |
+| The ATLAS experiment   | Edited    | 2019/10/03 |
+| Physcis Objects        | Edited    | 2019/10/20 |
+| Double-b tagger        | Edited    | 2019/10/28 |
+| Data and MC samples    | Drafted   | 2019/11/10 |
+| Signal selection       | Drafted   | 2019/11/10 |
+| Systematic uncertainty | Drafted   | 2019/11/10 |
+| Statistical analysis   | Drafting  | 2019/11/30 |
+| Conclusion             | Drafting  | 2019/11/30 |
