@@ -10,4 +10,8 @@
 *.lof
 *.lot
 *.pdf
-chapters/c1/figures/*.pdf
+chapters/c1/figures/sm-particle-table.pdf
+chapters/c2/figures/eft-feyn-diagram.pdf
+chapters/c2/figures/two-higgs.pdf
+chapters/c2/figures/z-prime-2hdm.pdf
+chapters/c2/figures/z-prime.pdf
