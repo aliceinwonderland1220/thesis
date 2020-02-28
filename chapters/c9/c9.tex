@@ -1,36 +1,194 @@
-\chapter{Result}
+\chapter{Statistical analysis}
 
-\label{ch:res}
-
-TODO, background predictions in signal region, stack chart and table.
+\label{ch:stat-ana}
 
 Sample text sample text sample text. Sample text sample text sample text.
 Sample text sample text sample text. Sample text sample text sample text.
 Sample text sample text sample text. Sample text sample text sample text.
-Sample text sample text sample text. Sample text sample text sample text.
-Sample text sample text sample text.
 
-\section{Sample section}
+\section{Maximum likelihood estimation}
 Sample text sample text sample text. Sample text sample text sample text.
 Sample text sample text sample text. Sample text sample text sample text.
 Sample text sample text sample text. Sample text sample text sample text.
 
-\subsection{Sample subsection}
+\subsection{Likelihood definition}
+
+\par The statistical analysis of the data uses a binned likelihood function constructed as the product of Poisson probability terms,
+\begin{equation}
+\mathrm{Poisson}\,(n|\mu S+B)\left[ \prod_{b\in \text{bins}}^{n} \frac{\mu \nu^{\mathrm{sig}}_{b}+\nu^{\mathrm{bkg}}_{b}}{\mu S+B} \right],
+\end{equation}
+where $\mu$, a signal strength parameter, multiplies the expected signal yield $\nu^{\mathrm{sig}}_b$ in each histogram bin $b$, and $\nu^{\mathrm{bkg}}_b$ represents the background content for bin $b$. 
+The dependence of the signal and background predictions on the systematic uncertainties is described by a set of nuisance parameters (NP) $\theta$, which are parameterized by Gaussian or log-normal 
+priors; the latter are used for normalization uncertainties in order to maintain a positive likelihood.
+
+\subsection{Event categories}
 Sample text sample text sample text. Sample text sample text sample text.
 Sample text sample text sample text. Sample text sample text sample text.
 Sample text sample text sample text. Sample text sample text sample text.
 
-\subsection{Sample subsubsection}
+%\begin{table}[!t]
+%    \centering
+%    \small
+%    \begin{center}
+%        \begin{tabular}{l|c|c|c}
+%            & \textbf{0 lepton} & \textbf{1 muon} & \textbf{2 leptons} \\[0.5ex]
+%            Discriminant & $m_{H}$ distribution & muon charge & single bin \\[0.5ex]
+%            Aim & signal region & $t\bar t$ and $W$+jets control region & $Z$+jets control region \\[0.5ex]
+%			 \multirow{2}{*}{$b$-tag multiplicities} & \multicolumn{3}{c}{resolved: 2} \\ & \multicolumn{3}{c}{merged: $2_{\text{in}}0_{\text{out}}$} \\[0.5ex]
+%            small-R jet multiplicities & \multicolumn{3}{c}{to be decided whether it will be used in the resolved region} \\[0.5ex]
+%            \multirow{3}{*}{\met proxy} & \met & \METnomu & \METnomu \\[0.25ex]\cline{2-4}
+%            & \multicolumn{3}{c}{resolved:\ \ [150,200],\ \ [200,350]\ \ and\ \ [350,500]~GeV} \\[0.25ex]
+%            & \multicolumn{3}{c}{merged:\ \ more than 500~GeV; possibly extra bin at higher values} \\[0.25ex]
+%        \end{tabular}
+%    \end{center}
+%    \caption{Event categories entering the combined fit of the model to the data. The discriminant $m_{H}$ denotes the mass of the light Higgs boson candidate.}
+%	\label{tab:fit-categories}
+%\end{table}
+
+\subsection{Nuisance parameters}
 Sample text sample text sample text. Sample text sample text sample text.
 Sample text sample text sample text. Sample text sample text sample text.
 Sample text sample text sample text. Sample text sample text sample text.
 
-\section{Sample section}
+\begin{table}[ht]
+    \centering
+    \scriptsize
+    \begin{tabular}{|p{2.5cm}|p{0.8cm}|p{3cm}|p{2cm}|p{1.5cm}|p{1.5cm}|p{2cm}|}
+        \hline
+        \hline
+        NP Name & Prior & Description & Derivation & Applied to sample & Applied in region & Decorrelated in regions \\
+        \hline
+        \texttt{norm\_Zhf} & flat & normalisation of Zhf template & - & Zhf & all & - \\
+        \hline
+        \texttt{norm\_Whf} & flat & normalisation of Whf template & - & Zhf & all & - \\
+        \hline
+        \texttt{norm\_ttbar} & flat & normalisation of $t\bar{t}$ template & - & $t\bar{t}$ & all & - \\
+        \hline
+        \hline
+        \hline
+        \texttt{stopsNorm} & 3.7\% & single top $s$-channel inclusive normalisation & Sec.~\ref{sec:stopunc} & $s$-channel s.top & all & - \\
+        \texttt{stoptNorm} & 3.9\% & single top $t$-channel inclusive normalisation & Sec.~\ref{sec:stopunc}& $t$-channel s.top & all & - \\
+        \texttt{stopWtNorm} & 5.4\% & single top $Wt$-channel inclusive normalisation & Sec.~\ref{sec:stopunc} & $Wt$-channel s.top & all & - \\
+        \texttt{WWNorm} & 25\% & inclusive normalisation of $WW$ & Generator comparisons & WW & all & - \\
+        \texttt{WZNorm} & 26\% & inclusive normalisation of $WZ$ & Generator comparisons & WZ & all & - \\
+        \texttt{ZZNorm} & 20\% & inclusive normalisation of $ZZ$ & Generator comparisons &ZZ & all & - \\
+        \texttt{HiggsNorm} & 22\% & inclusive normalisation of SM $Vh(b\bar{b})$ & SM $Vh(b\bar{b})$ measurement \cite{Aaboud:2018zhk} &VHbb & all & - \\
+        \hline
+        \hline
+        \texttt{ZcllNorm} & 30\% & inclusive normalisation uncertainty for $Zcl$ & See \ref{sec:vjets_unc} & Zcl & all & - \\
+        \texttt{WcllNorm} & 30\% & inclusive normalisation uncertainty for $Wcl$ & See \ref{sec:vjets_unc} & Zcl & all & - \\
+        \texttt{ZlNorm} & 10\% & inclusive normalisation uncertainty for $Zl$ & See \ref{sec:vjets_unc} & Zl & all & - \\
+        \texttt{WlNorm} & 10\% & inclusive normalisation uncertainty for $Wl$ & See \ref{sec:vjets_unc} & Wl & all & - \\
+        \hline
+        \hline
+        \texttt{WblWhfRatio} & 20\% & uncertainty on $\sigma(Wbl)$/$\sigma(Whf)$ & Sec.~\ref{sec:vjets_unc} & Wbl & 0L, 1L & - \\
+        \texttt{WccWhfRatio} & 20\% & uncertainty on $\sigma(Wcc)$/$\sigma(Whf)$ & Sec.~\ref{sec:vjets_unc} & Wcc & 0L, 1L & - \\
+        \texttt{WbcWhfRatio} & 20\% & uncertainty on $\sigma(Wbc)$/$\sigma(Whf)$ & Sec.~\ref{sec:vjets_unc} & Wbc & 0L, 1L & - \\
+        \texttt{ZblZhfRatio} & 20\% & uncertainty on $\sigma(Zbl)$/$\sigma(Zhf)$ & Sec.~\ref{sec:vjets_unc} & Zbl & all & 0L, 2L \\
+        \texttt{ZccZhfRatio} & 20\% & uncertainty on $\sigma(Zcc)$/$\sigma(Zhf)$ & Sec.~\ref{sec:vjets_unc} & Zcc & all & 0L, 2L \\
+        \texttt{ZbcZhfRatio} & 20\% & uncertainty on $\sigma(Zbc)$/$\sigma(Zhf)$ & Sec.~\ref{sec:vjets_unc} & Zbc & all & 0L, 2L \\
+        \hline
+        \hline
+        \texttt{ZhfNorm\_L0} & 20\% & relative acceptance difference of Zhf between 0 and 2L regions & Sec.~\ref{sec:vjets_unc} & Zhf & 0L & - \\
+        \texttt{WhfNorm\_L0} & 20\% & relative acceptance difference of Zhf between 0 and 2L regions & Sec.~\ref{sec:vjets_unc} & Whf & 0L & - \\
+        \hline
+        \hline
+        \texttt{SysTopMETshape} & 20\% & relative acceptance difference across \met bins & Sec.~\ref{sec:topunc} & $t\bar{t}$ & all except lowest \met bin & \met=\{200-350,350-500,>500\} \\
+        \texttt{SysWhfMETshape} & 20\% & relative acceptance difference across \met bins & Sec.~\ref{sec:vjets_unc} & Whf & all except lowest \met bin & \met=\{200-350,350-500,>500\} \\
+        \texttt{SysZhfMETshape} & 20\% & relative acceptance difference across \met bins & Sec.~\ref{sec:vjets_unc} & Zhf & all except lowest \met bin & \met=\{200-350,350-500,>500\} \\
+        \hline
+        \hline
+        \texttt{ATLAS\_LUMI} & 1.7\% & luminosity uncertainty & Luminosity group & all & all & - \\
+        \hline
+        \hline
+    \end{tabular}
+    \caption{Nuisance parameters associated to theoretical uncertainties that affect the normalisation/relative acceptance with their prior uncertainties (in the case of Gaussian priors the numbers correspond to the $1\sigma$ prefit uncertainties).}
+    \label{tab:np-norm}
+\end{table}
+
+\begin{table}[ht]
+    \centering
+    \scriptsize
+    \begin{tabular}{|p{3.5cm}|p{2.5cm}|p{1.5cm}|p{2cm}|p{1.5cm}|}
+        \hline
+        \hline
+        NP Name & Description & Treatment & Applied to sample & Applied in region \\
+        \hline
+        \hline
+        \hline
+        \texttt{SysttbarMbb} & Sec.~\ref{sec:topunc} & - & $t\bar{t}$ & all \\
+        \texttt{SysttbarMbb} & Sec.~\ref{sec:stopunc} & - & single-top $Wt$ & all \\
+        \texttt{SysWMbb} & Sec.~\ref{sec:vjets_unc} & - & Whf, Wcl, Wl & all \\
+        \texttt{SysZMbb} & Sec.~\ref{sec:vjets_unc} & - & Zhf, Zcl, Zl & all \\
+        \texttt{SysWWMbb} & Sec.~\ref{sec:vv_unc} & - & WW & all \\
+        \texttt{SysWZMbb} & Sec.~\ref{sec:vv_unc} & - & WZ & all \\
+        \texttt{SysZZMbb} & Sec.~\ref{sec:vv_unc} & - & ZZ & all \\
+        \hline
+        \hline
+    \end{tabular}
+    \caption{Nuisance parameters associated to theoretical uncertainties that affect the $m(b\bar{b})$ shape and their treatment (S=smoothed, Sym1=symmetrised (one-sided systematic), Sym2=symmetrised (two-sided systematic)).}
+    \label{tab:np-shape}
+\end{table}
+
+\begin{table}[ht]
+    \centering
+    \scriptsize
+    \begin{tabular}{|p{3.5cm}|p{2.0cm}|p{1.5cm}|p{2cm}|p{1.5cm}|}
+        \hline
+        \hline
+        NP Name & Description & Treatment & Applied to sample & Applied in region \\
+        \hline
+        \hline
+        \hline
+        \texttt{EL\_EFF\_*} & Sec.~\ref{sec:systematics} & - & all & all \\
+        \texttt{EG\_RESOLUTION\_*} & Sec.~\ref{sec:systematics} & S & all & all \\
+        \texttt{EG\_SCALE\_*} & Sec.~\ref{sec:systematics} & S & all & all \\
+        \texttt{MUON\_EFF\_*} & Sec.~\ref{sec:systematics} & - & all & all \\
+        \texttt{MUON\_SAGITTA\_*} & Sec.~\ref{sec:systematics} & - & all & all \\
+        \texttt{MUON\_SCALE\_*} & Sec.~\ref{sec:systematics} & S & all & all \\
+        \texttt{MUON\_MS\_*} & Sec.~\ref{sec:systematics} & S & all & all \\
+        \texttt{MUON\_ID\_*} & Sec.~\ref{sec:systematics} & S & all & all \\
+        \texttt{TAUS\_TRUEELECTRON\_*} & Sec.~\ref{sec:systematics} & - & all & all \\
+        \texttt{TAUS\_TRUEHADTAU\_EFF\_*} & Sec.~\ref{sec:systematics} & - & all & all \\
+        \texttt{TAUS\_TRUEHADTAU\_SME\_*} & Sec.~\ref{sec:systematics} & S & all & all \\
+        \texttt{JET\_EffectiveNP\_*} & Sec.~\ref{sec:systematics} & S, Sym2 & all & all \\
+        \texttt{JET\_Eta*} & Sec.~\ref{sec:systematics} & S, Sym2 & all & all \\
+        \texttt{JET\_JET\_Flavor\_*} & Sec.~\ref{sec:systematics} & S, Sym2 & all & all \\
+        \texttt{JET\_CombMass\_*} & Sec.~\ref{sec:systematics} & S, Sym2 & all & all \\
+        \texttt{JET\_JET\_LargeR\_*} & Sec.~\ref{sec:systematics} & S, Sym2 & all & all \\
+        \texttt{JET\_JET\_MassRes\_*} & Sec.~\ref{sec:systematics} & S, Sym2 & all & all \\
+        \texttt{JET\_Pileup\_*} & Sec.~\ref{sec:systematics} & S, Sym2 & all & all \\
+        \texttt{JET\_PunchThrough} & Sec.~\ref{sec:systematics} & S, Sym2 & all & all \\
+        \texttt{JET\_RelativeNonClosure} & Sec.~\ref{sec:systematics} & S, Sym2 & all & all \\
+        \texttt{JET\_BJES\_Response} & Sec.~\ref{sec:systematics} & S, Sym2 & all & all \\
+        \texttt{JET\_JVT\_*} & Sec.~\ref{sec:systematics} & S, Sym2 & all & all \\
+        \texttt{JET\_fJVT\_*} & Sec.~\ref{sec:systematics} & S, Sym2 & all & all \\
+        \texttt{JET\_SingleParticle} & Sec.~\ref{sec:systematics} & S, Sym2 & all & all \\
+        \texttt{JET\_JER\_*} & Sec.~\ref{sec:systematics} & S, Sym1 & all & all \\
+        \texttt{FT\_EFF\_*} & Sec.~\ref{sec:systematics} & S, Sym2 & all & all \\
+        \texttt{METTrig\_*} & Sec.~\ref{sec:systematics} & S & all & all \\
+        \texttt{MET\_SoftTrk\_Scale\_*} & Sec.~\ref{sec:systematics} & S & all & all \\
+        \texttt{MET\_SoftTrk\_Reso\_*} & Sec.~\ref{sec:systematics} & S, Sym1 & all & all \\
+        \texttt{PRW\_DATASF} & Sec.~\ref{sec:systematics} & - & all & all \\
+        \hline
+        \hline
+    \end{tabular}
+    \caption{Nuisance parameters associated to detector systematics (affecting both shape and normalisation) and their treatment (S=smoothed, Sym1=symmetrised (one-sided systematic), Sym2=symmetrised (two-sided systematic)).}
+    \label{tab:np-det}
+\end{table}  
+
+
+\section{Fit result}
 Sample text sample text sample text. Sample text sample text sample text.
 Sample text sample text sample text. Sample text sample text sample text.
 Sample text sample text sample text. Sample text sample text sample text.
 
-\subsection{Sample subsection}
+\subsection{Fit result in control regions}
+Sample text sample text sample text. Sample text sample text sample text.
+Sample text sample text sample text. Sample text sample text sample text.
+Sample text sample text sample text. Sample text sample text sample text.
+
+\subsection{Fit result in signal regions}
 Sample text sample text sample text. Sample text sample text sample text.
 Sample text sample text sample text. Sample text sample text sample text.
 Sample text sample text sample text. Sample text sample text sample text.
