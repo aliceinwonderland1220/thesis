@@ -53,57 +53,63 @@ Sample text sample text sample text. Sample text sample text sample text.
 \begin{table}[ht]
     \centering
     \scriptsize
-    \begin{tabular}{|p{2.5cm}|p{0.8cm}|p{3cm}|p{2cm}|p{1.5cm}|p{1.5cm}|p{2cm}|}
+    \begin{tabular}{|p{2.5cm}|p{1.5cm}|p{3cm}|p{2cm}|p{1.5cm}|p{1.5cm}|}
+        \hline
+        NP Name & Prior & Description & Derivation & Applied to sample & Applied in region \\
+        \hline
+        \texttt{norm\_Zhf} & flat & normalisation of Zhf template & - & Zhf & all \\
+        \texttt{norm\_Whf} & flat & normalisation of Whf template & - & Zhf & all \\
+        \texttt{norm\_ttbar} & flat & normalisation of $t\bar{t}$ template & - & $t\bar{t}$ & all \\
         \hline
         \hline
-        NP Name & Prior & Description & Derivation & Applied to sample & Applied in region & Decorrelated in regions \\
-        \hline
-        \texttt{norm\_Zhf} & flat & normalisation of Zhf template & - & Zhf & all & - \\
-        \hline
-        \texttt{norm\_Whf} & flat & normalisation of Whf template & - & Zhf & all & - \\
-        \hline
-        \texttt{norm\_ttbar} & flat & normalisation of $t\bar{t}$ template & - & $t\bar{t}$ & all & - \\
-        \hline
-        \hline
-        \hline
-        \texttt{stopsNorm} & 3.7\% & single top $s$-channel inclusive normalisation & Sec.~\ref{sec:stopunc} & $s$-channel s.top & all & - \\
-        \texttt{stoptNorm} & 3.9\% & single top $t$-channel inclusive normalisation & Sec.~\ref{sec:stopunc}& $t$-channel s.top & all & - \\
-        \texttt{stopWtNorm} & 5.4\% & single top $Wt$-channel inclusive normalisation & Sec.~\ref{sec:stopunc} & $Wt$-channel s.top & all & - \\
-        \texttt{WWNorm} & 25\% & inclusive normalisation of $WW$ & Generator comparisons & WW & all & - \\
-        \texttt{WZNorm} & 26\% & inclusive normalisation of $WZ$ & Generator comparisons & WZ & all & - \\
-        \texttt{ZZNorm} & 20\% & inclusive normalisation of $ZZ$ & Generator comparisons &ZZ & all & - \\
-        \texttt{HiggsNorm} & 22\% & inclusive normalisation of SM $Vh(b\bar{b})$ & SM $Vh(b\bar{b})$ measurement \cite{Aaboud:2018zhk} &VHbb & all & - \\
+        \texttt{stopsNorm} & 3.7\% & single top $s$-channel inclusive normalisation & Sec.~\ref{sec:stopunc} & $s$-channel s.top & all \\
+        \texttt{stoptNorm} & 3.9\% & single top $t$-channel inclusive normalisation & Sec.~\ref{sec:stopunc}& $t$-channel s.top & all \\
+        \texttt{stopWtNorm} & 5.4\% & single top $Wt$-channel inclusive normalisation & Sec.~\ref{sec:stopunc} & $Wt$-channel s.top & all \\
+        \texttt{WWNorm} & 25\% & inclusive normalisation of $WW$ & Generator comparisons & WW & all \\
+        \texttt{WZNorm} & 26\% & inclusive normalisation of $WZ$ & Generator comparisons & WZ & all \\
+        \texttt{ZZNorm} & 20\% & inclusive normalisation of $ZZ$ & Generator comparisons &ZZ & all \\
+        \texttt{HiggsNorm} & 22\% & inclusive normalisation of SM $Vh(b\bar{b})$ & SM $Vh(b\bar{b})$ measurement \cite{Aaboud:2018zhk} & VHbb & all \\
         \hline
         \hline
-        \texttt{ZcllNorm} & 30\% & inclusive normalisation uncertainty for $Zcl$ & See \ref{sec:vjets_unc} & Zcl & all & - \\
-        \texttt{WcllNorm} & 30\% & inclusive normalisation uncertainty for $Wcl$ & See \ref{sec:vjets_unc} & Zcl & all & - \\
-        \texttt{ZlNorm} & 10\% & inclusive normalisation uncertainty for $Zl$ & See \ref{sec:vjets_unc} & Zl & all & - \\
-        \texttt{WlNorm} & 10\% & inclusive normalisation uncertainty for $Wl$ & See \ref{sec:vjets_unc} & Wl & all & - \\
+        \texttt{ZcllNorm} & 30\% & inclusive normalisation uncertainty for $Zcl$ & See \ref{sec:vjets_unc} & Zcl & all \\
+        \texttt{WcllNorm} & 30\% & inclusive normalisation uncertainty for $Wcl$ & See \ref{sec:vjets_unc} & Zcl & all \\
+        \texttt{ZlNorm} & 10\% & inclusive normalisation uncertainty for $Zl$ & See \ref{sec:vjets_unc} & Zl & all \\
+        \texttt{WlNorm} & 10\% & inclusive normalisation uncertainty for $Wl$ & See \ref{sec:vjets_unc} & Wl & all \\
         \hline
         \hline
-        \texttt{WblWhfRatio} & 20\% & uncertainty on $\sigma(Wbl)$/$\sigma(Whf)$ & Sec.~\ref{sec:vjets_unc} & Wbl & 0L, 1L & - \\
-        \texttt{WccWhfRatio} & 20\% & uncertainty on $\sigma(Wcc)$/$\sigma(Whf)$ & Sec.~\ref{sec:vjets_unc} & Wcc & 0L, 1L & - \\
-        \texttt{WbcWhfRatio} & 20\% & uncertainty on $\sigma(Wbc)$/$\sigma(Whf)$ & Sec.~\ref{sec:vjets_unc} & Wbc & 0L, 1L & - \\
-        \texttt{ZblZhfRatio} & 20\% & uncertainty on $\sigma(Zbl)$/$\sigma(Zhf)$ & Sec.~\ref{sec:vjets_unc} & Zbl & all & 0L, 2L \\
-        \texttt{ZccZhfRatio} & 20\% & uncertainty on $\sigma(Zcc)$/$\sigma(Zhf)$ & Sec.~\ref{sec:vjets_unc} & Zcc & all & 0L, 2L \\
-        \texttt{ZbcZhfRatio} & 20\% & uncertainty on $\sigma(Zbc)$/$\sigma(Zhf)$ & Sec.~\ref{sec:vjets_unc} & Zbc & all & 0L, 2L \\
-        \hline
-        \hline
-        \texttt{ZhfNorm\_L0} & 20\% & relative acceptance difference of Zhf between 0 and 2L regions & Sec.~\ref{sec:vjets_unc} & Zhf & 0L & - \\
-        \texttt{WhfNorm\_L0} & 20\% & relative acceptance difference of Zhf between 0 and 2L regions & Sec.~\ref{sec:vjets_unc} & Whf & 0L & - \\
-        \hline
-        \hline
-        \texttt{SysTopMETshape} & 20\% & relative acceptance difference across \met bins & Sec.~\ref{sec:topunc} & $t\bar{t}$ & all except lowest \met bin & \met=\{200-350,350-500,>500\} \\
-        \texttt{SysWhfMETshape} & 20\% & relative acceptance difference across \met bins & Sec.~\ref{sec:vjets_unc} & Whf & all except lowest \met bin & \met=\{200-350,350-500,>500\} \\
-        \texttt{SysZhfMETshape} & 20\% & relative acceptance difference across \met bins & Sec.~\ref{sec:vjets_unc} & Zhf & all except lowest \met bin & \met=\{200-350,350-500,>500\} \\
-        \hline
-        \hline
-        \texttt{ATLAS\_LUMI} & 1.7\% & luminosity uncertainty & Luminosity group & all & all & - \\
-        \hline
+        \texttt{ZhfNorm\_L0} & 20\% & relative acceptance difference of Zhf between 0 and 2L regions & Sec.~\ref{sec:vjets_unc} & Zhf & 0L \\
+        \texttt{WhfNorm\_L0} & 20\% & relative acceptance difference of Zhf between 0 and 2L regions & Sec.~\ref{sec:vjets_unc} & Whf & 0L \\
         \hline
     \end{tabular}
     \caption{Nuisance parameters associated to theoretical uncertainties that affect the normalisation/relative acceptance with their prior uncertainties (in the case of Gaussian priors the numbers correspond to the $1\sigma$ prefit uncertainties).}
-    \label{tab:np-norm}
+    \label{tab:np-norm1}
+\end{table}
+
+\begin{table}[ht]
+    \centering
+    \scriptsize
+    \begin{tabular}{|p{2.5cm}|p{1.5cm}|p{3cm}|p{2cm}|p{1.5cm}|p{1.5cm}|}
+        \hline
+        NP Name & Prior & Description & Derivation & Applied to sample & Applied in region \\
+        \hline
+        \texttt{WblWhfRatio} & 20\% & uncertainty on $\sigma(Wbl)$/$\sigma(Whf)$ & Sec.~\ref{sec:vjets_unc} & Wbl & 0L, 1L \\
+        \texttt{WccWhfRatio} & 20\% & uncertainty on $\sigma(Wcc)$/$\sigma(Whf)$ & Sec.~\ref{sec:vjets_unc} & Wcc & 0L, 1L \\
+        \texttt{WbcWhfRatio} & 20\% & uncertainty on $\sigma(Wbc)$/$\sigma(Whf)$ & Sec.~\ref{sec:vjets_unc} & Wbc & 0L, 1L \\
+        \texttt{ZblZhfRatio} & 20\% & uncertainty on $\sigma(Zbl)$/$\sigma(Zhf)$ & Sec.~\ref{sec:vjets_unc} & Zbl & all \\
+        \texttt{ZccZhfRatio} & 20\% & uncertainty on $\sigma(Zcc)$/$\sigma(Zhf)$ & Sec.~\ref{sec:vjets_unc} & Zcc & all \\
+        \texttt{ZbcZhfRatio} & 20\% & uncertainty on $\sigma(Zbc)$/$\sigma(Zhf)$ & Sec.~\ref{sec:vjets_unc} & Zbc & all \\
+        \hline
+        \hline
+        \texttt{SysTopMETshape} & 20\% & relative acceptance difference across \met bins & Sec.~\ref{sec:topunc} & $t\bar{t}$ & all except lowest \met bin \\
+        \texttt{SysWhfMETshape} & 20\% & relative acceptance difference across \met bins & Sec.~\ref{sec:vjets_unc} & Whf & all except lowest \met bin \\
+        \texttt{SysZhfMETshape} & 20\% & relative acceptance difference across \met bins & Sec.~\ref{sec:vjets_unc} & Zhf & all except lowest \met bin \\
+        \hline
+        \hline
+        \texttt{ATLAS\_LUMI} & 1.7\% & luminosity uncertainty & Luminosity group & all & all \\
+        \hline
+    \end{tabular}
+    \caption{Nuisance parameters associated to theoretical uncertainties that affect the normalisation/relative acceptance with their prior uncertainties (in the case of Gaussian priors the numbers correspond to the $1\sigma$ prefit uncertainties).}
+    \label{tab:np-norm2}
 \end{table}
 
 \begin{table}[ht]
@@ -111,10 +117,7 @@ Sample text sample text sample text. Sample text sample text sample text.
     \scriptsize
     \begin{tabular}{|p{3.5cm}|p{2.5cm}|p{1.5cm}|p{2cm}|p{1.5cm}|}
         \hline
-        \hline
         NP Name & Description & Treatment & Applied to sample & Applied in region \\
-        \hline
-        \hline
         \hline
         \texttt{SysttbarMbb} & Sec.~\ref{sec:topunc} & - & $t\bar{t}$ & all \\
         \texttt{SysttbarMbb} & Sec.~\ref{sec:stopunc} & - & single-top $Wt$ & all \\
@@ -124,10 +127,9 @@ Sample text sample text sample text. Sample text sample text sample text.
         \texttt{SysWZMbb} & Sec.~\ref{sec:vv_unc} & - & WZ & all \\
         \texttt{SysZZMbb} & Sec.~\ref{sec:vv_unc} & - & ZZ & all \\
         \hline
-        \hline
     \end{tabular}
     \caption{Nuisance parameters associated to theoretical uncertainties that affect the $m(b\bar{b})$ shape and their treatment (S=smoothed, Sym1=symmetrised (one-sided systematic), Sym2=symmetrised (two-sided systematic)).}
-    \label{tab:np-shape}
+    \label{tab:np-norm3}
 \end{table}
 
 \begin{table}[ht]
@@ -135,10 +137,7 @@ Sample text sample text sample text. Sample text sample text sample text.
     \scriptsize
     \begin{tabular}{|p{3.5cm}|p{2.0cm}|p{1.5cm}|p{2cm}|p{1.5cm}|}
         \hline
-        \hline
         NP Name & Description & Treatment & Applied to sample & Applied in region \\
-        \hline
-        \hline
         \hline
         \texttt{EL\_EFF\_*} & Sec.~\ref{sec:systematics} & - & all & all \\
         \texttt{EG\_RESOLUTION\_*} & Sec.~\ref{sec:systematics} & S & all & all \\
@@ -171,10 +170,9 @@ Sample text sample text sample text. Sample text sample text sample text.
         \texttt{MET\_SoftTrk\_Reso\_*} & Sec.~\ref{sec:systematics} & S, Sym1 & all & all \\
         \texttt{PRW\_DATASF} & Sec.~\ref{sec:systematics} & - & all & all \\
         \hline
-        \hline
     \end{tabular}
     \caption{Nuisance parameters associated to detector systematics (affecting both shape and normalisation) and their treatment (S=smoothed, Sym1=symmetrised (one-sided systematic), Sym2=symmetrised (two-sided systematic)).}
-    \label{tab:np-det}
+    \label{tab:np-shape}
 \end{table}  
 
 
