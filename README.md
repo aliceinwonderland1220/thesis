@@ -55,7 +55,7 @@ Status: New -> Drafting -> Drafted -> Reviewing -> Reviewed -> Editing -> Edited
 | The ATLAS experiment   | Edited    | 2019/10/03 |
 | Physcis Objects        | Edited    | 2019/10/20 |
 | Double-b tagger        | Edited    | 2019/10/28 |
-| Data and MC samples    | Editing   | 2019/11/10 |
+| Data and MC samples    | Edited    | 2019/11/10 |
 | Signal selection       | Edited    | 2019/11/10 |
 | Systematic uncertainty | Edited    | 2019/11/10 |
 | Statistical analysis   | Drafting  | 2019/11/30 |
