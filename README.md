@@ -59,4 +59,4 @@ Status: New -> Drafting -> Drafted -> Reviewing -> Reviewed -> Editing -> Edited
 | Signal selection       | Edited    | 2019/11/10 |
 | Systematic uncertainty | Edited    | 2019/11/10 |
 | Statistical analysis   | Drafted   | 2019/11/30 |
-| Conclusion             | Drafting  | 2019/11/30 |
+| Conclusion             | Drafted   | 2019/11/30 |
