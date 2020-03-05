@@ -58,5 +58,5 @@ Status: New -> Drafting -> Drafted -> Reviewing -> Reviewed -> Editing -> Edited
 | Data and MC samples    | Edited    | 2019/11/10 |
 | Signal selection       | Edited    | 2019/11/10 |
 | Systematic uncertainty | Edited    | 2019/11/10 |
-| Statistical analysis   | Drafting  | 2019/11/30 |
+| Statistical analysis   | Drafted   | 2019/11/30 |
 | Conclusion             | Drafting  | 2019/11/30 |
