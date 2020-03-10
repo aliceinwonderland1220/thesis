@@ -173,6 +173,64 @@ Two types of nuisance parameters are considered in this analysis:
 \end{table}  
 
 \par All nuisance parameters mentioned above will be integrated together with the likelihood function to set upper limits using the CLs method.
+\section{Pre-fit results}
+
+\par This section describes the comparisons between data and background MC for various variables for both
+Resolved and Merged region in 0,1 and 2-lepton channels for different b-tag categories. The variables are
+compared with full Run2 dataset with full event selection applied and before any fitting of the background
+model to the data. A blinding is applied around the Higgs mass [70-140] GeV for the 0-lepton channel.
+
+\subsection{0-lepton (0L)}
+
+\par In the signal region, the distributions of the Higgs-candidate invariant mass, $m_{jj}$ for the
+ resolved region and $m_J$ for the merged region, are used as fitting inout. The data/MC comparison plots are shown for the region
+ with exactly two b-tagged jets in Fig. 13, in different Emiss bins. 
+ \par Z+Heavy flavor jets and $t\bar{t}$ events are the dominant background contributions in the 2b regions
+\par It has been found in the previous interation of the analysis that the MC samples underestimated both the Z + Heavy flavor jets and
+$t\bar{t}$ event rates by about 20-40\% and 10\% respectively, which leads to an underestimation of the total yield as shown in Fig.~\ref{fig:Data_MC_SR_m_jj_2b}.
+
+
+\begin{figure}[!htb]
+  \includegraphics[width=0.46\linewidth]{chapters/c9/figures/Region_distmBB_J2_L0_T2_DSR_Y2015_incJet1_Fat0_incFat1_BMin150_BMax200_Prefit.pdf}
+  \includegraphics[width=0.46\linewidth]{chapters/c9/figures/Region_distmBB_J2_L0_T2_DSR_Y2015_incJet1_Fat0_incFat1_BMin200_BMax350_Prefit.pdf}\\
+  \includegraphics[width=0.46\linewidth]{chapters/c9/figures/Region_distmBB_J2_L0_T2_DSR_Y2015_incJet1_Fat0_incFat1_BMin350_BMax500_Prefit.pdf}
+  \includegraphics[width=0.46\linewidth]{chapters/c9/figures/Region_BMin500_incFat1_Fat1_incJet1_Y2015_DSR_T20_L0_distmBB_J0_Prefit.pdf}
+\caption{Pre-fit Higgs candidate mass spectra in the different E$_{T}^{miss}$ regions with 2 $b$-tagged jets in the 0-lepton channel. The error band contains all the statistical and systematic uncertainties included in the fit.}
+\label{fig:Data_MC_SR_m_jj_2b}
+\end{figure}
+
+
+
+\subsection{1-lepton (1L)}
+
+\par In the 1-lepton control region, the muon charge distribution is used for the likelihood fit. As shown in Fig.~\ref{fig:Data_MC_CR1_mu_charge_2b}, the
+dominant background contributions come from W+Heavy flavor jets and $t\bar{t}$. 
+Since the $t\bar{t}$ process is charge-symmetric, while the W+jets process is expected to produce a surplus of positive muons, 
+fitting the muon charge is expected to constrain the W + Heavy flavor normalisation.
+
+\begin{figure}[!htb]
+  \includegraphics[width=0.46\linewidth]{chapters/c9/figures/Region_distCharge_J2_L1_T2_DCR1_Y2015_incJet1_Fat0_incFat1_BMin150_BMax200_Prefit.pdf}
+  \includegraphics[width=0.46\linewidth]{chapters/c9/figures/Region_distCharge_J2_L1_T2_DCR1_Y2015_incJet1_Fat0_incFat1_BMin200_BMax350_Prefit.pdf}\\
+  \includegraphics[width=0.46\linewidth]{chapters/c9/figures/Region_distCharge_J2_L1_T2_DCR1_Y2015_incJet1_Fat0_incFat1_BMin350_BMax500_Prefit.pdf}
+  \includegraphics[width=0.46\linewidth]{chapters/c9/figures/Region_BMin500_incFat1_Fat1_incJet1_Y2015_DCR1_T20_L1_distCharge_J0_Prefit.pdf}
+\caption{Pre-fit distribution of the muon charge in the different E$_{T}^{miss}$ regions with 2 $b$-tagged jets in the 1-lepton channel.  The error band contains all the statistical and systematic uncertainties included in the fit.}
+\label{fig:Data_MC_CR1_mu_charge_2b}
+\end{figure}
+\subsection{2-lepton (2L)}
+\par In the 2-lepton control region (combining ee and $\mu\mu$ channels), a fit of invariant mass are used as fitting input as shown in Fig.~\ref{fig:Data_MC_CR2_ll_m_jj_2b}. 
+\par Since the region is dominated by Z + Heavy flavor jets, the underestimation of the Z + Heavy flavor production rate in MC is obvious. Besides the overall underestimation of the Z + Heavy flavor rate will be corrected by the floating Z + Heavy flavor normalisation.
+Besides, the ratio of data/MC yield is \met-dependent. Since this will not be fixed with a single normalisation factor, a pull of the Emiss theory uncertainties applied on the
+Z + Heavy flavor sample is expected in the fit.
+\begin{figure}[!htb]
+  \includegraphics[width=0.46\linewidth]{chapters/c9/figures/Region_distmBB_J2_L2_T2_DCR2_Y2015_incJet1_Fat0_incFat1_BMin150_BMax200_Prefit.pdf}
+  \includegraphics[width=0.46\linewidth]{chapters/c9/figures/Region_distmBB_J2_L2_T2_DCR2_Y2015_incJet1_Fat0_incFat1_BMin200_BMax350_Prefit.pdf}\\
+  \includegraphics[width=0.46\linewidth]{chapters/c9/figures/Region_distmBB_J2_L2_T2_DCR2_Y2015_incJet1_Fat0_incFat1_BMin350_BMax500_Prefit.pdf}
+  \includegraphics[width=0.46\linewidth]{chapters/c9/figures/Region_BMin500_incFat1_Fat1_incJet1_Y2015_DCR2_T20_L2_distmBB_J0_Prefit.pdf}
+\caption{Total yields in the 2-lepton control region for different E$_{T}^{miss}$ regions with 2 $b$-tagged jets.}
+\label{fig:Data_MC_CR2_ll_m_jj_2b}
+\end{figure}
+
+
 
 \section{Limit setting result}
 \label{sec:limitres}
@@ -180,8 +238,8 @@ Two types of nuisance parameters are considered in this analysis:
 \par There are two interesting parameters in the Z'-2HDM: mass of Z' and mass of A as dark matter candidate. 
 Limit setting on the signal strength is implemented in a two dimensional scan on these two parameters.
 
-\par The result is shown with $79.8~fb^{-1}$~blinded data in observed limits and same scale in expected limits in the Fig~\ref{fig:zprime-2hdm-limit-80}. 
-The result with $139~fb^{-1}$ scale are demonstrated in the Fig~\ref{fig:zprime-2hdm-limit-139}. 
+\par The result is shown with $79.8~fb^{-1}$~blinded data in observed limits and same scale in expected limits in the Fig.~\ref{fig:zprime-2hdm-limit-80}. 
+The result with $139~fb^{-1}$ scale are demonstrated in the Fig.~\ref{fig:zprime-2hdm-limit-139}. 
 It indicates that the Z' mass epected to be excluded up to 2900 GeV, 2700 GeV using data, while the A mass expected to be excluded up to 700 GeV, while 650 GeV using data.
 
 \begin{figure}[!htb]
