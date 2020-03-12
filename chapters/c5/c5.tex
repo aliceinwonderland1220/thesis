@@ -11,7 +11,7 @@ Finally Higgs tagging is described in detail in Section~\ref{sec:higgs}.
 \section{Inner Detector Tracks and Primary Vertex}
 \label{sec:pv}
 
-\par The tracks in the inner detector are based on fitting a trajectory model to a set of measurements using a sequence of algorithms\cite{Cornelissen:1020106}.
+\par The tracks in the inner detector are based on fitting a trajectory model to a set of measurements using a sequence of algorithms~\cite{Cornelissen:1020106}.
 \par The inside-out algorithm is the baseline algorithm and is designed for efficient reconstruction of primary particles. 
 It starts with three-point seeds in the silicon detectors and adds hits moving away from the interaction point using a combinatorial Kalman filter 
 and tracks are extended into the TRT.
@@ -97,7 +97,7 @@ In addition, two types of electrons are selected in this analysis: VHLoose and Z
     \item Combined muons are reconstructed by combining the hits of the ID track and MS track and the energy loss in the calorimeter.
     \item Segment-tagged muons are formed from a track in the ID if it is associated with at least one track segment in the MDT or CSC chambers. It captures muons passing only one layer of MS chambers, due to their low \pt~or reduced MS acceptance in the region.
     \item Extrapolated muons are reconstructed based only on the MS track and a loose requirement on compatibility with originating from the IP. They are used to extend the acceptance for muon reconstruction into the region $2.5 <\eta< 2.7$, where three layers are required.
-    \item Calorimeter-tagged muons. In the region of $|\eta< 0.1$, ID tracks with 15~\GeV~$< p_T <$ 100~\GeV~are identified as muons if their energy deposits in the calorimeter match that expected from minimum ionizing particles. They recover muon acceptance in the region where the MS is only partially instrumented.
+    \item Calorimeter-tagged muons. In the region of $|\eta| < 0.1$, ID tracks with 15~\GeV~$< p_T <$ 100~\GeV~are identified as muons if their energy deposits in the calorimeter match that expected from minimum ionizing particles. They recover muon acceptance in the region where the MS is only partially instrumented.
 \end{itemize}
 
 \par Similar to Electron reconstruction, there are different muon identification working points. This analysis choeses ``Loose'', defined as muons reconstructed using any reconstruction methods, and ``Medium'', reconstructed using either the Combined muon or Extrapolated muon methods. The VHLoose definition is used in the signal region whereas the ZHSignal definition is used in some control regions.					
@@ -130,7 +130,7 @@ is the only lepton that can decay hadronically. The branching ratio to hadrons i
 % How to reject tau with Loose Tau ID
 \par Hadronicallly decaying tau leptons can be reconstructed as small-radius jets and identified with a tree-based machine learning algorithm. A typical tau jet 
 contains either one or three charged hadrons, which can be exploited in the tree-based classifiers to differentiate from QCD jets. With the trade-off of selection 
-efficiencies and fake rate, three classifiers, loose, medium, tight, can be determined. More details can be found in Ref\cite{ATL-PHYS-PUB-2015-045}. 
+efficiencies and fake rate, three classifiers, loose, medium, tight, can be determined. More details can be found in Ref~\cite{ATL-PHYS-PUB-2015-045}. 
 In order to suppress the tau background to a maximum extent, the loose working point is chosen to build the tau veto condition, together with the baseline section of $p_T > 25$~\GeV~and $|\eta| < 2.5$.
 
 \section{Jets}
@@ -164,7 +164,7 @@ Finally, all calorimeter cells neighbouring the formed topo-cluster are added.
 \end{figure}
 
 \par After jets are reconstructed, a calibration is applied to the jet four momentum of to recover the particle-level energy scale.
-A series of calibrations are applied after jet clustering as shown in Fig~\ref{fig:jet-calib}.
+A series of calibrations are applied after jet clustering as shown in Fig.~\ref{fig:jet-calib}.
 
 \begin{itemize}
     \item \textbf{Jet area-based pile-up correction} This step are designed to remove the excess energy from pile-up interactions. The area-based \pt~density subtraction is applied event-by-event~\cite{Cacciari:2007fd}. The \pt~density is estimated using the medium of \pt~density of all jets in the event calculated by \pt/A, where A is the jet area.
@@ -269,7 +269,7 @@ Several b-tagging algorithms are in use to exploit the decay patterns.
 the background is a mixture of c-jets and light-jets. Three versions of the mixture are used: MV2c00, MV2c10 and MV2c20. The number after the character ``MV2c''
 shows the percentage of c-jets in the background mixture. Depending on the physics processes, users can choose any of these three version.
 The higher the number, the better the discrimination power against c-jets at the cost of reduced light-jet rejection. 
-The performance of MV2c10 tagger~\cite{Varni:2655785} for discrimination against light-jet and c-jets can be found in Fig~\ref{fig:mv2c10}.
+The performance of MV2c10 tagger~\cite{Varni:2655785} for discrimination against light-jet and c-jets can be found in Fig.~\ref{fig:mv2c10}.
 
 \begin{figure}[htbp]
     \centering 
@@ -288,7 +288,7 @@ The performance of MV2c10 tagger~\cite{Varni:2655785} for discrimination against
 \par According to the conservation of momentum, the sum of the transverse momenta of all particles produced in collisions is zero. Considering the existence of non-detected objects, the transverse momenta from detected objects need not be balanced. The unbalanced part of the transverse momentum is called ``missing transverse momentum''(\met), or MET for short.
 
 % How to calculate MET with/without Tracker fully involved.
-\par As mentioned in the last paragraph, the \met~is derived from all detected objects. The \met~calculation is the most difficult object not only because it needs accurate measurement of all detected objects from various detectors, but also of the small fraction of energy deposits that are not clustered by any algorithm. As a result, the \met~scale and \met~resolution are affected by many factors, such as missing muons, mismeasured jets, beam pile-up, etc. In the ATLAS experiment, the \met~reconstruction uses energy deposits in the calorimeters and muon tracks reconstructed in the muon detectors. The Trackers' information is also used to recover the low \pt fraction missed in the calorimeters \cite{ATLAS-CONF-2013-082}. Therefore, both hard objects (high \pt~), like electrons, jets, muons, etc, and soft objects, like track soft terms, are considered in the \met~reconstruction.
+\par As mentioned in the last paragraph, the \met~is derived from all detected objects. The \met~calculation is the most difficult object not only because it needs accurate measurement of all detected objects from various detectors, but also of the small fraction of energy deposits that are not clustered by any algorithm. As a result, the \met~scale and \met~resolution are affected by many factors, such as missing muons, mismeasured jets, beam pile-up, etc. In the ATLAS experiment, the \met~reconstruction uses energy deposits in the calorimeters and muon tracks reconstructed in the muon detectors. The Trackers' information is also used to recover the low \pt fraction missed in the calorimeters~\cite{ATLAS-CONF-2013-082}. Therefore, both hard objects (high \pt~), like electrons, jets, muons, etc, and soft objects, like track soft terms, are considered in the \met~reconstruction.
 
 % MET significance
 \par The uncertainty of \met~calculation result can be large due to the complexity of the reconstruction algorithm. Therefore, a significance variable can be introduced to describe the reliability of the derived \met. The \met~significance is defined as
@@ -305,7 +305,7 @@ with two ghost-associated b-tagged subjets, reconstructing the b-hadrons.
 
 \subsection{Higgs tagging with advanced subjets}
 
-\par Three techniques are used to tag boosted Higgs bosons: variable-radius track jets (Fig~\ref{fig:vr}), Exclusive-kT (ExKt) and Center-of- Mass (CoM) tagging. These allow to probe the very boosted region~\cite{ATL-PHYS-PUB-2017-010}, where b-hadron decay products are too collimated to resolve even with R = 0.2 track jets.
+\par Three techniques are used to tag boosted Higgs bosons: variable-radius track jets (Fig.~\ref{fig:vr}), Exclusive-kT (ExKt) and Center-of- Mass (CoM) tagging. These allow to probe the very boosted region~\cite{ATL-PHYS-PUB-2017-010}, where b-hadron decay products are too collimated to resolve even with R = 0.2 track jets.
 \par For variable-radius track jets, the parameters $\rho = 30$~\GeV, $R_{min} = 0.02$ and $R_{max} = 0.4$ 
 are chosen after scanning different $\rho$ and radius as values in Fig.~\ref{fig:vr-scan}. ExKt refers to exclusive regions of interest using exclusive-kT declustering of the large-radius jets. 
 CoM jets are constructed via exclusive-kT declusting in the jet's center of mass frame instead of in the lab frame.
