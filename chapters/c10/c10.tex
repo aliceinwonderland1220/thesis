@@ -25,7 +25,7 @@ In principle, the algorithm should also be able to identify $Z\rightarrow b\bar{
 \par A sample of background jets initiated by light quarks and gluons is derived from a multijet process simulated using PYTHIA8~\cite{Sjostrand:2007gs} with the NNPDF2.3 leading order (LO) parton distribution 
 function (PDF) set~\cite{Ball:2012cx} and the A14~\cite{ATL-PHYS-PUB-2014-021} tune for underlying event parameterisations. 
 Jets from this sample are referred to as QCD jets. Fully hadronic top quark pair events are used for jets originating from hadronic top quark decays (top jets) and are generated 
-using POWHEG~\cite{Frixione:2007vw}~\cite{Nason:2004rx} interfaced to PYTHIA6~\cite{Sjostrand:2006za} with the PERUGIA 2012~\cite{Skands:2010ak} underlying event tune parameter set 
+using POWHEG~\cite{Frixione:2007vw,Nason:2004rx} interfaced to PYTHIA6~\cite{Sjostrand:2006za} with the PERUGIA 2012~\cite{Skands:2010ak} underlying event tune parameter set 
 and the four flavor scheme of the CT10 PDF set ~\cite{Gao:2013xoa}.
 \par For the boosted Higgs jets, a sample of high \pt~Higgs bosons is obtained from the BSM physics simulation of a Randall-Sundrum graviton decaying to a pair of Higgs bosons with both Higgs bosons 
 subsequently decaying to $b\bar{b}$ pairs ($g\rightarrow HH \rightarrow b\bar{b}b\bar{b}$)~\cite{Randall:1999ee}. This process is generated using MadGraph5~\cite{Alwall:2014hca} 
@@ -94,8 +94,8 @@ EvtGen~\cite{Lange:2001uf} is used to model the decays of b- and c-flavoured had
 \begin{itemize}
     \item Dense layer: defined as a linear combination of all outputs from the previous layer.
     \item Batch normalization layer: to transform the inputs to zero-mean and unit-variance. ~\cite{DBLP:journals/corr/IoffeS15}
-    \item Dropout layer: an operation that drops a fixed fraction of randomly chosen nodes, used as a regularization handle. The dropout rate is one of the optimized hyperparameters of the neural network.~\cite{JMLR:v15:srivastava14a}
-    \item Activation unit: we use the Rectified Linear Unit (ReLU)~\cite{inproceedings}:	
+    \item Dropout layer: an operation that drops a fixed fraction of randomly chosen nodes, used as a regularization handle. The dropout rate is one of the optimized hyperparameters of the neural network~\cite{JMLR:v15:srivastava14a}.
+    \item Activation unit: we use the Rectified Linear Unit (ReLU)~\cite{Pich:1998xt}:	
 \end{itemize}
 
 \begin{equation}
