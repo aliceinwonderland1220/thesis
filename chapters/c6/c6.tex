@@ -5,7 +5,7 @@
 
 \par The proton-proton collision data (Good-Run-Lists) are considered as good when both the LHC and the ATLAS detector are running in a stable and healthy way.
 On the ATLAS side, the detector system is considered healthy when all sub-detectors, central trigger and data acquisition system are reported healthy in data quality monitoring system and certified by data quality group. 
-The proton-proton collisions at a centre-of-mass energy of 13~TeV recorded between 2015 and 2017 are used in this search, and the corresponding Good-Run-Lists are showed below: 
+The proton-proton collisions at a centre-of-mass energy of 13~\TeV~recorded between 2015 and 2017 are used in this search, and the corresponding Good-Run-Lists are showed below: 
 
 \begin{itemize}
 	\tiny
@@ -31,7 +31,7 @@ The signal samples are generated separately for the loop-induced gluon--gluon fu
 \par Simulated events corresponding to the $pp\to Z'\to h A(\chi\bar{\chi})$ process are generated with \textsc{MadGraph5\_aMC@NLO} (\textsc{MG5\_aMC}) 2.2.3 \cite{Alwall:2014hca} 
 at leading-order (LO) accuracy using the NNPDF 2.3 NLO PDF set with $\alpha_s=0.119$ \cite{Ball:2012cx}. 
 The 4-flavour scheme is used for the calculation of the matrix elements. Several samples are generated for different values of $m(Z')$ and $m(A)$.
-The masses of the additional Higgs bosons are fixed to $m(H)=m(H^{\pm})=300$ GeV and the mass of the dark matter candidates is fixed to $m(\chi)=100$ GeV. 
+The masses of the additional Higgs bosons are fixed to $m(H)=m(H^{\pm})=300$~\GeV~and the mass of the dark matter candidates is fixed to $m(\chi)=100$~\GeV. 
 
 \par The parton shower and hadronisation are simulated with \textsc{Pythia} 8.230 \cite{Sjostrand:2014zea} and \textsc{Pythia} 8.186 \cite{Sjostrand:2007gs}, respectively for 2HDM+a and Z' 2HDM signal,
 using the A14 set \cite{ATL-PHYS-PUB-2014-021} of tuned parameters together with the NNPDF 2.3 LO PDF set \cite{Ball:2011mu}. 
@@ -44,8 +44,8 @@ In this setup, NLO-accurate matrix elements for up to two jets, and LO-accurate 
 They are matched with the \textsc{Sherpa} parton shower~\cite{Schumann:2007mg} using the MEPS@NLO prescription~\cite{Hoeche:2011fd,Hoeche:2012yf,Catani:2001cc,Hoeche:2009rj}.
 Samples are generated using the \nnpdfnnlo set~\cite{Ball:2014uwa}.
 
-\par The samples are split according to whether they contain a $B$ hadron or no $B$ with \pt$> 5$ GeV and $|\eta|<2.9$, 
-a $C$ hadron with $p_T > 4$ GeV and $|\eta|<3$ (with the filtered samples called Bfilter, CFilterBVeto, CVetoBVeto respectively). 
+\par The samples are split according to whether they contain a $B$ hadron or no $B$ with \pt$> 5$~\GeV~and $|\eta|<2.9$, 
+a $C$ hadron with $p_T > 4$~\GeV~and $|\eta|<3$ (with the filtered samples called Bfilter, CFilterBVeto, CVetoBVeto respectively). 
 They are further split by either:
 
 \begin{itemize}
@@ -68,7 +68,7 @@ The decays of bottom and charm hadrons are simulated using the \evtgen\ v1.6.0 p
 
 \begin{itemize}
 	\item an inclusive $t\bar{t}$ sample, and
-	\item a set of \met-filtered $t\bar{t}$ samples, which is specifically developed to reduce the MC statistical uncertainties in the high-\met regions.
+	\item a set of \met-filtered $t\bar{t}$ samples, which is specifically developed to reduce the MC statistical uncertainties in the high-\met~regions.
 \end{itemize}
 
 \subsection{Single top}
@@ -115,7 +115,7 @@ The decays of bottom and charm hadrons are simulated using the \evtgen\ v1.2.0 p
 \label{sec:trigger}
 
 \par In this analysis, we are looking at the signal events with a Higgs boson, which can be decayed into $b$-anti-$b$ pair with large \met. 
-Therefore, \met trigger effiencies are important to evaluate yields in signal region. 
+Therefore, \met~trigger effiencies are important to evaluate yields in signal region. 
 Moreover, we need to estimate background in the leptonic control regions, and therefore single lepton trigger efficiencies also needed to be considered.
 
 \par \MET~triggers are used for this he zero- and one-lepton regions and unprescaled single-muon triggers in the two-lepton region. 
@@ -156,7 +156,7 @@ The efficiencies are calculated inclusively in the number $b$-jets to allows for
 	\text{SF} = \frac{\text{Efficiency}^{\text{data}}_{\mu}}{\text{Efficiency}^{\text{MC}}_{\mu}}
 \end{equation}
 
-To calculate the data-driven corrections for the MC trigger turn-on curves, the scale factors are fitted for each \MET~trigger starting in the range $100~\GeV < \METnomu~< 300~\GeV$ in \MET~bins of 10~\GeV using the following fit function:
+To calculate the data-driven corrections for the MC trigger turn-on curves, the scale factors are fitted for each \MET~trigger starting in the range 100~\GeV~$< \METnomu~<$ 300~\GeV~in \MET~bins of 10~\GeV~using the following fit function:
 
 \begin{eqnarray}
 	\label{eq:dataMCsf_fit}
@@ -184,7 +184,7 @@ Good agreement is observed in data and MC efficiencies Figure~\ref{fig:TrigSF_va
 	\includegraphics[width=0.45\textwidth]{chapters/c6/figures/METTriggerCalibration/validation_HLT_xe90_mht_L1XE50.pdf}
 	\includegraphics[width=0.45\textwidth]{chapters/c6/figures/METTriggerCalibration/validation_HLT_xe110_mht_L1XE50.pdf}
 	\includegraphics[width=0.45\textwidth]{chapters/c6/figures/METTriggerCalibration/validation_HLT_xe110_pufit_L1XE55.pdf}
-	\caption{Validation plots showing \MET~trigger efficiencies and scale factors as function of offline \METnomu~after applying scale factor corrections for $\METnomu>100\,\GeV$ to the MC in the full single lepton region. Good agreement is observed between data and MC.}
+	\caption{Validation plots showing \MET~trigger efficiencies and scale factors as function of offline \METnomu~after applying scale factor corrections for $\METnomu>$ 100~\GeV~to the MC in the full single lepton region. Good agreement is observed between data and MC.}
 	\label{fig:TrigSF_validation}
 \end{figure}
 

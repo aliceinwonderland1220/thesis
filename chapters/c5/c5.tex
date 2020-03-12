@@ -32,7 +32,7 @@ The basic track selection criteria are summarized in Table~\ref{tab:pv}.
         \hline
         Aim & Selection \\
         \hline
-        Reject soft fake tracks &$p_T> 0.4~GeV$ \\
+        Reject soft fake tracks &$p_T> 0.4$~\GeV~\\
         \hline
         In ID fiducial volume &$|\eta| < 2.5$ \\
         \hline
@@ -97,7 +97,7 @@ In addition, two types of electrons are selected in this analysis: VHLoose and Z
     \item Combined muons are reconstructed by combining the hits of the ID track and MS track and the energy loss in the calorimeter.
     \item Segment-tagged muons are formed from a track in the ID if it is associated with at least one track segment in the MDT or CSC chambers. It captures muons passing only one layer of MS chambers, due to their low \pt~or reduced MS acceptance in the region.
     \item Extrapolated muons are reconstructed based only on the MS track and a loose requirement on compatibility with originating from the IP. They are used to extend the acceptance for muon reconstruction into the region $2.5 <\eta< 2.7$, where three layers are required.
-    \item Calorimeter-tagged muons. In the region of $|\eta< 0.1$, ID tracks with $15 ~GeV < p_T < 100 ~GeV$ are identified as muons if their energy deposits in the calorimeter match that expected from minimum ionizing particles. They recover muon acceptance in the region where the MS is only partially instrumented.
+    \item Calorimeter-tagged muons. In the region of $|\eta< 0.1$, ID tracks with 15~\GeV~$< p_T <$ 100~\GeV~are identified as muons if their energy deposits in the calorimeter match that expected from minimum ionizing particles. They recover muon acceptance in the region where the MS is only partially instrumented.
 \end{itemize}
 
 \par Similar to Electron reconstruction, there are different muon identification working points. This analysis choeses ``Loose'', defined as muons reconstructed using any reconstruction methods, and ``Medium'', reconstructed using either the Combined muon or Extrapolated muon methods. The VHLoose definition is used in the signal region whereas the ZHSignal definition is used in some control regions.					
@@ -131,7 +131,7 @@ is the only lepton that can decay hadronically. The branching ratio to hadrons i
 \par Hadronicallly decaying tau leptons can be reconstructed as small-radius jets and identified with a tree-based machine learning algorithm. A typical tau jet 
 contains either one or three charged hadrons, which can be exploited in the tree-based classifiers to differentiate from QCD jets. With the trade-off of selection 
 efficiencies and fake rate, three classifiers, loose, medium, tight, can be determined. More details can be found in Ref\cite{ATL-PHYS-PUB-2015-045}. 
-In order to suppress the tau background to a maximum extent, the loose working point is chosen to build the tau veto condition, together with the baseline section of $p_T > 25 GeV$ and $|\eta| < 2.5$.
+In order to suppress the tau background to a maximum extent, the loose working point is chosen to build the tau veto condition, together with the baseline section of $p_T > 25$~\GeV~and $|\eta| < 2.5$.
 
 \section{Jets}
 \label{sec:jets}
@@ -172,7 +172,7 @@ A series of calibrations are applied after jet clustering as shown in Fig~\ref{f
     \item \textbf{Origin correction} The kinematic observables of each topo-cluster are recalculated using the vector from the primary hard-scattering vertex to the topo-cluster centroid as its direction. The resolution of $\eta$ can be improved in this step. The jet energy is unaffected.
     \item \textbf{Absolute MC-based calibration} An absolute jet energy and $\eta$ correction is derived from MC simulation. The average energy response is defined as the mean of $E_{reco}/E_{truth}$ binned in $E_{truth}$ and $\eta_{jet}$. A similar correction is done for $\eta$.
     \item \textbf{Global sequential calibration} The global sequential calibration (GSC) method~\cite{Aad:2011he} is applied to improve resolution of the Jet Energy Scale (JES) resolution. In this step, JES depends on five features which account for different aspects and the calibration factor is derived from MC. The procedure is similar to the absolute JES calibration.
-    \item \textbf{Residual in situ calibration} This steps aims at correcting the difference between data and MC. For jets up to 950 GeV and with $|\eta| < 0.8$, calibration factors are derived from Z+jet and $\eta$+jet balance, while, for high-\pt~jets up to 2 TeV, the multijet balance is used.
+    \item \textbf{Residual in situ calibration} This steps aims at correcting the difference between data and MC. For jets up to 950~\GeV~and with $|\eta| < 0.8$, calibration factors are derived from Z+jet and $\eta$+jet balance, while, for high-\pt~jets up to 2~\TeV, the multijet balance is used.
 \end{itemize}
 
 \par The larger the jet size, the more chances there are that particles from the underlying events, pile-up interactions and soft radiation contaminate the jet. Thus for large R jets, three techniques of jet grooming are developed:
@@ -193,9 +193,9 @@ split-filtering~\cite{Butterworth:2008iy}, pruning~\cite{Ellis:2009me} and trimm
 
 \par Trimmed large-radius jets are used to reconstruct Higgs candidates when the b-quark decay products of the Higgs are too collimated to resolve by two small-radius jets.
 
-\par Small-radius jets used in the analysis can be divided into two categories: central jets and forward jets. Forward jets are small-radius jets with $2.5 < |\eta| < 4.5$ and $p_T > 30 GeV$, and can be used to reduce backgrounds. 
-Small-radius jets with $|\eta| < 2.5$ and \pt~$> 20 GeV$ are called central jets and they are used to reconstruct Higgs candidates with low or moderate \pt~.
-For central jets with $|\eta| < 2.4$ and $20 GeV < p_T < 60 GeV$, an additional requirement on the jet vertex tagger value $JVT > 0.59$ is imposed. Details on the jet vertex tagger (JVT) can be found in Ref~\cite{Aad:2015ina}.
+\par Small-radius jets used in the analysis can be divided into two categories: central jets and forward jets. Forward jets are small-radius jets with $2.5 < |\eta| < 4.5$ and $p_T > 30$~\GeV, and can be used to reduce backgrounds. 
+Small-radius jets with $|\eta| < 2.5$ and \pt~$> 20$~\GeV~are called central jets and they are used to reconstruct Higgs candidates with low or moderate \pt~.
+For central jets with $|\eta| < 2.4$ and 20~\GeV~$< p_T <$ 60~\GeV, an additional requirement on the jet vertex tagger value $JVT > 0.59$ is imposed. Details on the jet vertex tagger (JVT) can be found in Ref~\cite{Aad:2015ina}.
 
 \subsection{Track jets}
 \label{sec:track}
@@ -212,7 +212,7 @@ For central jets with $|\eta| < 2.4$ and $20 GeV < p_T < 60 GeV$, an additional 
         \hline
         Aim & Selection \\
         \hline
-        Reject soft fake tracks &$p_T> 0.4 GeV$ \\
+        Reject soft fake tracks &$p_T> 0.4$~\GeV~\\
         \hline
         In ID fiducial volume &$|\eta| < 2.5$\\
         \hline
@@ -231,13 +231,13 @@ For central jets with $|\eta| < 2.4$ and $20 GeV < p_T < 60 GeV$, an additional 
     \label{tab:trk}
 \end{table}
 
-\par FR track jets are then built by applying the anti-$k_T$ algorithm with R = {0.4, 0.3, 0.2} on selected tracks. Track jets in the fiducial region with $p_T > 7 GeV$ and $|\eta| < 2.5$ are accepted as track jets with $p_T < 7 GeV$ are dominated by light jets~\cite{ATL-PHYS-PUB-2014-013}. 				
+\par FR track jets are then built by applying the anti-$k_T$ algorithm with R = {0.4, 0.3, 0.2} on selected tracks. Track jets in the fiducial region with $p_T > 7$~\GeV~and $|\eta| < 2.5$ are accepted as track jets with $p_T < 7$~\GeV~are dominated by light jets~\cite{ATL-PHYS-PUB-2014-013}. 				
 \par VR track jets are clustered using the anti-$k_t$ algorithm from tracks with the same selection criteria used for R = 0.2 track jets. The main feature of the VR track jet reconstruction~\cite{Krohn:2009zg}, compared to the FR jets is the \pt~dependence of the jet radius:
 \begin{equation}
 R \rightarrow R_{eff}(p_T) \approx \frac{\rho}{p_T}
 \end{equation}
 where the parameter $\rho$ shows how the effective jet radius scales with the \pt~of the pseudo-jet during the jet finding procedure, $R_{min}$ and $R_{max}$ are a lower and an upper cut-off on the jet radius.
-To optimize the efficiency of double b-tagging over a wide mass range, $\rho = 30 GeV$, $R_{min} = 0.02$ and $R_{max} = 0.4$~\cite{ATL-PHYS-PUB-2017-010}.
+To optimize the efficiency of double b-tagging over a wide mass range, $\rho = 30$~\GeV, $R_{min} = 0.02$ and $R_{max} = 0.4$~\cite{ATL-PHYS-PUB-2017-010}.
 
 \subsection{Ghost Association}
 \label{sec:ga}
@@ -250,7 +250,7 @@ To optimize the efficiency of double b-tagging over a wide mass range, $\rho = 3
 \subsection{Flavor tagging}
 \label{sec:track}
 
-\par The identification of b-jets is referred to as b-tagging or flavor tagging. After the fragmentation of b-quarks, about 70\% of the b-quark energy goes into the weakly decaying b-hadrons. With an intrinsic life-time of $1.5 \times 10^{−12}$ s, the average decay lengths for b-hadrons of 30 GeV is about 3 mm, which can be measured with the high-precision tracking system in ATLAS.
+\par The identification of b-jets is referred to as b-tagging or flavor tagging. After the fragmentation of b-quarks, about 70\% of the b-quark energy goes into the weakly decaying b-hadrons. With an intrinsic life-time of $1.5 \times 10^{−12}$ s, the average decay lengths for b-hadrons of 30~\GeV~is about 3 mm, which can be measured with the high-precision tracking system in ATLAS.
 The c-hadrons from b-hadrons decay have similar average lifetimes, and thus lead to an additional decay vertex. 
 Several b-tagging algorithms are in use to exploit the decay patterns. 				
 \par ID tracks are used for these b-tagging algorithms, and tracks need to pass the basic quality cuts. 		
@@ -306,7 +306,7 @@ with two ghost-associated b-tagged subjets, reconstructing the b-hadrons.
 \subsection{Higgs tagging with advanced subjets}
 
 \par Three techniques are used to tag boosted Higgs bosons: variable-radius track jets (Fig~\ref{fig:vr}), Exclusive-kT (ExKt) and Center-of- Mass (CoM) tagging. These allow to probe the very boosted region~\cite{ATL-PHYS-PUB-2017-010}, where b-hadron decay products are too collimated to resolve even with R = 0.2 track jets.
-\par For variable-radius track jets, the parameters $\rho = 30 GeV$, $R_{min} = 0.02$ and $R_{max} = 0.4$ 
+\par For variable-radius track jets, the parameters $\rho = 30$~\GeV, $R_{min} = 0.02$ and $R_{max} = 0.4$ 
 are chosen after scanning different $\rho$ and radius as values in Fig.~\ref{fig:vr-scan}. ExKt refers to exclusive regions of interest using exclusive-kT declustering of the large-radius jets. 
 CoM jets are constructed via exclusive-kT declusting in the jet's center of mass frame instead of in the lab frame.
 
@@ -326,8 +326,8 @@ CoM jets are constructed via exclusive-kT declusting in the jet's center of mass
 \end{figure}
 
 \par The double b-tag performance for the FR track jet, VR track jet, ExKt and CoM techniques can be found in Fig.~\ref{fig:higgs_pt}.
-The plot shows a dramatic decrease for the R = 0.2 track jet technique as the Higgs jet \pt~becomes larger than 1.2 TeV where the 
-R = 0.2 track jets are expected to merge. These new techniques, however, can reconstruct Higgs jets with a \pt~of 3 TeV. Receiver operating characteristic (ROC) curves showing Higgs jet tagging performance versus 
+The plot shows a dramatic decrease for the R = 0.2 track jet technique as the Higgs jet \pt~becomes larger than 1.2~\TeV~where the 
+R = 0.2 track jets are expected to merge. These new techniques, however, can reconstruct Higgs jets with a \pt~of 3~\TeV. Receiver operating characteristic (ROC) curves showing Higgs jet tagging performance versus 
 QCD jet rejection are shown in Fig.~\ref{fig:higgs_ROC}.
 
 \begin{figure}[htbp]
