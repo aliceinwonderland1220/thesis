@@ -32,7 +32,7 @@ The basic track selection criteria are summarized in Table~\ref{tab:pv}.
         \hline
         Aim & Selection \\
         \hline
-        Reject soft fake tracks &$p_T> 0.4$~\GeV~\\
+        Reject soft fake tracks &$p_T > 0.4$~\GeV~\\
         \hline
         In ID fiducial volume &$|\eta| < 2.5$ \\
         \hline
@@ -77,9 +77,9 @@ In addition, two types of electrons are selected in this analysis: VHLoose and Z
         \hline
         Electron Type & $|p_T|$ & $|\eta|$ & $\frac{|d_0|}{\sigma_{d_0}}$ & $z_0\dot sin\theta$ & Likelihood & Isolation \\
         \hline
-        VHLoose &$>7$&$<2.47$&$<5$&$<0.5$&LooseLLHBLayer&LooseTrackOnly \\
+        VHLoose &$>$7&$<$2.47&$<$5&$<$0.5&LooseLLHBLayer&LooseTrackOnly \\
         \hline
-        ZHSignal&$>27$&$<2.47$&$<5$&$<0.5$&LooseLLHBLayer&LooseTrackOnly \\
+        ZHSignal&$>$27&$<$2.47&$<$5&$<$0.5&LooseLLHBLayer&LooseTrackOnly \\
         \hline
     \end{tabular}
     \caption{Definitions for the different categories of electron.}
@@ -96,8 +96,8 @@ In addition, two types of electrons are selected in this analysis: VHLoose and Z
 \begin{itemize}
     \item Combined muons are reconstructed by combining the hits of the ID track and MS track and the energy loss in the calorimeter.
     \item Segment-tagged muons are formed from a track in the ID if it is associated with at least one track segment in the MDT or CSC chambers. It captures muons passing only one layer of MS chambers, due to their low \pt~or reduced MS acceptance in the region.
-    \item Extrapolated muons are reconstructed based only on the MS track and a loose requirement on compatibility with originating from the IP. They are used to extend the acceptance for muon reconstruction into the region $2.5 <\eta< 2.7$, where three layers are required.
-    \item Calorimeter-tagged muons. In the region of $|\eta| < 0.1$, ID tracks with 15~\GeV~$< p_T <$ 100~\GeV~are identified as muons if their energy deposits in the calorimeter match that expected from minimum ionizing particles. They recover muon acceptance in the region where the MS is only partially instrumented.
+    \item Extrapolated muons are reconstructed based only on the MS track and a loose requirement on compatibility with originating from the IP. They are used to extend the acceptance for muon reconstruction into the region $2.5 <|\eta| < 2.7$, where three layers are required.
+    \item Calorimeter-tagged muons. In the region of $|\eta| < 0.1$, ID tracks with 15~\GeV~$<$ \pt~$<$ 100~\GeV~are identified as muons if their energy deposits in the calorimeter match that expected from minimum ionizing particles. They recover muon acceptance in the region where the MS is only partially instrumented.
 \end{itemize}
 
 \par Similar to Electron reconstruction, there are different muon identification working points. This analysis choeses ``Loose'', defined as muons reconstructed using any reconstruction methods, and ``Medium'', reconstructed using either the Combined muon or Extrapolated muon methods. The VHLoose definition is used in the signal region whereas the ZHSignal definition is used in some control regions.					
@@ -109,11 +109,11 @@ In addition, two types of electrons are selected in this analysis: VHLoose and Z
         \hline
         Electron Type & $|p_T|$ &$|\eta|$ & $\frac{|d_0|}{\sigma_{d_0}}$&$z_0 sin\theta$ & Likelihood &Isolation \\
         \hline
-        VHLoose &$>7$&$<2.7$&$<3$&$<0.5$&Loose&LooseTrackOnly\\
+        VHLoose &$>$7&$<$2.7&$<$3&$<$0.5&Loose&LooseTrackOnly\\
         \hline
-        WHSignal &$>25$&$<2.5$&$<3$&$<0.5$&Medium&FixedTrackTTTight\\
+        WHSignal &$>$25&$<$2.5&$<$3&$<$0.5&Medium&FixedTrackTTTight\\
         \hline
-        ZHSignal &$>25$&$<2.5$&$<3$&$<0.5$&Loose&LooseTrackOnly\\
+        ZHSignal &$>$25&$<$2.5&$<$3&$<$0.5&Loose&LooseTrackOnly\\
         \hline
     \end{tabular}
     \caption{Definitions for the different categories of muons.}
@@ -172,7 +172,7 @@ A series of calibrations are applied after jet clustering as shown in Fig.~\ref{
     \item \textbf{Origin correction} The kinematic observables of each topo-cluster are recalculated using the vector from the primary hard-scattering vertex to the topo-cluster centroid as its direction. The resolution of $\eta$ can be improved in this step. The jet energy is unaffected.
     \item \textbf{Absolute MC-based calibration} An absolute jet energy and $\eta$ correction is derived from MC simulation. The average energy response is defined as the mean of $E_{reco}/E_{truth}$ binned in $E_{truth}$ and $\eta_{jet}$. A similar correction is done for $\eta$.
     \item \textbf{Global sequential calibration} The global sequential calibration (GSC) method~\cite{Aad:2011he} is applied to improve resolution of the Jet Energy Scale (JES) resolution. In this step, JES depends on five features which account for different aspects and the calibration factor is derived from MC. The procedure is similar to the absolute JES calibration.
-    \item \textbf{Residual in situ calibration} This steps aims at correcting the difference between data and MC. For jets up to 950~\GeV~and with $|\eta| < 0.8$, calibration factors are derived from Z+jet and $\eta$+jet balance, while, for high-\pt~jets up to 2~\TeV, the multijet balance is used.
+    \item \textbf{Residual in situ calibration} This steps aims at correcting the difference between data and MC. For jets up to 950~\GeV~and with $|\eta| $<$ 0.8$, calibration factors are derived from Z+jet and $\eta$+jet balance, while, for high-\pt~jets up to 2~\TeV, the multijet balance is used.
 \end{itemize}
 
 \par The larger the jet size, the more chances there are that particles from the underlying events, pile-up interactions and soft radiation contaminate the jet. Thus for large R jets, three techniques of jet grooming are developed:
@@ -180,7 +180,7 @@ split-filtering~\cite{Butterworth:2008iy}, pruning~\cite{Ellis:2009me} and trimm
 
 \begin{itemize}
     \item \textbf{Split-filtering} Large-radius jets are rebuilt using the Cambridge/Aachen (C/A) algorithm. C/A jets are then de-clustered by splitting the jet into two pieces into pieces, starting from the last C/A merge. De-clustering continues with the highest mass piece 
-    until the requirements on mass-drop $\mu_{12} < \mu_{max}$ and momentum balance $\sqrt{y_{12}} > \sqrt{y_{min}}$ are met. The momentum balance and mass drop are defined as $y_{12} = \frac{min(p_{T1},p_{T2})}{m_{12}}\Delta R_{12} $, $\mu_{12} = max(m_1,m_2) m_{12}$, where $m_{12}$ 
+    until the requirements on mass-drop $\mu_{12} $<$ \mu_{max}$ and momentum balance $\sqrt{y_{12}} > \sqrt{y_{min}}$ are met. The momentum balance and mass drop are defined as $y_{12} = \frac{min(p_{T1},p_{T2})}{m_{12}}\Delta R_{12} $, $\mu_{12} = max(m_1,m_2) m_{12}$, where $m_{12}$ 
     is the invariant mass of two pieces. If the requirements are not satisfied, the jet is discarded. Filtering aims at removing soft radiations that is irrelevant to the hard scattering process. 
     In the filtering stage, constituents of the surviving jet are reclustered with subjet size $R_{sub} = min(0.3,\Delta R_{12})$, where $\Delta R_{12}$ is taken from the splitting stage.
     \item \textbf{Trimming} Large-R jets are reclustered using the $k_T$ algorithm, 
@@ -195,7 +195,7 @@ split-filtering~\cite{Butterworth:2008iy}, pruning~\cite{Ellis:2009me} and trimm
 
 \par Small-radius jets used in the analysis can be divided into two categories: central jets and forward jets. Forward jets are small-radius jets with $2.5 < |\eta| < 4.5$ and $p_T > 30$~\GeV, and can be used to reduce backgrounds. 
 Small-radius jets with $|\eta| < 2.5$ and \pt~$> 20$~\GeV~are called central jets and they are used to reconstruct Higgs candidates with low or moderate \pt~.
-For central jets with $|\eta| < 2.4$ and 20~\GeV~$< p_T <$ 60~\GeV, an additional requirement on the jet vertex tagger value $JVT > 0.59$ is imposed. Details on the jet vertex tagger (JVT) can be found in Ref~\cite{Aad:2015ina}.
+For central jets with $|\eta| < 2.4$ and 20~\GeV~$<$ \pt $<$ 60~\GeV, an additional requirement on the jet vertex tagger value $JVT > 0.59$ is imposed. Details on the jet vertex tagger (JVT) can be found in Ref~\cite{Aad:2015ina}.
 
 \subsection{Track jets}
 \label{sec:track}
@@ -212,9 +212,9 @@ For central jets with $|\eta| < 2.4$ and 20~\GeV~$< p_T <$ 60~\GeV, an additiona
         \hline
         Aim & Selection \\
         \hline
-        Reject soft fake tracks &$p_T> 0.4$~\GeV~\\
+        Reject soft fake tracks &$p_T > 0.4$~\GeV~\\
         \hline
-        In ID fiducial volume &$|\eta| < 2.5$\\
+        In ID fiducial volume &$|\eta| > 2.5$\\
         \hline
         enough hits for track reconstruction & More than 7 hits between the Pixel and SCT detectors \\
         \hline
@@ -231,7 +231,7 @@ For central jets with $|\eta| < 2.4$ and 20~\GeV~$< p_T <$ 60~\GeV, an additiona
     \label{tab:trk}
 \end{table}
 
-\par FR track jets are then built by applying the anti-$k_T$ algorithm with R = {0.4, 0.3, 0.2} on selected tracks. Track jets in the fiducial region with $p_T > 7$~\GeV~and $|\eta| < 2.5$ are accepted as track jets with $p_T < 7$~\GeV~are dominated by light jets~\cite{ATL-PHYS-PUB-2014-013}. 				
+\par FR track jets are then built by applying the anti-$k_T$ algorithm with R = {0.4, 0.3, 0.2} on selected tracks. Track jets in the fiducial region with \pt $>$ 7~\GeV~and $|\eta| < 2.5$ are accepted as track jets with \pt~$<$ 7~\GeV~are dominated by light jets~\cite{ATL-PHYS-PUB-2014-013}. 				
 \par VR track jets are clustered using the anti-$k_t$ algorithm from tracks with the same selection criteria used for R = 0.2 track jets. The main feature of the VR track jet reconstruction~\cite{Krohn:2009zg}, compared to the FR jets is the \pt~dependence of the jet radius:
 \begin{equation}
 R \rightarrow R_{eff}(p_T) \approx \frac{\rho}{p_T}
@@ -292,7 +292,7 @@ The performance of MV2c10 tagger~\cite{Varni:2655785} for discrimination against
 
 % MET significance
 \par The uncertainty of \met~calculation result can be large due to the complexity of the reconstruction algorithm. Therefore, a significance variable can be introduced to describe the reliability of the derived \met. The \met~significance is defined as
-$$ S=\frac{\met}{\sqrt{\sum_{i}E_{Ti}}}, $$
+$ S=\frac{\met}{\sqrt{\sum_{i}E_{Ti}}}, $
 where the numerator is the amplitude of the derived \met, and the denominator is the scalar sum of the detected objects that are used in reconstructing the \met. A high value of \met~significance suggests the event is more likely to contain an invisible object than be due to resolution smearing.
 
 \section{Higgs tagging}

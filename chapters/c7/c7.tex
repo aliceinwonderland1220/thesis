@@ -27,7 +27,7 @@ Moreover, control regions are defined to constrain the background contribution.
         \hline
         Pseudorapidity range & \(|\eta| < 2.47\) \\
         \hline
-        Transverse momentum & \pt~$> 7$~\GeV~\\
+        Transverse momentum & \pt~$>$ 7~\GeV~\\
         \hline
         Track to vertex association & \(|d_{0}^{\text{BL}}(\sigma)| < 5\)\\ & \(|\Delta z_{0}^{\text{BL}} \sin{\theta}| < 0.5mm\) \\
         \hline
@@ -80,13 +80,13 @@ Moreover, control regions are defined to constrain the background contribution.
         \hline
         Tau energy scale & \texttt{MVA TES} \\
         \hline
-        Transverse momentum & \pt~$> 20$~\GeV~\\
+        Transverse momentum & \pt~$>$ 20~\GeV~\\
         \hline
         Jet rejection & BDT-based (\texttt{Loose}) \\
         \hline
         Electron rejection & BDT-based \\
         \hline
-        Muon rejection & \specialcell{Via overlap removal in \(\Delta R < 0.2\) and \pt~$> 2$~\GeV.\\ Muons must not be Calo-tagged} \\
+        Muon rejection & \specialcell{Via overlap removal in \(\Delta R < 0.2\) and \pt~$>$ 2~\GeV.\\ Muons must not be Calo-tagged} \\
         \hline
     \end{tabular}
 \end{table}
@@ -129,7 +129,7 @@ Moreover, control regions are defined to constrain the background contribution.
         \hline
         \(|\eta|\) & \(< 2.5\) (central) /  \(2.5 < |\eta| < 4.5 \) (forward) \\
         \hline
-        JVT & \specialcell{\texttt{Medium} working point,\\applied only to central jets with \pt~$< 120$~\GeV} \\
+        JVT & \specialcell{\texttt{Medium} working point,\\applied only to central jets with \pt~$<$ 120~\GeV} \\
         \hline
     \end{tabular}
 \end{table}
@@ -226,13 +226,15 @@ Therefore, resolved and merged regions are designed as sub-signal regions to pro
 \begin{itemize}
     \item \textbf{Event cleaning}: Event cleaning applies a set of filters to veto corrupted or noisy events. In this analysis, LAr noise burst, tile corruption, SCT recovery procedure and incomplete events are applied as the event cleaning filters. More information can be found in Ref~\cite{c8-evt-cleaning}.
     \item \textbf{Loose jet Veto}: In analysis, reconstructed jets can due to noise, collision background, etc.. The TightBadJet criterion, provided by the Jet/\met~group, is applied in this analysis to veto events that contain fake jets.
-    \item \textbf{\met~selection}: In signal regions, a constraint \met~$>150$~\GeV~is applied. In control regions, the lepton momentum is treated as part of the missing transverse momentum and the same \met~cut is applied.
+    \item \textbf{\met~selection}: In signal regions, a constraint \met~$>$150~\GeV~is applied. In control regions, the lepton momentum is treated as part of the missing transverse momentum and the same \met~cut is applied.
     \item \textbf{Light lepton and $\tau$-lepton veto}: Events that contain a electron, muon or $\tau$-lepton, as defined in Section~\ref{sec:ana-sig:physobj}, are rejected.
     \item \textbf{Extended $\tau$-lepton veto}: An extended $\tau$ veto is applied in case a $\tau$-lepton failed to be identified. A hadronically decayed $\tau$ can be viewed as a jet. Therefore, a jet is considered as a $\tau$ candidate if it fullfills two conditions: (1) The track multiplicity in the jet cone is between 1 and 4. (2) The azimuthal separation between the jet and \met~is $\Delta \phi \leq 22.5^\circ$. The cut on the track multiplicity in the jet cone makes sure that the hadronic decay products in the jet are compatible with $\tau$-lepton decay products, namely with charged pions. The tracks considered are required to be associated with the primary vertex and have \pt~greater than 1 ~\GeV. The cut on the angular separation between the jet and \met~selects $\tau$-candidates that come from W bosons.
     \item \textbf{$\min_{j \in \{1,2,3\}}\Delta\phi(E_{\mathrm{T}}^{\mathrm{miss}},j)$ selection}: QCD multijet events can pass the \met~requirement because of jet energy mis-measurement. In case of fake \met, the \met~will generally point in the direction of leading jets. Therefore, an angular cut between \met~and leading jets is applied to veto these events.
 \end{itemize}
 
-\par After this baseline selection, the signal regions need to be analyzed different sub-regions based on the Higgs boson signature. In the target model, the sum of the \met~vector and Higgs boson transverse momentum vector should be zero based on momentum conservation. Therefore, one can apply a single cut on \met~to separate events with resolved or merged Higgs bosons. In this analysis, the cut \met$<500$~\GeV~selects the resolved region while \met$>500$~\GeV~defines the merged region. Higgs boson identification, which will be detailed in the rest of this section, is different in these two signal regions.
+\par After this baseline selection, the signal regions need to be analyzed different sub-regions based on the Higgs boson signature. 
+In the target model, the sum of the \met~vector and Higgs boson transverse momentum vector should be zero based on momentum conservation. 
+Therefore, one can apply a single cut on \met~to separate events with resolved or merged Higgs bosons. In this analysis, the cut \met~$<$500~\GeV~selects the resolved region while \met$>$500~\GeV~defines the merged region. Higgs boson identification, which will be detailed in the rest of this section, is different in these two signal regions.
 \par Moreover, there is one additional condition to select events with at least one b-jet. $b$-tagging is applied on all small-radius central jets in the resolved region, but only on the two leading track jets that are associated to large-radius jets in the merged region.
 
 \subsection{Resolved region}
@@ -242,20 +244,20 @@ Therefore, resolved and merged regions are designed as sub-signal regions to pro
 \par There are several criteria to select the Higgs boson in the resolved channel:
 
 \begin{itemize}
-    \item \textbf{\pt~of $H_{reco}$}: This is expected to increase with \met. Therefore, a selection \pt$(H_{reco})>100$~\GeV~is applied when \met~$<350$~\GeV, while \pt$(H_{reco})>300$~\GeV~is required when 
-        350~\GeV~< $\met$ < 500~\GeV.
-    \item \textbf{$m_{jj}$}: A window around the mass of the reconstructed Higgs boson is helpful to identify the Higgs boson. The mass of the reconstructed Higgs boson can be calculated from the invariant mass of the jet pair ($m_{jj}$) that forms $H_{reco}$. A window 50~\GeV~$<m_{jj}<$ 280~\GeV~is applied in this analysis. 
+    \item \textbf{\pt~of $H_{reco}$}: This is expected to increase with \met. Therefore, a selection \pt$(H_{reco})>$100~\GeV~is applied when \met~$<$~350~\GeV, while \pt$(H_{reco}) >$~300~\GeV~is required when 
+        350~\GeV~$<$~\met~$<$ 500~\GeV.
+    \item \textbf{$m_{jj}$}: A window around the mass of the reconstructed Higgs boson is helpful to identify the Higgs boson. The mass of the reconstructed Higgs boson can be calculated from the invariant mass of the jet pair ($m_{jj}$) that forms $H_{reco}$. A window 50~\GeV~$< m_{jj} <$ 280~\GeV~is applied in this analysis. 
     \item \textbf{$m_{T}^{b}$}: In the resolved region, the major background is top quark pair production. $m_{T}^{b}$ is introduced to reject these background events. $m_{T}^{b}$ is defined as: $m_{T}^{b}=\sqrt{2p_{T}^{b}E_{T}^{miss}(1-cos\Delta\phi(\vec{p}_{T}, \vec{E}_{T}^{miss}))}$. $m_{T}^{b}$ is calculated using the $b$-jets that are closest to and furthest from \met. The closest $b$-jet $m_{T}^b$ is required to be greater than 170~\GeV, while the furthest must be greater than 200~\GeV.
 \end{itemize}
 
-\par In addition, it is possible that the measured \met~of an event is due to a resolution fluctuation. Therefore, a \met~significance cut $S>12$ is introduced to reject fake \met~events.
+\par In addition, it is possible that the measured \met~of an event is due to a resolution fluctuation. Therefore, a \met~significance cut $S > 12$ is introduced to reject fake \met~events.
 
 \subsection{Merged region}
 
 \par In the merged region, the momentum of the Higgs boson is relatively high, and therefore, the decay products are close to each other in the lab frame and can be merged into a single cone, which is reconstructed as a large-radius jet in detector.
 \par Several criteria are applied on the large-radius jet to identify the Higgs boson in the merged region:
 \begin{itemize}
-    \item \textbf{$m_{J}$}: The invariant mass of the large-radius jet is an expression of Higgs boson mass. A window 50~\GeV$ < m_{J} <$ 270~\GeV~is applied.
+    \item \textbf{$m_{J}$}: The invariant mass of the large-radius jet is an expression of Higgs boson mass. A window 50~\GeV $< m_{J} <$ 270~\GeV~is applied.
     \item \textbf{Variable-radius track jets association}: At least two variable-radius track jets need to be associated to the large-radius jet.
 \end{itemize}
 
@@ -281,11 +283,11 @@ Therefore, resolved and merged regions are designed as sub-signal regions to pro
             \hline
             \met~$<$ 500~\GeV~& \met~$>$ 500~\GeV~\\
             \hline
-            N(central small-R jets) $\geq 2$ & N(central large-R jets) $\geq 1$ \\
+            N(central small-R jets) $\geq$ 2 & N(central large-R jets) $\geq$ 1 \\
             \hline
             N($b$-tagged small-R jets) $\geq 1$ & N($b$-tagged associated track jets) $\geq 1$ \\
             \hline
-            $S>12$ & --- \\
+            S $>$ 12 & --- \\
             \hline
             \pt$(jj) >$ 100~\GeV~if \met~$<$ 350~\GeV~& --- \\
             \hline
@@ -311,7 +313,7 @@ Therefore, resolved and merged regions are designed as sub-signal regions to pro
 Control regions are designed to validate the backgrounds estimate in the signal regions.
 
 \subsection{1-lepton control region}
-\par In the signal region the W+jets background is mostly composed of events in which the $W$-boson decays leptonically. 
+\par In the signal region the W + jets background is mostly composed of events in which the $W$-boson decays leptonically. 
 The $t\bar{t}$ background in the signal region originates almost completely from semileptonic $t\bar{t}$ decays. 
 Events with leptons can enter the signal region if the leptons fail to be identified or if they are outside the detector acceptance. 
 The largest contribution comes from decays involving $\tau$-leptons, as shown in Figure~\ref{fig:ttbarDecayCat}. 
@@ -335,15 +337,15 @@ Therefore the W+jets and $t\bar{t}$ backgrounds can be estimated using a 1-lepto
 	\label{fig:ttbarDecayCatKinematic}
 \end{figure}
 
-\par The 1-muon control region is chosen to constrain W+jets related background. Events in this control region is required to have exactly one muon and no other baseline leptons.
+\par The 1-muon control region is chosen to constrain W + jets related background. Events in this control region is required to have exactly one muon and no other baseline leptons.
 
 \subsection{2-lepton control region}
-\par A 2-lepton control region is used to estimate the $Z$+jets background. 
+\par A 2-lepton control region is used to estimate the Z +jets background. 
 In the signal region the $Z(\to\nu\nu)+jets$ production leads to a significant amount of background, which has the topology as $Z(\to\ell\ell)+jets$, because the momentum of the $Z$ boson does not depend on its decay products. 
 Hence the normalisation of $Z(\to\nu\nu)+jets$ events can be estimated with the help of a $Z(\to\ell\ell)+jets$ control region.
 
 \par The 2-lepton control region is defined by selecting exactly two muons or two electrons. 
 At least one of the leptons needs to saitisfy the signal lepton criteria with sufficiently high \pt~to pass the trigger. 
-The leading muon is required to have \pt~> 25~\GeV, while the leading electron is \pt~> 27~\GeV. 
+The leading muon is required to have \pt~$>$ 25~\GeV, while the leading electron is \pt~$>$ 27~\GeV. 
 The other lepton is not required to pass the signal lepton selection to increase the acceptance. 
-Moreover, since the two leptons originate from a $Z$ boson, a mass window requirement is implemented to identify the $Z$ mass peak: $|m_{Z}-m_{ll}|$ < 10~\GeV.
+Moreover, since the two leptons originate from a $Z$ boson, a mass window requirement is implemented to identify the $Z$ mass peak: $|m_{Z}-m_{ll}|$ $<$ 10~\GeV.
