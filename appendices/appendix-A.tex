@@ -3,7 +3,7 @@
 \section{Performance}
 
 \par The Boosted Xbb Tagger is based on a neural network (roughly 10 layers) which uses b-tagging and jet substructure information. 
-The classification has three outputs which represents how likely the jet is Higgs, Top and QCD jet.  
+The classification has three outputs which represent how likely the jet is Higgs, Top and QCD jet.  
 
 \par With different fraction of the the three classes, CombinedXbbScore Tagger is defined as
 \begin{equation}
@@ -30,7 +30,7 @@ Fig.\ref{fig:roctop} compares CombinedXbbScore aggers with different mixing frac
             \begin{tabular}{ c |c |c |c}
                 \hline
                 \hline
-                Higgs efficiency [\%] & mixing fraction (f)	& cut value \\
+                Higgs efficiency [\%] & mixing fraction (f) & cut value \\
                 50 & 0 & 5.1 \\
                 60 & 0 & 4.8 \\
                 70 & 0 & 3.9 \\
@@ -51,14 +51,14 @@ Fig.\ref{fig:roctop} compares CombinedXbbScore aggers with different mixing frac
 
 \section{Signal selection in Merged region using CombinedXbbScore}
 
-\par For the merged region, instead of requiring two b-tagged VR trackjets with 77\% working point as described in Section.\ref{sec:ana-sig:physobj}. 
-The background large-R jets (R = 1.0) are suppressed by applying a cut on CombinedXbbScore. 
-To have a fair comparison within these two methods, 77\% working point is chosen for the VR trackjets b-tagging and 60\% working points are chosen for the CombinedXbbScore tagger with different mixing fractions for all plots showed in this chapter.					
+\par For the merged region, instead of requiring two b-tagged VR track jets with 77\% working point as described in Section.\ref{sec:ana-sig:physobj}, cutting on the CombinedXbbScore of a large-R jet can choose the Xbb jets directly.
+The background large-R jets (R = 1.0) is suppressed by applying a cut on CombinedXbbScore. 
+To have a fair comparison within these two methods, 77\% working point is chosen for the VR track jets b-tagging and 60\% working points are chosen for the CombinedXbbScore tagger with different mixing fractions for all plots showed in this chapter.                    
 
-\par The large-R jet mass distribution of the Z’+2HDM signal with $m_Z’ = 2800~GeV$ and $m_A = 300~GeV$ is scaled by a factor of 1000 and compared to backgrounds in both Fig.\ref{fig:mj_before} and Fig.\ref{fig:mj_after}. 	
+\par The large-R jet mass distribution of the Z’+2HDM signal with $m_Z’ = 2800~GeV$ and $m_A = 300~GeV$ is scaled by a factor of 1000 and compared to backgrounds in both Fig.\ref{fig:mj_before} and Fig.\ref{fig:mj_after}.   
 
-\par The left plot in Fig.\ref{fig:mj_before} shows the large-R jet mass distribution in the merged region while the right plot shows the large-R jet mass distribution after requiring two b-tagged VR trackjets. 
-Fig.\ref{fig:mj_before} shows the large-R jet mass distribution after applying cutting on CombinedXbbScore with mixing fraction $f=1$ (left) and $f=0$ (right). 	
+\par The left plot in Fig.\ref{fig:mj_before} shows the large-R jet mass distribution in the merged region while the right plot shows the large-R jet mass distribution after requiring two b-tagged VR track jets. 
+Fig.\ref{fig:mj_before} shows the large-R jet mass distribution after applying cutting on CombinedXbbScore with mixing fraction $f=1$ (left) and $f=0$ (right).     
 
 \begin{figure}[h]
     \centering
@@ -80,23 +80,23 @@ Fig.\ref{fig:mj_before} shows the large-R jet mass distribution after applying c
 
 \subsection{Backgrounds breakdown of signal region and control regions}
 
-\par To study the modelling and systematics, truth labeling is implemented in ntuples based on the truth particles ghost-associated to the large-R jets.
-And the backgrounds composition on the 1L/2L control regions are examined.
+\par To study the modeling and systematics, truth labeling is implemented in ntuples based on the truth particles ghost-associated to the large-R jets.
+And the composition of the background on the 1L/2L control regions is examined.
 
-\par Fig.\ref{fig:fl_mj} shows the large-R jet mass distribution in the 2-btagged singal and control regions defined by the CombinedXbbScore.
+\par Fig.\ref{fig:fl_mj} shows the large-R jet mass distribution in the 2b-tagged signal and control regions defined by the CombinedXbbScore.
 
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.4\textwidth]{appendices/figures/Region_BMin500_incFat1_Fat1_incJet1_Y2015_DSR_T2_L0_distmBB_J0_Prefit.pdf}
     \includegraphics[width=0.4\textwidth]{appendices/figures/Region_BMin500_incFat1_Fat1_incJet1_Y2015_DCR1_T2_L1_distCharge_J0_Prefit.pdf}
     \includegraphics[width=0.4\textwidth]{appendices/figures/Region_BMin500_incFat1_Fat1_incJet1_Y2015_DCR2_T2_L2_distmBB_J0_Prefit.pdf}
-    \caption{Large-R jet mass distribution in the 2-btagged singal and control regions.}
+    \caption{Large-R jet mass distribution in the 2-btagged signal and control regions.}
     \label{fig:fl_mj}
 \end{figure}
 
-\par Ideally, large-R jets selected by cutting on CombinedXbbScore are likely to have two b-hadorns ghost-associated to them and have a truch labeling of bb.
+\par Ideally, large-R jets selected by cutting on CombinedXbbScore are likely to have two b-hadrons ghost-associated to them and have a truth labeling of bb.
 
-\par To have a clear look at the fraction of large-R jets labling, the Xbb tag fraction which refer to the fraction of large-R jets with labeling bb are examined for 1 lepton region with W+jets samples in Fig.\ref{fig:xbbw} and for 2 region with Z+jets samples in Fig.\ref{fig:xbbz}.
+\par To have a clear look at the fraction of large-R jets labeling, the Xbb tag fraction which refers to the fraction of large-R jets with labeling bb are examined for 1 lepton region with W+jets samples in Fig.\ref{fig:xbbw} and for 2 regions with Z+jets samples in Fig.\ref{fig:xbbz}.
 
 \begin{figure}[h]
     \centering
@@ -117,13 +117,13 @@ And the backgrounds composition on the 1L/2L control regions are examined.
 \par Xbb tag fraction of signal region vs 1b control regions in Fig.\ref{fig:xbbw} matches within uncertainty, as well as signal region vs 2b control regions in Fig.\ref{fig:xbbz}.
 And the Xbb tag fraction peaks in around Higgs mass.
 
-\par The flavor breakdown of backgrounds with truth labeling in singal and control regions is showed in Fig.\ref{fig:fl_pie}.
+\par The flavor breakdown of backgrounds with truth labeling in signal and control regions is showed in Fig.\ref{fig:fl_pie}.
 
 \begin{figure}[h]
     \includegraphics[ width=0.3\textwidth]{appendices/figures/pie0.pdf}
     \includegraphics[ width=0.3\textwidth]{appendices/figures/pie1.pdf}
     \includegraphics[ width=0.3\textwidth]{appendices/figures/pie2.pdf}
-    \caption{Flavor breakdown of backgrounds with truth labeling in singal and control regions.}
+    \caption{Flavor breakdown of backgrounds with truth labeling in signal and control regions.}
     \label{fig:fl_pie}
 \end{figure}
 
@@ -159,7 +159,7 @@ And the Xbb tag fraction peaks in around Higgs mass.
     Total Bkgd & 23.5977$\pm$3.3084 \\
     \hline
     \end{tabular}
-    \caption{Flavor breakdown of backgrounds with truth labeling in singal region.}
+    \caption{Flavor breakdown of backgrounds with truth labeling in signal region.}
     \label{tab:fl0}
 \end{table}
 
@@ -215,29 +215,29 @@ And the Xbb tag fraction peaks in around Higgs mass.
     \label{tab:fl2}
 \end{table}
 
-\par According to the tables above, the Wbb fraction in W+jets in signal region is 46.62\% $\pm$ 10.76\% compared to 56.60\% $\pm$ 7.68\% in 1 lepton control reigon. 
-And the Zbb fraction in Z+jets is 56.53\%$\pm$1.64\% compared to 54.42\%$\pm$6.21\% in 2 lepton control reigon.
+\par According to the tables above, the Wbb fraction in W+jets in the signal region is 46.62\% $\pm$ 10.76\% compared to 56.60\% $\pm$ 7.68\% in 1 lepton control region. 
+And the Zbb fraction in Z+jets is 56.53\%$\pm$1.64\% compared to 54.42\%$\pm$6.21\% in 2 lepton control region.
 
 \subsection{Preliminary significance study}
 
 \par To quantify the improvement brought by the CombinedXbbScore, the signal significances of these two methods are compared.
-Singal Significance in each bin is defined as
+Signal Significance in each bin is defined as
 \begin{equation}
     S_i = \sqrt{2(s + b)ln(1 + \frac{s}{b}) − s},
 \end{equation}
 where s, b is the count of signal and background in the i-th bin.
 
-\par And the Bin-by-bin signal significance is difined as
+\par And the Bin-by-bin signal significance is defined as
 \begin{equation}
     S_{bin-by-bin} = \sqrt{\sum_i S_i^2}, 
 \end{equation}
 
-\par Fig.\ref{fig:ss_ratio} (left) shows the ratio of signal significance of the 2b region defined by CombinedXbbScore vs 2b b-tagged VR trackjets with the Higgs window [70, 140]~GeV，
+\par Fig.\ref{fig:ss_ratio} (left) shows the ratio of the signal significance of the 2b region defined by CombinedXbbScore vs 2b b-tagged VR track jets with the Higgs window [70, 140]~GeV，
 while the right plot is without the Higgs window.
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.45\textwidth]{appendices/figures/2b-tags_XbbScoreoverVR_HiggsWindow.pdf}
     \includegraphics[width=0.45\textwidth]{appendices/figures/2b-tags_XbbScoreoverVR.pdf}
-    \caption{Ratio of singal significance of 2b merged region defined by CombinedXbbScore compared to the orignal method with or without the Higgs window.}
+    \caption{Ratio of signal significance of 2b merged region defined by CombinedXbbScore compared to the original method with or without the Higgs window.}
     \label{fig:ss_ratio}
 \end{figure}

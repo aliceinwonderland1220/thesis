@@ -3,8 +3,7 @@
 
 \par Statistical analysis is a process to analyze collision data in the signal and control regions with statistical models to test one or more physics hypotheses. 
 In the presence of a significant excess in the observed data over background expectation, the hypothesis test can be used to test compatibility with new physics models. 
-In the absence of a significant excess, exclusion limits can be set on the new physics models. S
-Such limits can be viewed as parameters confidential interval estimation. 
+In the absence of a significant excess, exclusion limits can be set on the new physics models. Such limits can be viewed as parameters confidential interval estimation. 
 In particle physics, the CLs method~\cite{Read:2002hq} is a powerful and proven method for model parameters limit setting. 
 In this chapter, the CLs strategy for this analysis is described in Section~\ref{sec:cls}, and then, the fit results are presented in Section~\ref{sec:limitres}. 
 
@@ -15,7 +14,7 @@ In this chapter, the CLs strategy for this analysis is described in Section~\ref
 The CLs method, which is a statistical estimation to evaluate a confidence interval for parameters of a model with data, is the approach used to set upper limits on new physics model parameters in this analysis.
 
 \par The CLs method is not the only possible approach to set the upper limit of model parameters. 
-Bayesian approach is disfavored in this case because it needs a prior on the new physics model itself.
+The Bayesian approach is disfavored in this case because it needs a prior to the new physics model itself.
 The traditional frequentist approach has trouble when the signal is small. 
 It can give a negative upper limit since it estimates data yield at a confidence level, then subtracts background yield.
 The CLs method, as a modified frequentist approach, uses a normalization based on the background only probability to avoid this issue.
@@ -25,25 +24,25 @@ The CLs method, as a modified frequentist approach, uses a normalization based o
 \subsection{Likelihood definition}
 
 \par The likelihood function is a reflection of the probability of event yields. 
-The event count in each bin of a distributions follows Poisson distribution, since each event has a finite probability to be observed in each bin.
+The event count in each bin of distributions follows Poisson distribution since each event has a finite probability to be observed in each bin.
 Therefore, the statistical analysis of the data uses a binned likelihood function constructed as the product of Poisson probability terms,
 \begin{equation}
 \mathrm{Poisson}\,(n|\mu S+B)\left[ \prod_{b\in \text{bins}}^{n} \frac{\mu \nu^{\mathrm{sig}}_{b}+\nu^{\mathrm{bkg}}_{b}}{\mu S+B} \right],
 \end{equation}
 where $\mu$, a signal strength parameter, multiplies the expected signal yield $\nu^{\mathrm{sig}}_b$ in each histogram bin b, and $\nu^{\mathrm{bkg}}_b$ represents the background content for bin b. 
 The dependence of the signal and background predictions on the systematic uncertainties is described by a set of nuisance parameters (NP) $\theta$, which are parameterized by Gaussian or log-normal priors. 
-The latter are used for normalization uncertainties in order to maintain a positive likelihood.
+The latter is used for normalization uncertainties in order to maintain a positive likelihood.
 
 \par This profile of likelihood, together with Monte-Carlo simulation of signal and background, are used to model the data yields.
 
 \subsection{Nuisance parameters}
 
-\par In statistics, nuisance parameters are the parameters which are not of immediate interest but which must be accounted for in the analysis of those parameters which are of interest. 
+\par In statistics, nuisance parameters are the parameters that are not of immediate interest but which must be accounted for in the analysis of those parameters which are of interest. 
 Two types of nuisance parameters are considered in this analysis:
 \begin{itemize}
-    \item \textbf{Normalization related nuisance parameters}: These nuisance parameters are single number corrections that comes from cross-section calculation, Monte-Carlo template and relative acceptance, etc.. 
+    \item \textbf{Normalization related nuisance parameters}: These nuisance parameters are single number corrections that come from cross-section calculation, Monte-Carlo template and relative acceptance, etc.. 
     A full list of nuisance parameters of this type are shown in Tables~\ref{tab:np-norm1} and~\ref{tab:np-norm2}.
-    \item \textbf{Shape related nuisance parameters}: These nuisance parameters are introduced by either detector or theory, and will be used to fit observables. 
+    \item \textbf{Shape related nuisance parameters}: These nuisance parameters are introduced by either detector or theory and will be used to fit observables. 
     A full list of nuisance parameters of this type are shown in Tables~\ref{tab:np-shape1} and~\ref{tab:np-shape2}.
 \end{itemize}
 
@@ -179,12 +178,11 @@ Two types of nuisance parameters are considered in this analysis:
 \par This section describes the comparisons between data and background MC for various variables for both
 Resolved and Merged regions in the 0, 1 and 2-lepton channels for different b-tagged categories. The variables are
 compared with the full Run2 dataset with full event selection applied and before any fitting of the background
-model to the data. A blinding is applied around the Higgs mass [70-140]~\GeV~for the 0-lepton channel.
+model to the data. Blinding is applied around the Higgs mass [70-140]~\GeV~for the 0-lepton channel.
 
 \subsection{0-lepton (0L)}
 
-\par In the signal region, the distributions of the Higgs-candidate invariant mass, $m_{jj}$ for the
- resolved region and $m_J$ for the merged region, are used as fitting input. The data/MC comparison plots are shown for the region
+\par In the signal region, the distributions of the Higgs-candidate invariant mass, $m_{jj}$ for the resolved region and $m_J$ for the merged region, are used as fitting input. The data/MC comparison plots are shown for the region
  with exactly two b-tagged jets in Fig.~\ref{fig:Data_MC_SR_m_jj_2b} in different \met~bins. Z+Heavy flavor jets and $t\bar{t}$ events are the dominant background contributions in the 2b regions.
 \par It has been found in the previous iteration of the analysis that the MC samples underestimated both the Z + Heavy flavor jets and
 $t\bar{t}$ event rates by about 20-40\% and 10\% respectively, which leads to an underestimation of the total yield as shown in Fig.~\ref{fig:Data_MC_SR_m_jj_2b}.
@@ -206,7 +204,7 @@ $t\bar{t}$ event rates by about 20-40\% and 10\% respectively, which leads to an
 \par In the 1-lepton control region, the muon charge distribution is used for the likelihood fit. As shown in Fig.~\ref{fig:Data_MC_CR1_mu_charge_2b}, the
 dominant background contributions come from W + Heavy flavor jets and $t\bar{t}$. 
 Since the $t\bar{t}$ process is charge-symmetric, while the W + jets process is expected to produce a surplus of positive muons, 
-fitting the muon charge is expected to constrain the W + Heavy flavor normalisation.
+fitting the muon charge is expected to constrain the W + Heavy flavor normalization.
 
 \begin{figure}[H]
   \includegraphics[width=0.46\linewidth]{chapters/c9/figures/Region_distCharge_J2_L1_T2_DCR1_Y2015_incJet1_Fat0_incFat1_BMin150_BMax200_Prefit.pdf}
@@ -219,10 +217,7 @@ fitting the muon charge is expected to constrain the W + Heavy flavor normalisat
 \end{figure}
 \subsection{2-lepton (2L)}
 \par In the 2-lepton control region (combining ee and $\mu\mu$ channels), a fit of invariant mass are used as fitting input as shown in Fig.~\ref{fig:Data_MC_CR2_ll_m_jj_2b}. 
- 
-\par Since the region is dominated by Z + Heavy flavor jets, the underestimation of the Z + Heavy flavor production rate in MC is obvious. The overall underestimation of 
-the Z + Heavy flavor rate will be corrected by the floating Z + Heavy flavor normalisation in the final fit. The ratio of data/MC yield is \met-dependent, and this will not be fixed with a single normalisation factor, a pull of the \met~uncertainties applied on the
-
+\par Since the region is dominated by Z + Heavy flavor jets, the underestimation of the Z + Heavy flavor production rate in MC is obvious. The overall underestimation of the Z + Heavy flavor rate will be corrected by the floating Z + Heavy flavor normalization in the final fit. The ratio of data/MC yield is \met-dependent, and this will not be fixed with a single normalization factor, a pull of the \met~uncertainties applied on the
 Z + Heavy flavor sample is expected in the fit.
 \begin{figure}[H]
   \includegraphics[width=0.46\linewidth]{chapters/c9/figures/Region_distmBB_J2_L2_T2_DCR2_Y2015_incJet1_Fat0_incFat1_BMin150_BMax200_Prefit.pdf}
@@ -264,20 +259,19 @@ panels display the ratio of data to SM expectations after the background-only fi
   The bottom panel displays the ratio of data to SM expectations after the fit, with its systematic uncertainty considering correlations between individual contributions indicated by the hatched band.}
   
   
-
-
   \label{fig:Data_MC_CR2_ll_m_jj_2b_postfit}
 \end{figure}
+
 
 \section{Limit setting result}
 \label{sec:limitres}
 
 \par There are two interesting parameters in the Z'-2HDM: the mass of the Z' boson and the mass of the dark matter candidate A. 
-Limit setting on the signal strength is implemented in a two dimensional scan on these two parameters.
+Limit setting on the signal strength is implemented in a two-dimensional scan on these two parameters.
 
-\par The result is shown with 79.8~\ifb~unblinded data for the observed limits and expected limits in the Fig.~\ref{fig:zprime-2hdm-limit-80}. 
-The result with 139~\ifb~scale are demonstrated in the Fig.~\ref{fig:zprime-2hdm-limit-139}. 
-It indicates that the Z' mass epected to be excluded up to 2900~\GeV, 2700~\GeV~using data, while the A mass expected to be excluded up to 700~\GeV, while 650~\GeV~using data.
+\par The result is shown with 79.8~\ifb~unblinded data for the observed limits and expected limits in Fig.~\ref{fig:zprime-2hdm-limit-80}. 
+The result with 139~\ifb~scale are demonstrated in Fig.~\ref{fig:zprime-2hdm-limit-139}. 
+It indicates that the Z' mass expected to be excluded up to 2900~\GeV, 2700~\GeV~using data, while the A mass expected to be excluded up to 700~\GeV, while 650~\GeV~using data.
 
 \begin{figure}[!htb]
     \centering
